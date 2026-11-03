@@ -1,0 +1,186 @@
+{
+ "accession": "0001576427-20-000032",
+ "company": "Criteo S.A.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.25,
+ "primary_candidates": [
+  0.25
+ ],
+ "n_mentions": 14,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 22414,
+  "output_tokens": 2479
+ },
+ "mentions": [
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "•Diluted EPS decreased 14% to $0.25 and Adjusted diluted EPS2 decreased 13% to $0.52.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2319,
+   "end": 2323,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "context": "•Diluted EPS decreased 14% to $0.25 and Adjusted diluted EPS2 decreased 13% to $0.52.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2368,
+   "end": 2372,
+   "resolve": "exact",
+   "span_text": "0.52"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "Net income available to shareholders of Criteo S.A. decreased 19% year-over-year to $15 million, or $0.25 per share on a diluted basis (Q1 2019: $19 million, or $0.29 per share on a diluted basis).",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6516,
+   "end": 6520,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": 0.29,
+   "value_text": "0.29",
+   "context": "decreased 19% year-over-year to $15 million, or $0.25 per share on a diluted basis (Q1 2019: $19 million, or $0.29 per share on a diluted basis).",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6577,
+   "end": 6581,
+   "resolve": "exact",
+   "span_text": "0.29"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "context": "restructuring costs and the tax impact of these adjustments, decreased 19% year-over-year to $32 million, or $0.52 per share on a diluted basis (Q1 2019: $40 million, or $0.60 per share on a diluted basis).",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6945,
+   "end": 6949,
+   "resolve": "exact",
+   "span_text": "0.52"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "context": "decreased 19% year-over-year to $32 million, or $0.52 per share on a diluted basis (Q1 2019: $40 million, or $0.60 per share on a diluted basis).",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 7006,
+   "end": 7010,
+   "resolve": "exact",
+   "span_text": "0.60"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "Net income allocated to shareholders per share:\nBasic | $0.30 | $0.25 | (17)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28113,
+   "end": 28117,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "Net income allocated to shareholders per share:\nBasic | $0.30 | $0.25 | (17)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28121,
+   "end": 28125,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": 0.29,
+   "value_text": "0.29",
+   "context": "Basic | $0.30 | $0.25 | (17)%\nDiluted | $0.29 | $0.25 | (14)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28145,
+   "end": 28149,
+   "resolve": "exact",
+   "span_text": "0.29"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "Basic | $0.30 | $0.25 | (17)%\nDiluted | $0.29 | $0.25 | (14)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28153,
+   "end": 28157,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": 0.62,
+   "value_text": "0.62",
+   "context": "Adjusted net income per share\n- Basic | $0.62 | $0.52 | (16)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 44772,
+   "end": 44776,
+   "resolve": "exact",
+   "span_text": "0.62"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "context": "Adjusted net income per share\n- Basic | $0.62 | $0.52 | (16)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 44780,
+   "end": 44784,
+   "resolve": "exact",
+   "span_text": "0.52"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "context": "- Basic | $0.62 | $0.52 | (16)%\n- Diluted | $0.60 | $0.52 | (13)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 44806,
+   "end": 44810,
+   "resolve": "exact",
+   "span_text": "0.60"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "context": "- Basic | $0.62 | $0.52 | (16)%\n- Diluted | $0.60 | $0.52 | (13)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 44814,
+   "end": 44818,
+   "resolve": "exact",
+   "span_text": "0.52"
+  }
+ ]
+}

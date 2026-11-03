@@ -1,0 +1,149 @@
+{
+ "accession": "0000875320-20-000014",
+ "company": "VERTEX PHARMACEUTICALS INC / MA",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 2.29,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 2.29,
+ "n_mentions": 12,
+ "n_by_type": {
+  "GAAP_DILUTED": 6,
+  "NON_GAAP": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2986,
+   "end": 2990,
+   "span_text": "2.29",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2994,
+   "end": 2998,
+   "span_text": "1.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.56,
+   "value_text": "2.56",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3049,
+   "end": 3053,
+   "span_text": "2.56",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3057,
+   "end": 3061,
+   "span_text": "1.14",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.32,
+   "value_text": "2.32",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12824,
+   "end": 12828,
+   "span_text": "2.32",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12832,
+   "end": 12836,
+   "span_text": "1.05",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12848,
+   "end": 12852,
+   "span_text": "2.29",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12856,
+   "end": 12860,
+   "span_text": "1.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13651,
+   "end": 13655,
+   "span_text": "2.29",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13659,
+   "end": 13663,
+   "span_text": "1.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.56,
+   "value_text": "2.56",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13676,
+   "end": 13680,
+   "span_text": "2.56",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13684,
+   "end": 13688,
+   "span_text": "1.14",
+   "source": "spot-checked"
+  }
+ ]
+}

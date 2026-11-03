@@ -1,0 +1,42 @@
+{
+ "accession": "0001678463-20-000062",
+ "company": "Forterra, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.22,
+ "primary_candidates": [
+  -0.22
+ ],
+ "n_mentions": 2,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 14101,
+  "output_tokens": 545
+ },
+ "mentions": [
+  {
+   "value": -0.22,
+   "value_text": "(0.22)",
+   "context": "Basic and diluted loss per share:\nNet loss | $(0.22) | $(0.39)\nWeighted average common shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15259,
+   "end": 15263,
+   "resolve": "exact",
+   "span_text": "0.22"
+  },
+  {
+   "value": -0.39,
+   "value_text": "(0.39)",
+   "context": "Basic and diluted loss per share:\nNet loss | $(0.22) | $(0.39)\nWeighted average common shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15269,
+   "end": 15273,
+   "resolve": "exact",
+   "span_text": "0.39"
+  }
+ ]
+}

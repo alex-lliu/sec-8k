@@ -1,0 +1,171 @@
+{
+ "accession": "0000046080-20-000050",
+ "company": "HASBRO, INC.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.51,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.51,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 5,
+  "NON_GAAP": 7,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": -0.51,
+   "value_text": "0.51",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1479,
+   "end": 1483,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1632,
+   "end": 1636,
+   "span_text": "0.57",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.51,
+   "value_text": "0.51",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2793,
+   "end": 2797,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 pro forma",
+   "period_kind": "prior_year_quarter",
+   "start": 2869,
+   "end": 2873,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3194,
+   "end": 3198,
+   "span_text": "0.57",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 pro forma adjusted",
+   "period_kind": "prior_year_quarter",
+   "start": 3508,
+   "end": 3512,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.51,
+   "value_text": "(0.51)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 36102,
+   "end": 36106,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 36111,
+   "end": 36115,
+   "span_text": "0.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.51,
+   "value_text": "(0.51)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 36128,
+   "end": 36132,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 36137,
+   "end": 36141,
+   "span_text": "0.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.51,
+   "value_text": "(0.51)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46401,
+   "end": 46405,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 pro forma",
+   "period_kind": "prior_year_quarter",
+   "start": 46420,
+   "end": 46424,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46662,
+   "end": 46666,
+   "span_text": "0.57",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 pro forma adjusted",
+   "period_kind": "prior_year_quarter",
+   "start": 46681,
+   "end": 46685,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  }
+ ]
+}

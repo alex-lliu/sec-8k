@@ -1,0 +1,149 @@
+{
+ "accession": "0001104659-20-053563",
+ "company": "ANTERO RESOURCES Corp",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -1.19,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -1.19,
+ "n_mentions": 12,
+ "n_by_type": {
+  "GAAP_DILUTED": 6,
+  "NON_GAAP": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": -1.19,
+   "value_text": "1.19",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11695,
+   "end": 11699,
+   "span_text": "1.19",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11770,
+   "end": 11774,
+   "span_text": "3.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.13,
+   "value_text": "0.13",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11878,
+   "end": 11882,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11999,
+   "end": 12003,
+   "span_text": "0.31",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 24807,
+   "end": 24811,
+   "span_text": "3.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 24815,
+   "end": 24819,
+   "span_text": "1.19",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 25483,
+   "end": 25487,
+   "span_text": "0.31",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.13,
+   "value_text": "(0.13)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 25491,
+   "end": 25495,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 46757,
+   "end": 46761,
+   "span_text": "3.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46765,
+   "end": 46769,
+   "span_text": "1.19",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 46806,
+   "end": 46810,
+   "span_text": "3.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46814,
+   "end": 46818,
+   "span_text": "1.19",
+   "source": "anchor-matched"
+  }
+ ]
+}

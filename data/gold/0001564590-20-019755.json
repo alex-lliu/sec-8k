@@ -1,0 +1,248 @@
+{
+ "accession": "0001564590-20-019755",
+ "company": "FAIR ISAAC CORP",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 1.94,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.94,
+ "n_mentions": 21,
+ "n_by_type": {
+  "GAAP_DILUTED": 11,
+  "NON_GAAP": 6,
+  "GAAP_BASIC": 4
+ },
+ "mentions": [
+  {
+   "value": 1.94,
+   "value_text": "1.94",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 401,
+   "end": 405,
+   "span_text": "1.94",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.94,
+   "value_text": "1.94",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 812,
+   "end": 816,
+   "span_text": "1.94",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.1,
+   "value_text": "1.10",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 854,
+   "end": 858,
+   "span_text": "1.10",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.14,
+   "value_text": "2.14",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 1198,
+   "end": 1202,
+   "span_text": "2.14",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.56,
+   "value_text": "1.56",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1211,
+   "end": 1215,
+   "span_text": "1.56",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.0,
+   "value_text": "2.00",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 8660,
+   "end": 8664,
+   "span_text": "2.00",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.15,
+   "value_text": "1.15",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8669,
+   "end": 8673,
+   "span_text": "1.15",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.89,
+   "value_text": "3.89",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 8678,
+   "end": 8682,
+   "span_text": "3.89",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.53,
+   "value_text": "2.53",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 8687,
+   "end": 8691,
+   "span_text": "2.53",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.94,
+   "value_text": "1.94",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 8724,
+   "end": 8728,
+   "span_text": "1.94",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.1,
+   "value_text": "1.10",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8733,
+   "end": 8737,
+   "span_text": "1.10",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.76,
+   "value_text": "3.76",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 8742,
+   "end": 8746,
+   "span_text": "3.76",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.42,
+   "value_text": "2.42",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 8751,
+   "end": 8755,
+   "span_text": "2.42",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.94,
+   "value_text": "1.94",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 12271,
+   "end": 12275,
+   "span_text": "1.94",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.1,
+   "value_text": "1.10",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12280,
+   "end": 12284,
+   "span_text": "1.10",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.76,
+   "value_text": "3.76",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 12289,
+   "end": 12293,
+   "span_text": "3.76",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.42,
+   "value_text": "2.42",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 12298,
+   "end": 12302,
+   "span_text": "2.42",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.14,
+   "value_text": "2.14",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 12637,
+   "end": 12641,
+   "span_text": "2.14",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.56,
+   "value_text": "1.56",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12646,
+   "end": 12650,
+   "span_text": "1.56",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.94,
+   "value_text": "3.94",
+   "type": "NON_GAAP",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 12655,
+   "end": 12659,
+   "span_text": "3.94",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.01,
+   "value_text": "3.01",
+   "type": "NON_GAAP",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 12664,
+   "end": 12668,
+   "span_text": "3.01",
+   "source": "spot-checked"
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "accession": "0001165002-20-000083",
+ "company": "WESTWOOD HOLDINGS GROUP INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.13,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.13,
+ "n_mentions": 20,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "NON_GAAP": 10,
+  "GAAP_BASIC": 3
+ },
+ "mentions": [
+  {
+   "value": 0.13,
+   "value_text": "0.13",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3378,
+   "end": 3382,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 3396,
+   "end": 3400,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 Economic EPS",
+   "period_kind": "current_quarter",
+   "start": 3513,
+   "end": 3517,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.64,
+   "value_text": "0.64",
+   "type": "NON_GAAP",
+   "period": "Q4 2019 Economic EPS",
+   "period_kind": "prior_quarter",
+   "start": 3563,
+   "end": 3567,
+   "span_text": "0.64",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.13,
+   "value_text": "0.13",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3986,
+   "end": 3990,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4004,
+   "end": 4008,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 Economic EPS",
+   "period_kind": "current_quarter",
+   "start": 4120,
+   "end": 4124,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.49,
+   "value_text": "0.49",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 Economic EPS",
+   "period_kind": "prior_year_quarter",
+   "start": 4162,
+   "end": 4166,
+   "span_text": "0.49",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.13,
+   "value_text": "0.13",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11399,
+   "end": 11403,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 11407,
+   "end": 11411,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11415,
+   "end": 11419,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.13,
+   "value_text": "0.13",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11431,
+   "end": 11435,
+   "span_text": "0.13",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 11439,
+   "end": 11443,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11447,
+   "end": 11451,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 Economic EPS",
+   "period_kind": "current_quarter",
+   "start": 11636,
+   "end": 11640,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.64,
+   "value_text": "0.64",
+   "type": "NON_GAAP",
+   "period": "Q4 2019 Economic EPS",
+   "period_kind": "prior_quarter",
+   "start": 11644,
+   "end": 11648,
+   "span_text": "0.64",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.49,
+   "value_text": "0.49",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 Economic EPS",
+   "period_kind": "prior_year_quarter",
+   "start": 11652,
+   "end": 11656,
+   "span_text": "0.49",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 Economic EPS",
+   "period_kind": "current_quarter",
+   "start": 16219,
+   "end": 16223,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.64,
+   "value_text": "0.64",
+   "type": "NON_GAAP",
+   "period": "Q4 2019 Economic EPS",
+   "period_kind": "prior_quarter",
+   "start": 16227,
+   "end": 16231,
+   "span_text": "0.64",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.49,
+   "value_text": "0.49",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 Economic EPS",
+   "period_kind": "prior_year_quarter",
+   "start": 16235,
+   "end": 16239,
+   "span_text": "0.49",
+   "source": "anchor-matched"
+  }
+ ]
+}

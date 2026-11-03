@@ -1,0 +1,260 @@
+{
+ "accession": "0000892537-20-000010",
+ "company": "MANTECH INTERNATIONAL CORP",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.71,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.71,
+ "n_mentions": 22,
+ "n_by_type": {
+  "GAAP_DILUTED": 8,
+  "NON_GAAP": 8,
+  "GUIDANCE": 2,
+  "GAAP_BASIC": 4
+ },
+ "mentions": [
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 985,
+   "end": 989,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.81,
+   "value_text": "0.81",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1056,
+   "end": 1060,
+   "span_text": "0.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2330,
+   "end": 2334,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2338,
+   "end": 2342,
+   "span_text": "0.53",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.81,
+   "value_text": "0.81",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2483,
+   "end": 2487,
+   "span_text": "0.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.62,
+   "value_text": "0.62",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2491,
+   "end": 2495,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3197,
+   "end": 3201,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.81,
+   "value_text": "0.81",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3468,
+   "end": 3472,
+   "span_text": "0.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.95,
+   "value_text": "2.95",
+   "type": "GUIDANCE",
+   "period": "FY2020 guidance",
+   "period_kind": "guidance_period",
+   "start": 5964,
+   "end": 5968,
+   "span_text": "2.95",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.07,
+   "value_text": "3.07",
+   "type": "GUIDANCE",
+   "period": "FY2020 guidance",
+   "period_kind": "guidance_period",
+   "start": 5972,
+   "end": 5976,
+   "span_text": "3.07",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020 (Class A common stock)",
+   "period_kind": "current_quarter",
+   "start": 14537,
+   "end": 14541,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019 (Class A common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 14545,
+   "end": 14549,
+   "span_text": "0.53",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020 (Class B common stock)",
+   "period_kind": "current_quarter",
+   "start": 14574,
+   "end": 14578,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019 (Class B common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 14582,
+   "end": 14586,
+   "span_text": "0.53",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020 (Class A common stock)",
+   "period_kind": "current_quarter",
+   "start": 14639,
+   "end": 14643,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019 (Class A common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 14647,
+   "end": 14651,
+   "span_text": "0.53",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020 (Class B common stock)",
+   "period_kind": "current_quarter",
+   "start": 14676,
+   "end": 14680,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019 (Class B common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 14684,
+   "end": 14688,
+   "span_text": "0.53",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.81,
+   "value_text": "0.81",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (Class A common stock)",
+   "period_kind": "current_quarter",
+   "start": 19770,
+   "end": 19774,
+   "span_text": "0.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.62,
+   "value_text": "0.62",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (Class A common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 19778,
+   "end": 19782,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.81,
+   "value_text": "0.81",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (Class B common stock)",
+   "period_kind": "current_quarter",
+   "start": 19807,
+   "end": 19811,
+   "span_text": "0.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.62,
+   "value_text": "0.62",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (Class B common stock)",
+   "period_kind": "prior_year_quarter",
+   "start": 19815,
+   "end": 19819,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  }
+ ]
+}

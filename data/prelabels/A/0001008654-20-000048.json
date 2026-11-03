@@ -1,0 +1,210 @@
+{
+ "accession": "0001008654-20-000048",
+ "company": "TUPPERWARE BRANDS CORP",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.16,
+ "primary_candidates": [
+  -0.16
+ ],
+ "n_mentions": 16,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 11074,
+  "output_tokens": 2976
+ },
+ "mentions": [
+  {
+   "value": -0.16,
+   "value_text": "0.16",
+   "context": "• | GAAP diluted E.P.S. loss of $0.16 versus income of $0.76 in the prior year period.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1559,
+   "end": 1563,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "• | GAAP diluted E.P.S. loss of $0.16 versus income of $0.76 in the prior year period.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1582,
+   "end": 1586,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": 0.09,
+   "value_text": "0.09",
+   "context": "• | Adjusted* diluted E.P.S. is income of $0.09 vs. $0.80 in the prior year period.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1656,
+   "end": 1660,
+   "resolve": "exact",
+   "span_text": "0.09"
+  },
+  {
+   "value": 0.8,
+   "value_text": "0.80",
+   "context": "• | Adjusted* diluted E.P.S. is income of $0.09 vs. $0.80 in the prior year period.",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1666,
+   "end": 1670,
+   "resolve": "exact",
+   "span_text": "0.80"
+  },
+  {
+   "value": -0.16,
+   "value_text": "0.16",
+   "context": "Net loss of $7.8 million or $0.16 diluted per share compared with net income of $36.9 million and $0.76 diluted per share last year",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4398,
+   "end": 4402,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "compared with net income of $36.9 million and $0.76 diluted per share last year due to lower sales on a high fixed-cost base with DS&A at 65% of sales",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4468,
+   "end": 4472,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "context": "Basic income (loss) per share | $(0.16) | $0.76",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18137,
+   "end": 18141,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "Basic income (loss) per share | $(0.16) | $0.76",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18146,
+   "end": 18150,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "context": "Diluted income (loss) per share | $(0.16) | $0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18187,
+   "end": 18191,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "Diluted income (loss) per share | $(0.16) | $0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18196,
+   "end": 18200,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.76 | — | — | $(0.10)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19425,
+   "end": 19429,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.76 | — | — | $(0.10)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19434,
+   "end": 19438,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.25 | $0.09 | $0.76 | $(0.10) | $0.14 | $0.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20792,
+   "end": 20796,
+   "resolve": "exact",
+   "span_text": "0.16"
+  },
+  {
+   "value": 0.09,
+   "value_text": "0.09",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.25 | $0.09 | $0.76 | $(0.10) | $0.14 | $0.80",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (excluding adjustments)",
+   "period_kind": "current_quarter",
+   "start": 20809,
+   "end": 20813,
+   "resolve": "exact",
+   "span_text": "0.09"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.25 | $0.09 | $0.76 | $(0.10) | $0.14 | $0.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20817,
+   "end": 20821,
+   "resolve": "exact",
+   "span_text": "0.76"
+  },
+  {
+   "value": 0.8,
+   "value_text": "0.80",
+   "context": "Net income (loss) per share (diluted) | $(0.16) | $0.25 | $0.09 | $0.76 | $(0.10) | $0.14 | $0.80",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (restated, excluding adjustments)",
+   "period_kind": "prior_year_quarter",
+   "start": 20843,
+   "end": 20847,
+   "resolve": "exact",
+   "span_text": "0.80"
+  }
+ ]
+}

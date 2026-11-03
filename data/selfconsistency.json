@@ -1,0 +1,238 @@
+[
+ {
+  "accession": "0000008947-20-000044",
+  "company": "AZZ INC",
+  "step4_status": "unanchored",
+  "primary_A": -0.41,
+  "primary_B": -0.41,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    -0.41
+   ],
+   "NON_GAAP": [
+    0.47
+   ],
+   "GAAP_BASIC": [
+    -0.41
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    -0.41
+   ],
+   "NON_GAAP": [
+    0.47
+   ],
+   "GAAP_BASIC": [
+    -0.41
+   ]
+  },
+  "n_mentions_A": 25,
+  "n_mentions_B": 25,
+  "consistent": true,
+  "reasons": []
+ },
+ {
+  "accession": "0000314808-20-000062",
+  "company": "Valaris plc",
+  "step4_status": "unanchored",
+  "primary_A": -15.19,
+  "primary_B": -15.19,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    -15.19
+   ],
+   "NON_GAAP": [
+    -1.66
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    -15.19
+   ],
+   "NON_GAAP": [
+    -1.66
+   ]
+  },
+  "n_mentions_A": 10,
+  "n_mentions_B": 10,
+  "consistent": true,
+  "reasons": []
+ },
+ {
+  "accession": "0001104659-20-052792",
+  "company": "MDC PARTNERS INC",
+  "step4_status": "unanchored",
+  "primary_A": -0.03,
+  "primary_B": -0.03,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    -0.03
+   ],
+   "GAAP_BASIC": [
+    -0.03
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    -0.03
+   ],
+   "GAAP_BASIC": [
+    -0.03
+   ]
+  },
+  "n_mentions_A": 6,
+  "n_mentions_B": 6,
+  "consistent": true,
+  "reasons": []
+ },
+ {
+  "accession": "0001140361-20-010070",
+  "company": "STANDARD MOTOR PRODUCTS, INC.",
+  "step4_status": "mismatch",
+  "primary_A": 0.42,
+  "primary_B": 0.42,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    -0.04,
+    0.38,
+    0.42
+   ],
+   "NON_GAAP": [
+    0.43
+   ],
+   "GAAP_BASIC": [
+    -0.05,
+    0.38,
+    0.43
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    0.38,
+    0.42
+   ],
+   "NON_GAAP": [
+    0.43
+   ],
+   "GAAP_BASIC": [
+    0.38,
+    0.43
+   ]
+  },
+  "n_mentions_A": 20,
+  "n_mentions_B": 16,
+  "consistent": false,
+  "reasons": [
+   "GAAP_BASIC current-quarter values differ: A=[-0.05, 0.38, 0.43] B=[0.38, 0.43]",
+   "GAAP_DILUTED current-quarter values differ: A=[-0.04, 0.38, 0.42] B=[0.38, 0.42]"
+  ]
+ },
+ {
+  "accession": "0001423689-20-000040",
+  "company": "AGNC Investment Corp.",
+  "step4_status": "match_but_multiple_candidates",
+  "primary_A": -4.46,
+  "primary_B": -4.46,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    -4.46,
+    -3.61
+   ],
+   "NON_GAAP": [
+    0.13,
+    0.2,
+    0.57
+   ],
+   "GAAP_BASIC": [
+    -4.46,
+    -3.61
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    -4.46,
+    -3.61
+   ],
+   "NON_GAAP": [
+    0.13,
+    0.2,
+    0.57
+   ],
+   "GAAP_BASIC": [
+    -4.46,
+    -3.61
+   ]
+  },
+  "n_mentions_A": 55,
+  "n_mentions_B": 55,
+  "consistent": true,
+  "reasons": []
+ },
+ {
+  "accession": "0001564590-20-019442",
+  "company": "OSHKOSH CORP",
+  "step4_status": "unanchored",
+  "primary_A": 0.99,
+  "primary_B": 0.99,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    0.99
+   ],
+   "NON_GAAP": [
+    1.25
+   ],
+   "GAAP_BASIC": [
+    1.0
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    0.99
+   ],
+   "NON_GAAP": [
+    1.25
+   ],
+   "GAAP_BASIC": [
+    1.0
+   ]
+  },
+  "n_mentions_A": 24,
+  "n_mentions_B": 24,
+  "consistent": true,
+  "reasons": []
+ },
+ {
+  "accession": "0001720635-20-000018",
+  "company": "nVent Electric plc",
+  "step4_status": "unanchored",
+  "primary_A": 0.11,
+  "primary_B": 0.11,
+  "cq_by_type_A": {
+   "GAAP_DILUTED": [
+    0.11
+   ],
+   "NON_GAAP": [
+    0.34
+   ],
+   "GAAP_BASIC": [
+    0.11
+   ]
+  },
+  "cq_by_type_B": {
+   "GAAP_DILUTED": [
+    0.11
+   ],
+   "NON_GAAP": [
+    0.34
+   ],
+   "GAAP_BASIC": [
+    0.11
+   ]
+  },
+  "n_mentions_A": 20,
+  "n_mentions_B": 20,
+  "consistent": true,
+  "reasons": []
+ }
+]

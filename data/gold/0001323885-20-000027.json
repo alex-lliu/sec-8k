@@ -1,0 +1,104 @@
+{
+ "accession": "0001323885-20-000027",
+ "company": "AtriCure, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.42,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.42,
+ "n_mentions": 8,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "NON_GAAP": 4
+ },
+ "mentions": [
+  {
+   "value": -0.42,
+   "value_text": "0.42",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2516,
+   "end": 2520,
+   "span_text": "0.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.15,
+   "value_text": "0.15",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2564,
+   "end": 2568,
+   "span_text": "0.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.36,
+   "value_text": "0.36",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2798,
+   "end": 2802,
+   "span_text": "0.36",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.2,
+   "value_text": "0.20",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2846,
+   "end": 2850,
+   "span_text": "0.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9621,
+   "end": 9625,
+   "span_text": "0.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.15,
+   "value_text": "(0.15)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9631,
+   "end": 9635,
+   "span_text": "0.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.36,
+   "value_text": "(0.36)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12072,
+   "end": 12076,
+   "span_text": "0.36",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.2,
+   "value_text": "(0.20)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12082,
+   "end": 12086,
+   "span_text": "0.20",
+   "source": "anchor-matched"
+  }
+ ]
+}

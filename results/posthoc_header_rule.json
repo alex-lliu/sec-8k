@@ -1,0 +1,196 @@
+{
+ "val_first_table_first_cell": {
+  "correct": 5,
+  "n": 5,
+  "rows": [
+   [
+    "AZZ INC",
+    -0.41,
+    -0.41
+   ],
+   [
+    "Ultra Clean Holdings, ",
+    0.23,
+    0.23
+   ],
+   [
+    "SURMODICS INC",
+    0.11,
+    0.11
+   ],
+   [
+    "WESTWOOD HOLDINGS GROU",
+    0.13,
+    0.13
+   ],
+   [
+    "Forterra, Inc.",
+    -0.22,
+    -0.22
+   ]
+  ]
+ },
+ "val_header_current_column": {
+  "correct": 5,
+  "n": 5,
+  "rows": [
+   [
+    "AZZ INC",
+    -0.41,
+    -0.41
+   ],
+   [
+    "Ultra Clean Holdings, ",
+    0.23,
+    0.23
+   ],
+   [
+    "SURMODICS INC",
+    0.11,
+    0.11
+   ],
+   [
+    "WESTWOOD HOLDINGS GROU",
+    0.13,
+    0.13
+   ],
+   [
+    "Forterra, Inc.",
+    -0.22,
+    -0.22
+   ]
+  ]
+ },
+ "test_first_table_first_cell": {
+  "correct": 10,
+  "n": 12,
+  "rows": [
+   [
+    "HASBRO, INC.",
+    -0.51,
+    -0.51
+   ],
+   [
+    "MSA Safety Inc",
+    1.11,
+    1.11
+   ],
+   [
+    "HARTFORD FINANCIAL SER",
+    0.74,
+    0.74
+   ],
+   [
+    "VERTEX PHARMACEUTICALS",
+    2.29,
+    2.29
+   ],
+   [
+    "MANTECH INTERNATIONAL ",
+    0.71,
+    0.71
+   ],
+   [
+    "CREE, INC.",
+    -0.57,
+    -0.57
+   ],
+   [
+    "TETRA TECH INC",
+    0.66,
+    0.66
+   ],
+   [
+    "ANTERO RESOURCES Corp",
+    -1.19,
+    3.17
+   ],
+   [
+    "Mastercard Inc",
+    1.68,
+    1.68
+   ],
+   [
+    "Spok Holdings, Inc",
+    -0.24,
+    -0.24
+   ],
+   [
+    "Cadence Bancorporation",
+    -3.15,
+    -3.15
+   ],
+   [
+    "Criteo S.A.",
+    0.25,
+    0.29
+   ]
+  ]
+ },
+ "test_header_current_column": {
+  "correct": 12,
+  "n": 12,
+  "rows": [
+   [
+    "HASBRO, INC.",
+    -0.51,
+    -0.51
+   ],
+   [
+    "MSA Safety Inc",
+    1.11,
+    1.11
+   ],
+   [
+    "HARTFORD FINANCIAL SER",
+    0.74,
+    0.74
+   ],
+   [
+    "VERTEX PHARMACEUTICALS",
+    2.29,
+    2.29
+   ],
+   [
+    "MANTECH INTERNATIONAL ",
+    0.71,
+    0.71
+   ],
+   [
+    "CREE, INC.",
+    -0.57,
+    -0.57
+   ],
+   [
+    "TETRA TECH INC",
+    0.66,
+    0.66
+   ],
+   [
+    "ANTERO RESOURCES Corp",
+    -1.19,
+    -1.19
+   ],
+   [
+    "Mastercard Inc",
+    1.68,
+    1.68
+   ],
+   [
+    "Spok Holdings, Inc",
+    -0.24,
+    -0.24
+   ],
+   [
+    "Cadence Bancorporation",
+    -3.15,
+    -3.15
+   ],
+   [
+    "Criteo S.A.",
+    0.25,
+    0.25
+   ]
+  ]
+ }
+}

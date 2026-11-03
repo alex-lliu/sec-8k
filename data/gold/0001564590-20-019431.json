@@ -1,0 +1,82 @@
+{
+ "accession": "0001564590-20-019431",
+ "company": "SAIA INC",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 1.06,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.06,
+ "n_mentions": 6,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 1.06,
+   "value_text": "1.06",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1089,
+   "end": 1093,
+   "span_text": "1.06",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1107,
+   "end": 1111,
+   "span_text": "0.85",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.08,
+   "value_text": "1.08",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13136,
+   "end": 13140,
+   "span_text": "1.08",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.86,
+   "value_text": "0.86",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13144,
+   "end": 13148,
+   "span_text": "0.86",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.06,
+   "value_text": "1.06",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13179,
+   "end": 13183,
+   "span_text": "1.06",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13187,
+   "end": 13191,
+   "span_text": "0.85",
+   "source": "spot-checked"
+  }
+ ]
+}

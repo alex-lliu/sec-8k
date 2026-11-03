@@ -1,0 +1,66 @@
+{
+ "accession": "0001104659-20-053353",
+ "company": "Innoviva, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.59,
+ "primary_candidates": [
+  0.59
+ ],
+ "n_mentions": 4,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 6587,
+  "output_tokens": 377
+ },
+ "mentions": [
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "context": "Basic net income per share attributable to Innoviva stockholders | $0.65 | $0.33",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11194,
+   "end": 11198,
+   "resolve": "exact",
+   "span_text": "0.65"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "context": "Basic net income per share attributable to Innoviva stockholders | $0.65 | $0.33",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11202,
+   "end": 11206,
+   "resolve": "exact",
+   "span_text": "0.33"
+  },
+  {
+   "value": 0.59,
+   "value_text": "0.59",
+   "context": "Diluted net income per share attributable to Innoviva stockholders | $0.59 | $0.31",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11277,
+   "end": 11281,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "context": "Diluted net income per share attributable to Innoviva stockholders | $0.59 | $0.31",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11285,
+   "end": 11289,
+   "resolve": "exact",
+   "span_text": "0.31"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "accession": "0001008654-20-000048",
+ "company": "TUPPERWARE BRANDS CORP",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.16,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.16,
+ "n_mentions": 16,
+ "n_by_type": {
+  "GAAP_DILUTED": 10,
+  "NON_GAAP": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": -0.16,
+   "value_text": "0.16",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1559,
+   "end": 1563,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1582,
+   "end": 1586,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.09,
+   "value_text": "0.09",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1656,
+   "end": 1660,
+   "span_text": "0.09",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.8,
+   "value_text": "0.80",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1666,
+   "end": 1670,
+   "span_text": "0.80",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.16,
+   "value_text": "0.16",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4398,
+   "end": 4402,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4468,
+   "end": 4472,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18137,
+   "end": 18141,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18146,
+   "end": 18150,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18187,
+   "end": 18191,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18196,
+   "end": 18200,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19425,
+   "end": 19429,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19434,
+   "end": 19438,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.16,
+   "value_text": "(0.16)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20792,
+   "end": 20796,
+   "span_text": "0.16",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.09,
+   "value_text": "0.09",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (excluding adjustments)",
+   "period_kind": "current_quarter",
+   "start": 20809,
+   "end": 20813,
+   "span_text": "0.09",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20817,
+   "end": 20821,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.8,
+   "value_text": "0.80",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (restated, excluding adjustments)",
+   "period_kind": "prior_year_quarter",
+   "start": 20843,
+   "end": 20847,
+   "span_text": "0.80",
+   "source": "anchor-matched"
+  }
+ ]
+}

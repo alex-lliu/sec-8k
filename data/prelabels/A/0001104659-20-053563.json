@@ -1,0 +1,162 @@
+{
+ "accession": "0001104659-20-053563",
+ "company": "ANTERO RESOURCES Corp",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -1.19,
+ "primary_candidates": [
+  -1.19
+ ],
+ "n_mentions": 12,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 22687,
+  "output_tokens": 2847
+ },
+ "mentions": [
+  {
+   "value": -1.19,
+   "value_text": "1.19",
+   "context": "Antero reported a GAAP net loss of $339 million, or $1.19 per diluted share, compared to a GAAP net income of $979 million, or",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11695,
+   "end": 11699,
+   "resolve": "exact",
+   "span_text": "1.19"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "context": "$3.17 per diluted share, in the prior year period. Adjusted Net Loss (non-GAAP measure) was $38 million",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11770,
+   "end": 11774,
+   "resolve": "exact",
+   "span_text": "3.17"
+  },
+  {
+   "value": -0.13,
+   "value_text": "0.13",
+   "context": "Adjusted Net Loss (non-GAAP measure) was $38 million, or $0.13 per diluted share,",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11878,
+   "end": 11882,
+   "resolve": "exact",
+   "span_text": "0.13"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "context": "compared to Adjusted Net Income of $97 million during the three months ended March 31, 2019, or $0.31 per diluted share.",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11999,
+   "end": 12003,
+   "resolve": "exact",
+   "span_text": "0.31"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "context": "Net income (loss) attributable to Antero Resources Corp | $3.17 | (1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 24807,
+   "end": 24811,
+   "resolve": "exact",
+   "span_text": "3.17"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "context": "Net income (loss) attributable to Antero Resources Corp | $3.17 | (1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 24815,
+   "end": 24819,
+   "resolve": "exact",
+   "span_text": "1.19"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "context": "Adjusted Net Income (Loss) | $0.31 | (0.13)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 25483,
+   "end": 25487,
+   "resolve": "exact",
+   "span_text": "0.31"
+  },
+  {
+   "value": -0.13,
+   "value_text": "(0.13)",
+   "context": "Adjusted Net Income (Loss) | $0.31 | (0.13)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 25491,
+   "end": 25495,
+   "resolve": "exact",
+   "span_text": "0.13"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "context": "Income (loss) per share—basic | $3.17 | (1.19)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 46757,
+   "end": 46761,
+   "resolve": "exact",
+   "span_text": "3.17"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "context": "Income (loss) per share—basic | $3.17 | (1.19)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46765,
+   "end": 46769,
+   "resolve": "exact",
+   "span_text": "1.19"
+  },
+  {
+   "value": 3.17,
+   "value_text": "3.17",
+   "context": "Income (loss) per share—diluted | $3.17 | (1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 46806,
+   "end": 46810,
+   "resolve": "exact",
+   "span_text": "3.17"
+  },
+  {
+   "value": -1.19,
+   "value_text": "(1.19)",
+   "context": "Income (loss) per share—diluted | $3.17 | (1.19)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 46814,
+   "end": 46818,
+   "resolve": "exact",
+   "span_text": "1.19"
+  }
+ ]
+}

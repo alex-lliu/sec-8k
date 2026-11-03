@@ -1,0 +1,210 @@
+{
+ "accession": "0001193125-20-124568",
+ "company": "FARMERS NATIONAL BANC CORP /OH/",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.3,
+ "primary_candidates": [
+  0.3
+ ],
+ "n_mentions": 16,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 13616,
+  "output_tokens": 3192
+ },
+ "mentions": [
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "ended March 31, 2020 was $8.6 million, or $0.30 per diluted share, which compares to $8.4 million",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2132,
+   "end": 2136,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "which compares to $8.4 million, or $0.30 per diluted share, for the three months ended March 31, 2019",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2192,
+   "end": 2196,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "context": "March 31, 2019 and $9.7 million or $0.35 per diluted share for the",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019 (linked quarter)",
+   "period_kind": "prior_quarter",
+   "start": 2279,
+   "end": 2283,
+   "resolve": "exact",
+   "span_text": "0.35"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "context": "Net income excluding acquisition costs (non-GAAP) for the quarter ended March 31, 2020 was $9.7 million or $0.34 per share",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2434,
+   "end": 2438,
+   "resolve": "exact",
+   "span_text": "0.34"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "compared to $8.4 million or $0.30 per share for the",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2479,
+   "end": 2483,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "context": "same quarter in 2019 and $9.8 million or $0.35 per share for the most recent quarter.",
+   "type": "NON_GAAP",
+   "period": "Q4 2019 (most recent quarter)",
+   "period_kind": "prior_quarter",
+   "start": 2544,
+   "end": 2548,
+   "resolve": "exact",
+   "span_text": "0.35"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "Basic and diluted earnings per share | 0.30 | 0.35 | 0.33 | 0.31 | 0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18609,
+   "end": 18613,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "context": "Basic and diluted earnings per share | 0.30 | 0.35 | 0.33 | 0.31 | 0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 18616,
+   "end": 18620,
+   "resolve": "exact",
+   "span_text": "0.35"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "context": "Basic and diluted earnings per share | 0.30 | 0.35 | 0.33 | 0.31 | 0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 18623,
+   "end": 18627,
+   "resolve": "exact",
+   "span_text": "0.33"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "context": "Basic and diluted earnings per share | 0.30 | 0.35 | 0.33 | 0.31 | 0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 18630,
+   "end": 18634,
+   "resolve": "exact",
+   "span_text": "0.31"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "and diluted earnings per share | 0.30 | 0.35 | 0.33 | 0.31 | 0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18637,
+   "end": 18641,
+   "resolve": "exact",
+   "span_text": "0.30"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "context": "Diluted EPS excluding acquisition costs | $0.34 | $0.35 | $0.33 | $0.31 | $0.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 24501,
+   "end": 24505,
+   "resolve": "exact",
+   "span_text": "0.34"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "context": "Diluted EPS excluding acquisition costs | $0.34 | $0.35 | $0.33 | $0.31 | $0.30",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 24509,
+   "end": 24513,
+   "resolve": "exact",
+   "span_text": "0.35"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "context": "Diluted EPS excluding acquisition costs | $0.34 | $0.35 | $0.33 | $0.31 | $0.30",
+   "type": "NON_GAAP",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 24517,
+   "end": 24521,
+   "resolve": "exact",
+   "span_text": "0.33"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "context": "Diluted EPS excluding acquisition costs | $0.34 | $0.35 | $0.33 | $0.31 | $0.30",
+   "type": "NON_GAAP",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 24525,
+   "end": 24529,
+   "resolve": "exact",
+   "span_text": "0.31"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "context": "Diluted EPS excluding acquisition costs | $0.34 | $0.35 | $0.33 | $0.31 | $0.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 24533,
+   "end": 24537,
+   "resolve": "exact",
+   "span_text": "0.30"
+  }
+ ]
+}

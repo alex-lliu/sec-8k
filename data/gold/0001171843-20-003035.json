@@ -1,0 +1,93 @@
+{
+ "accession": "0001171843-20-003035",
+ "company": "OIL STATES INTERNATIONAL, INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -6.79,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -6.79,
+ "n_mentions": 7,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "GAAP_BASIC": 3
+ },
+ "mentions": [
+  {
+   "value": -6.79,
+   "value_text": "6.79",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 840,
+   "end": 844,
+   "span_text": "6.79",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -6.79,
+   "value_text": "(6.79)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16153,
+   "end": 16157,
+   "span_text": "6.79",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -2.95,
+   "value_text": "(2.95)",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 16163,
+   "end": 16167,
+   "span_text": "2.95",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.25,
+   "value_text": "(0.25)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16173,
+   "end": 16177,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -6.79,
+   "value_text": "(6.79)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16191,
+   "end": 16195,
+   "span_text": "6.79",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -2.95,
+   "value_text": "(2.95)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 16201,
+   "end": 16205,
+   "span_text": "2.95",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.25,
+   "value_text": "(0.25)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16211,
+   "end": 16215,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  }
+ ]
+}

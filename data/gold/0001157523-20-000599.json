@@ -1,0 +1,149 @@
+{
+ "accession": "0001157523-20-000599",
+ "company": "PC CONNECTION INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.56,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.56,
+ "n_mentions": 12,
+ "n_by_type": {
+  "GAAP_DILUTED": 8,
+  "GAAP_BASIC": 2,
+  "NON_GAAP": 2
+ },
+ "mentions": [
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 986,
+   "end": 990,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1005,
+   "end": 1009,
+   "span_text": "0.48",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1503,
+   "end": 1507,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1572,
+   "end": 1576,
+   "span_text": "0.48",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12508,
+   "end": 12512,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12516,
+   "end": 12520,
+   "span_text": "0.48",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 14659,
+   "end": 14663,
+   "span_text": "0.57",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 14667,
+   "end": 14671,
+   "span_text": "0.48",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 14683,
+   "end": 14687,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 14691,
+   "end": 14695,
+   "span_text": "0.48",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20595,
+   "end": 20599,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20603,
+   "end": 20607,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  }
+ ]
+}

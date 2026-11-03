@@ -1,0 +1,138 @@
+{
+ "accession": "0000314808-20-000062",
+ "company": "Valaris plc",
+ "variant": "B",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -15.19,
+ "primary_candidates": [
+  -15.19
+ ],
+ "n_mentions": 10,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 12302,
+  "output_tokens": 2064
+ },
+ "mentions": [
+  {
+   "value": -15.19,
+   "value_text": "15.19",
+   "context": "of $3.01 billion, or $15.19 per share, for first quarter 2020 compared to a net loss of $216 million",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1187,
+   "end": 1192,
+   "resolve": "exact",
+   "span_text": "15.19"
+  },
+  {
+   "value": -1.09,
+   "value_text": "1.09",
+   "context": "for first quarter 2020 compared to a net loss of $216 million, or $1.09 per share, in fourth quarter 2019",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 1271,
+   "end": 1275,
+   "resolve": "exact",
+   "span_text": "1.09"
+  },
+  {
+   "value": -1.66,
+   "value_text": "1.66",
+   "context": "an adjusted loss of $1.66 per share in first quarter 2020 versus an adjusted loss of $1.55 per share in the prior quarter.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1460,
+   "end": 1464,
+   "resolve": "exact",
+   "span_text": "1.66"
+  },
+  {
+   "value": -1.55,
+   "value_text": "1.55",
+   "context": "versus an adjusted loss of $1.55 per share in the prior quarter.",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 1525,
+   "end": 1529,
+   "resolve": "exact",
+   "span_text": "1.55"
+  },
+  {
+   "value": -15.19,
+   "value_text": "(15.19)",
+   "context": "LOSS PER SHARE - BASIC AND DILUTED | $(15.19) | $(1.09)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18661,
+   "end": 18666,
+   "resolve": "exact",
+   "span_text": "15.19"
+  },
+  {
+   "value": -1.09,
+   "value_text": "(1.09)",
+   "context": "LOSS PER SHARE - BASIC AND DILUTED | $(15.19) | $(1.09)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 18672,
+   "end": 18676,
+   "resolve": "exact",
+   "span_text": "1.09"
+  },
+  {
+   "value": -15.19,
+   "value_text": "(15.19)",
+   "context": "Net loss attributable to Valaris | $(3,006.3) | $(15.19) | $(216.0) | $(1.09)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 26182,
+   "end": 26187,
+   "resolve": "exact",
+   "span_text": "15.19"
+  },
+  {
+   "value": -1.09,
+   "value_text": "(1.09)",
+   "context": "Net loss attributable to Valaris | $(3,006.3) | $(15.19) | $(216.0) | $(1.09)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 26204,
+   "end": 26208,
+   "resolve": "exact",
+   "span_text": "1.09"
+  },
+  {
+   "value": -1.66,
+   "value_text": "(1.66)",
+   "context": "Adjusted | $(328.4) | $(1.66) | $(308.3) | $(1.55)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 26698,
+   "end": 26702,
+   "resolve": "exact",
+   "span_text": "1.66"
+  },
+  {
+   "value": -1.55,
+   "value_text": "(1.55)",
+   "context": "Adjusted | $(328.4) | $(1.66) | $(308.3) | $(1.55)",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 26719,
+   "end": 26723,
+   "resolve": "exact",
+   "span_text": "1.55"
+  }
+ ]
+}

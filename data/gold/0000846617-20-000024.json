@@ -1,0 +1,115 @@
+{
+ "accession": "0000846617-20-000024",
+ "company": "BRIDGE BANCORP, INC.",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 0.47,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.47,
+ "n_mentions": 9,
+ "n_by_type": {
+  "GAAP_DILUTED": 6,
+  "GAAP_BASIC": 3
+ },
+ "mentions": [
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1528,
+   "end": 1532,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3588,
+   "end": 3592,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4011,
+   "end": 4015,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22286,
+   "end": 22290,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 22294,
+   "end": 22298,
+   "span_text": "0.71",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22302,
+   "end": 22306,
+   "span_text": "0.65",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22596,
+   "end": 22600,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 22604,
+   "end": 22608,
+   "span_text": "0.71",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22612,
+   "end": 22616,
+   "span_text": "0.65",
+   "source": "spot-checked"
+  }
+ ]
+}

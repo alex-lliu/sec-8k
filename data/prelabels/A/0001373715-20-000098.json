@@ -1,0 +1,210 @@
+{
+ "accession": "0001373715-20-000098",
+ "company": "ServiceNow, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.24,
+ "primary_candidates": [
+  0.24
+ ],
+ "n_mentions": 16,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 16492,
+  "output_tokens": 2472
+ },
+ "mentions": [
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "Net income | $48 | $0.25 / $0.24 | $207 | $1.09 / $1.05",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 5125,
+   "end": 5129,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "context": "Net income | $48 | $0.25 / $0.24 | $207 | $1.09 / $1.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 5133,
+   "end": 5137,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": 1.09,
+   "value_text": "1.09",
+   "context": "Net income | $48 | $0.25 / $0.24 | $207 | $1.09 / $1.05",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP basic)",
+   "period_kind": "current_quarter",
+   "start": 5148,
+   "end": 5152,
+   "resolve": "exact",
+   "span_text": "1.09"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "context": "Net income | $48 | $0.25 / $0.24 | $207 | $1.09 / $1.05",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP diluted)",
+   "period_kind": "current_quarter",
+   "start": 5156,
+   "end": 5160,
+   "resolve": "exact",
+   "span_text": "1.05"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "Net income (loss) per share - basic | $0.25 | $(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22937,
+   "end": 22941,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "context": "Net income (loss) per share - basic | $0.25 | $(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22946,
+   "end": 22950,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "context": "Net income (loss) per share - diluted | $0.24 | $(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22993,
+   "end": 22997,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "context": "Net income (loss) per share - diluted | $0.24 | $(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23002,
+   "end": 23006,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "context": "GAAP net income (loss) per share - basic | $0.25 | $(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 33119,
+   "end": 33123,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "context": "GAAP net income (loss) per share - basic | $0.25 | $(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 33128,
+   "end": 33132,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "context": "GAAP net income (loss) per share - diluted | $0.24 | $(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 33180,
+   "end": 33184,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "context": "GAAP net income (loss) per share - diluted | $0.24 | $(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 33189,
+   "end": 33193,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": 1.09,
+   "value_text": "1.09",
+   "context": "Non-GAAP net income per share - basic | $1.09 | $0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP basic)",
+   "period_kind": "current_quarter",
+   "start": 33236,
+   "end": 33240,
+   "resolve": "exact",
+   "span_text": "1.09"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "context": "Non-GAAP net income per share - basic | $1.09 | $0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (non-GAAP basic)",
+   "period_kind": "prior_year_quarter",
+   "start": 33244,
+   "end": 33248,
+   "resolve": "exact",
+   "span_text": "0.71"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "context": "Non-GAAP net income per share - diluted | $1.05 | $0.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP diluted)",
+   "period_kind": "current_quarter",
+   "start": 33292,
+   "end": 33296,
+   "resolve": "exact",
+   "span_text": "1.05"
+  },
+  {
+   "value": 0.67,
+   "value_text": "0.67",
+   "context": "Non-GAAP net income per share - diluted | $1.05 | $0.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (non-GAAP diluted)",
+   "period_kind": "prior_year_quarter",
+   "start": 33300,
+   "end": 33304,
+   "resolve": "exact",
+   "span_text": "0.67"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "accession": "0001678463-20-000062",
+ "company": "Forterra, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.22,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.22,
+ "n_mentions": 2,
+ "n_by_type": {
+  "GAAP_DILUTED": 2
+ },
+ "mentions": [
+  {
+   "value": -0.22,
+   "value_text": "(0.22)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15259,
+   "end": 15263,
+   "span_text": "0.22",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.39,
+   "value_text": "(0.39)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15269,
+   "end": 15273,
+   "span_text": "0.39",
+   "source": "anchor-matched"
+  }
+ ]
+}

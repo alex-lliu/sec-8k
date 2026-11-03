@@ -1,0 +1,102 @@
+{
+ "accession": "0001171843-20-003035",
+ "company": "OIL STATES INTERNATIONAL, INC",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -6.79,
+ "primary_candidates": [
+  -6.79
+ ],
+ "n_mentions": 7,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 12220,
+  "output_tokens": 1775
+ },
+ "mentions": [
+  {
+   "value": -6.79,
+   "value_text": "6.79",
+   "context": "reported a net loss for the first quarter of 2020 of $405.0 million, or $6.79 per share, on revenues of $219.7 million and Consolidated EBITDA (Note A) of $21.9 million.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 840,
+   "end": 844,
+   "resolve": "exact",
+   "span_text": "6.79"
+  },
+  {
+   "value": -6.79,
+   "value_text": "(6.79)",
+   "context": "Net loss per share:\nBasic | $(6.79) | $(2.95) | $(0.25)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16153,
+   "end": 16157,
+   "resolve": "exact",
+   "span_text": "6.79"
+  },
+  {
+   "value": -2.95,
+   "value_text": "(2.95)",
+   "context": "Net loss per share:\nBasic | $(6.79) | $(2.95) | $(0.25)",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 16163,
+   "end": 16167,
+   "resolve": "exact",
+   "span_text": "2.95"
+  },
+  {
+   "value": -0.25,
+   "value_text": "(0.25)",
+   "context": "Net loss per share:\nBasic | $(6.79) | $(2.95) | $(0.25)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16173,
+   "end": 16177,
+   "resolve": "exact",
+   "span_text": "0.25"
+  },
+  {
+   "value": -6.79,
+   "value_text": "(6.79)",
+   "context": "Diluted | $(6.79) | $(2.95) | $(0.25)\nWeighted average number of common shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16191,
+   "end": 16195,
+   "resolve": "exact",
+   "span_text": "6.79"
+  },
+  {
+   "value": -2.95,
+   "value_text": "(2.95)",
+   "context": "Diluted | $(6.79) | $(2.95) | $(0.25)\nWeighted average number of common shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 16201,
+   "end": 16205,
+   "resolve": "exact",
+   "span_text": "2.95"
+  },
+  {
+   "value": -0.25,
+   "value_text": "(0.25)",
+   "context": "Diluted | $(6.79) | $(2.95) | $(0.25)\nWeighted average number of common shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16211,
+   "end": 16215,
+   "resolve": "exact",
+   "span_text": "0.25"
+  }
+ ]
+}

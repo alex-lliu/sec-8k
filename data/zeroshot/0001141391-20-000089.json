@@ -1,0 +1,186 @@
+{
+ "accession": "0001141391-20-000089",
+ "company": "Mastercard Inc",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 1.68,
+ "primary_candidates": [
+  1.68
+ ],
+ "n_mentions": 14,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 12846,
+  "output_tokens": 2884
+ },
+ "mentions": [
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "context": "• | First-quarter net income of $1.7 billion, or diluted earnings per share (EPS) of $1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 518,
+   "end": 522,
+   "resolve": "exact",
+   "span_text": "1.68"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "context": "• | First-quarter adjusted net income of $1.8 billion, or adjusted diluted EPS of $1.83",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 606,
+   "end": 610,
+   "resolve": "exact",
+   "span_text": "1.83"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "context": "Diluted EPS | $1.68 | $1.80 | (7)% | (5)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2794,
+   "end": 2798,
+   "resolve": "exact",
+   "span_text": "1.68"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "context": "Diluted EPS | $1.68 | $1.80 | (7)% | (5)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2802,
+   "end": 2806,
+   "resolve": "exact",
+   "span_text": "1.80"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "context": "Adjusted diluted EPS | $1.83 | $1.78 | 3% | 6%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3265,
+   "end": 3269,
+   "resolve": "exact",
+   "span_text": "1.83"
+  },
+  {
+   "value": 1.78,
+   "value_text": "1.78",
+   "context": "Adjusted diluted EPS | $1.83 | $1.78 | 3% | 6%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3273,
+   "end": 3277,
+   "resolve": "exact",
+   "span_text": "1.78"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "context": "Basic Earnings per Share | $1.68 | $1.81",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13012,
+   "end": 13016,
+   "resolve": "exact",
+   "span_text": "1.68"
+  },
+  {
+   "value": 1.81,
+   "value_text": "1.81",
+   "context": "Basic Earnings per Share | $1.68 | $1.81",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13020,
+   "end": 13024,
+   "resolve": "exact",
+   "span_text": "1.81"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "context": "Diluted Earnings per Share | $1.68 | $1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13113,
+   "end": 13117,
+   "resolve": "exact",
+   "span_text": "1.68"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "context": "Diluted Earnings per Share | $1.68 | $1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13121,
+   "end": 13125,
+   "resolve": "exact",
+   "span_text": "1.80"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "context": "Reported - GAAP | $1,798 | 55.2% | $(224) | 14.8% | $1,693 | $1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20726,
+   "end": 20730,
+   "resolve": "exact",
+   "span_text": "1.68"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "context": "Non-GAAP | $1,792 | 55.3% | $(50) | 14.9% | $1,844 | $1.83",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20918,
+   "end": 20922,
+   "resolve": "exact",
+   "span_text": "1.83"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "context": "Reported - GAAP | $1,676 | 56.9% | $(10) | 15.5% | $1,862 | $1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21190,
+   "end": 21194,
+   "resolve": "exact",
+   "span_text": "1.80"
+  },
+  {
+   "value": 1.78,
+   "value_text": "1.78",
+   "context": "Non-GAAP | $1,676 | 56.9% | $(15) | 16.8% | $1,828 | $1.78",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21370,
+   "end": 21374,
+   "resolve": "exact",
+   "span_text": "1.78"
+  }
+ ]
+}

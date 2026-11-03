@@ -1,0 +1,90 @@
+{
+ "accession": "0001564590-20-019431",
+ "company": "SAIA INC",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 1.06,
+ "primary_candidates": [
+  1.06
+ ],
+ "n_mentions": 6,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 7121,
+  "output_tokens": 528
+ },
+ "mentions": [
+  {
+   "value": 1.06,
+   "value_text": "1.06",
+   "context": "Diluted earnings per share in the quarter were $1.06 compared to $0.85 in the first quarter of 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1089,
+   "end": 1093,
+   "resolve": "exact",
+   "span_text": "1.06"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "context": "Diluted earnings per share in the quarter were $1.06 compared to $0.85 in the first quarter of 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1107,
+   "end": 1111,
+   "resolve": "exact",
+   "span_text": "0.85"
+  },
+  {
+   "value": 1.08,
+   "value_text": "1.08",
+   "context": "Basic earnings per share | $1.08 | $0.86",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13136,
+   "end": 13140,
+   "resolve": "exact",
+   "span_text": "1.08"
+  },
+  {
+   "value": 0.86,
+   "value_text": "0.86",
+   "context": "Basic earnings per share | $1.08 | $0.86",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13144,
+   "end": 13148,
+   "resolve": "exact",
+   "span_text": "0.86"
+  },
+  {
+   "value": 1.06,
+   "value_text": "1.06",
+   "context": "Diluted earnings per share | $1.06 | $0.85",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13179,
+   "end": 13183,
+   "resolve": "exact",
+   "span_text": "1.06"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "context": "Diluted earnings per share | $1.06 | $0.85",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13187,
+   "end": 13191,
+   "resolve": "exact",
+   "span_text": "0.85"
+  }
+ ]
+}

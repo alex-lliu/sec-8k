@@ -1,0 +1,114 @@
+{
+ "accession": "0001323885-20-000027",
+ "company": "AtriCure, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.42,
+ "primary_candidates": [
+  -0.42
+ ],
+ "n_mentions": 8,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 6140,
+  "output_tokens": 1285
+ },
+ "mentions": [
+  {
+   "value": -0.42,
+   "value_text": "0.42",
+   "context": "Net loss per share was $0.42 for the first quarter of 2020 compared to $0.15 for the first quarter of 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2516,
+   "end": 2520,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": -0.15,
+   "value_text": "0.15",
+   "context": "Net loss per share was $0.42 for the first quarter of 2020 compared to $0.15 for the first quarter of 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2564,
+   "end": 2568,
+   "resolve": "exact",
+   "span_text": "0.15"
+  },
+  {
+   "value": -0.36,
+   "value_text": "0.36",
+   "context": "Adjusted loss per share for the first quarter of 2020 was $0.36 compared to an adjusted loss per share of $0.20 for the first quarter of 2019.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2798,
+   "end": 2802,
+   "resolve": "exact",
+   "span_text": "0.36"
+  },
+  {
+   "value": -0.2,
+   "value_text": "0.20",
+   "context": "Adjusted loss per share for the first quarter of 2020 was $0.36 compared to an adjusted loss per share of $0.20 for the first quarter of 2019.",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2846,
+   "end": 2850,
+   "resolve": "exact",
+   "span_text": "0.20"
+  },
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "context": "Basic and diluted net loss per share | $(0.42) | $(0.15)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9621,
+   "end": 9625,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": -0.15,
+   "value_text": "(0.15)",
+   "context": "Basic and diluted net loss per share | $(0.42) | $(0.15)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9631,
+   "end": 9635,
+   "resolve": "exact",
+   "span_text": "0.15"
+  },
+  {
+   "value": -0.36,
+   "value_text": "(0.36)",
+   "context": "Basic and diluted adjusted net loss per share | $(0.36) | $(0.20)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12072,
+   "end": 12076,
+   "resolve": "exact",
+   "span_text": "0.36"
+  },
+  {
+   "value": -0.2,
+   "value_text": "(0.20)",
+   "context": "Basic and diluted adjusted net loss per share | $(0.36) | $(0.20)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12082,
+   "end": 12086,
+   "resolve": "exact",
+   "span_text": "0.20"
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "test_size_filings": 12,
+ "test_accessions": [
+  "0000046080-20-000050",
+  "0000066570-20-000013",
+  "0000874766-20-000033",
+  "0000875320-20-000014",
+  "0000892537-20-000010",
+  "0000895419-20-000042",
+  "0001104659-20-053534",
+  "0001104659-20-053563",
+  "0001141391-20-000089",
+  "0001289945-20-000036",
+  "0001564590-20-019396",
+  "0001576427-20-000032"
+ ],
+ "primary_metric": {
+  "deberta": {
+   "n": 12,
+   "tp": 10,
+   "fp": 2,
+   "fn": 2,
+   "emitted": 12,
+   "precision": 0.8333333333333334,
+   "recall": 0.8333333333333334,
+   "f1": 0.8333333333333334
+  },
+  "zero_shot_llm": {
+   "n": 12,
+   "tp": 12,
+   "fp": 0,
+   "fn": 0,
+   "emitted": 12,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "deberta_acc_95ci_wilson": [
+   0.5519636426153274,
+   0.9530358523851776
+  ],
+  "llm_acc_95ci_wilson": [
+   0.7574992425007574,
+   0.9999999999999998
+  ]
+ },
+ "secondary_entity_metric": {
+  "deberta": {
+   "p": 0.6680327868852459,
+   "r": 0.9314285714285714,
+   "f1": 0.7780429594272077,
+   "tp": 163,
+   "fp": 81,
+   "fn": 12,
+   "per_type": {
+    "EPS_GAAP_DILUTED": {
+     "p": 0.8043478260869565,
+     "r": 0.8809523809523809,
+     "f1": 0.8409090909090908,
+     "support": 84
+    },
+    "EPS_GAAP_BASIC": {
+     "p": 0.8064516129032258,
+     "r": 1.0,
+     "f1": 0.8928571428571428,
+     "support": 25
+    },
+    "EPS_NONGAAP": {
+     "p": 0.5289256198347108,
+     "r": 0.9696969696969697,
+     "f1": 0.6844919786096257,
+     "support": 66
+    }
+   }
+  },
+  "zero_shot_llm": {
+   "p": 0.9668508287292817,
+   "r": 1.0,
+   "f1": 0.9831460674157304,
+   "tp": 175,
+   "fp": 6,
+   "fn": 0
+  },
+  "n_gold_entities": 175
+ },
+ "deberta_test_token_loss": 0.006161363230049241,
+ "per_filing": [
+  {
+   "accession": "0000046080-20-000050",
+   "company": "HASBRO, INC.",
+   "gold": -0.51,
+   "deberta": -0.51,
+   "llm": -0.51,
+   "llm_candidates": [
+    -0.51
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0000066570-20-000013",
+   "company": "MSA Safety Inc",
+   "gold": 1.11,
+   "deberta": 1.11,
+   "llm": 1.11,
+   "llm_candidates": [
+    1.11
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0000874766-20-000033",
+   "company": "HARTFORD FINANCIAL SERVICES GROUP, INC.",
+   "gold": 0.74,
+   "deberta": 0.74,
+   "llm": 0.74,
+   "llm_candidates": [
+    0.74
+   ],
+   "reviewed": true
+  },
+  {
+   "accession": "0000875320-20-000014",
+   "company": "VERTEX PHARMACEUTICALS INC / MA",
+   "gold": 2.29,
+   "deberta": 2.29,
+   "llm": 2.29,
+   "llm_candidates": [
+    2.29
+   ],
+   "reviewed": true
+  },
+  {
+   "accession": "0000892537-20-000010",
+   "company": "MANTECH INTERNATIONAL CORP",
+   "gold": 0.71,
+   "deberta": 0.71,
+   "llm": 0.71,
+   "llm_candidates": [
+    0.71
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0000895419-20-000042",
+   "company": "CREE, INC.",
+   "gold": -0.57,
+   "deberta": -0.57,
+   "llm": -0.57,
+   "llm_candidates": [
+    -0.57
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0001104659-20-053534",
+   "company": "TETRA TECH INC",
+   "gold": 0.66,
+   "deberta": 0.66,
+   "llm": 0.66,
+   "llm_candidates": [
+    0.66
+   ],
+   "reviewed": true
+  },
+  {
+   "accession": "0001104659-20-053563",
+   "company": "ANTERO RESOURCES Corp",
+   "gold": -1.19,
+   "deberta": 3.17,
+   "llm": -1.19,
+   "llm_candidates": [
+    -1.19
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0001141391-20-000089",
+   "company": "Mastercard Inc",
+   "gold": 1.68,
+   "deberta": 1.68,
+   "llm": 1.68,
+   "llm_candidates": [
+    1.68
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0001289945-20-000036",
+   "company": "Spok Holdings, Inc",
+   "gold": -0.24,
+   "deberta": -0.24,
+   "llm": -0.24,
+   "llm_candidates": [
+    -0.24
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0001564590-20-019396",
+   "company": "Cadence Bancorporation",
+   "gold": -3.15,
+   "deberta": -3.15,
+   "llm": -3.15,
+   "llm_candidates": [
+    -3.15
+   ],
+   "reviewed": false
+  },
+  {
+   "accession": "0001576427-20-000032",
+   "company": "Criteo S.A.",
+   "gold": 0.25,
+   "deberta": 0.29,
+   "llm": 0.25,
+   "llm_candidates": [
+    0.25
+   ],
+   "reviewed": false
+  }
+ ],
+ "deberta_checkpoint": "runs/deberta_eps/best",
+ "deberta_best_epoch": {
+  "epoch": 13,
+  "val_entity_f1": 0.8361581920903954,
+  "val_loss": 0.009067071036154714
+ }
+}

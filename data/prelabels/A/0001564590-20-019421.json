@@ -1,0 +1,138 @@
+{
+ "accession": "0001564590-20-019421",
+ "company": "Alkermes plc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.24,
+ "primary_candidates": [
+  -0.24
+ ],
+ "n_mentions": 10,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 9588,
+  "output_tokens": 2196
+ },
+ "mentions": [
+  {
+   "value": -0.24,
+   "value_text": "0.24",
+   "context": "Company Reports Diluted GAAP Net Loss per Share of $0.24 and Diluted Non-GAAP",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1486,
+   "end": 1490,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "context": "Net Loss per Share of $0.24 and Diluted Non-GAAP\nEarnings per Share of $0.01—",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1535,
+   "end": 1539,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": -0.24,
+   "value_text": "0.24",
+   "context": "Net loss according to generally accepted accounting principles in the U.S. (GAAP) was $38.7 million for the quarter, or a basic and diluted GAAP net loss per share of $0.24.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4419,
+   "end": 4423,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": -0.62,
+   "value_text": "0.62",
+   "context": "This compared to GAAP net loss of $96.4 million, or a basic and diluted GAAP net loss per share of $0.62, for the same period in the prior year.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4525,
+   "end": 4529,
+   "resolve": "exact",
+   "span_text": "0.62"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "context": "Non-GAAP net income was $1.7 million for the quarter, or a non-GAAP basic and diluted earnings per share of $0.01.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4683,
+   "end": 4687,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": -0.17,
+   "value_text": "0.17",
+   "context": "This compared to non-GAAP net loss of $26.0 million, or a non-GAAP basic and diluted net loss per share of $0.17, for the same period in the prior year.",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4797,
+   "end": 4801,
+   "resolve": "exact",
+   "span_text": "0.17"
+  },
+  {
+   "value": -0.24,
+   "value_text": "(0.24)",
+   "context": "GAAP loss per share — basic and diluted | $(0.24) | $(0.62)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 21442,
+   "end": 21446,
+   "resolve": "exact",
+   "span_text": "0.24"
+  },
+  {
+   "value": -0.62,
+   "value_text": "(0.62)",
+   "context": "GAAP loss per share — basic and diluted | $(0.24) | $(0.62)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21452,
+   "end": 21456,
+   "resolve": "exact",
+   "span_text": "0.62"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "context": "Non-GAAP earnings (loss) per share — basic and diluted | $0.01 | $(0.17)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 21516,
+   "end": 21520,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": -0.17,
+   "value_text": "(0.17)",
+   "context": "Non-GAAP earnings (loss) per share — basic and diluted | $0.01 | $(0.17)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21525,
+   "end": 21529,
+   "resolve": "exact",
+   "span_text": "0.17"
+  }
+ ]
+}

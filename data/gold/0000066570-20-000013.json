@@ -1,0 +1,127 @@
+{
+ "accession": "0000066570-20-000013",
+ "company": "MSA Safety Inc",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 1.11,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.11,
+ "n_mentions": 10,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "NON_GAAP": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 1.11,
+   "value_text": "1.11",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1352,
+   "end": 1356,
+   "span_text": "1.11",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.59,
+   "value_text": "0.59",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1404,
+   "end": 1408,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.18,
+   "value_text": "1.18",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1497,
+   "end": 1501,
+   "span_text": "1.18",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1549,
+   "end": 1553,
+   "span_text": "1.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6225,
+   "end": 6229,
+   "span_text": "1.12",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6233,
+   "end": 6237,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.11,
+   "value_text": "1.11",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6249,
+   "end": 6253,
+   "span_text": "1.11",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.59,
+   "value_text": "0.59",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6257,
+   "end": 6261,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.18,
+   "value_text": "1.18",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17795,
+   "end": 17799,
+   "span_text": "1.18",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17803,
+   "end": 17807,
+   "span_text": "1.14",
+   "source": "anchor-matched"
+  }
+ ]
+}

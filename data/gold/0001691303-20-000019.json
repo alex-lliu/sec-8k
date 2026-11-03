@@ -1,0 +1,149 @@
+{
+ "accession": "0001691303-20-000019",
+ "company": "WARRIOR MET COAL, INC.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.42,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.42,
+ "n_mentions": 12,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "NON_GAAP": 6,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 0.42,
+   "value_text": "0.42",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1264,
+   "end": 1268,
+   "span_text": "0.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.14,
+   "value_text": "2.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1334,
+   "end": 1338,
+   "span_text": "2.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.39,
+   "value_text": "0.39",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1453,
+   "end": 1457,
+   "span_text": "0.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.3,
+   "value_text": "2.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1489,
+   "end": 1493,
+   "span_text": "2.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.42,
+   "value_text": "0.42",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17383,
+   "end": 17387,
+   "span_text": "0.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.14,
+   "value_text": "2.14",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17391,
+   "end": 17395,
+   "span_text": "2.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.42,
+   "value_text": "0.42",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17428,
+   "end": 17432,
+   "span_text": "0.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.14,
+   "value_text": "2.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17436,
+   "end": 17440,
+   "span_text": "2.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.39,
+   "value_text": "0.39",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22255,
+   "end": 22259,
+   "span_text": "0.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.3,
+   "value_text": "2.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22263,
+   "end": 22267,
+   "span_text": "2.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.39,
+   "value_text": "0.39",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22310,
+   "end": 22314,
+   "span_text": "0.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.3,
+   "value_text": "2.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22318,
+   "end": 22322,
+   "span_text": "2.30",
+   "source": "anchor-matched"
+  }
+ ]
+}

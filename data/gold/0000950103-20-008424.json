@@ -1,0 +1,227 @@
+{
+ "accession": "0000950103-20-008424",
+ "company": "Ultra Clean Holdings, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.23,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.23,
+ "n_mentions": 19,
+ "n_by_type": {
+  "GAAP_BASIC": 4,
+  "GAAP_DILUTED": 6,
+  "NON_GAAP": 5,
+  "GUIDANCE": 4
+ },
+ "mentions": [
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1818,
+   "end": 1822,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.23,
+   "value_text": "0.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1828,
+   "end": 1832,
+   "span_text": "0.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 2010,
+   "end": 2014,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2209,
+   "end": 2213,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 2370,
+   "end": 2374,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GUIDANCE",
+   "period": "Q2 2020 GAAP guidance (low end)",
+   "period_kind": "guidance_period",
+   "start": 2779,
+   "end": 2783,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "GUIDANCE",
+   "period": "Q2 2020 GAAP guidance (high end)",
+   "period_kind": "guidance_period",
+   "start": 2789,
+   "end": 2793,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "GUIDANCE",
+   "period": "Q2 2020 non-GAAP guidance (low end)",
+   "period_kind": "guidance_period",
+   "start": 2868,
+   "end": 2872,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "type": "GUIDANCE",
+   "period": "Q2 2020 non-GAAP guidance (high end)",
+   "period_kind": "guidance_period",
+   "start": 2878,
+   "end": 2882,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8091,
+   "end": 8095,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.02,
+   "value_text": "0.02",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8099,
+   "end": 8103,
+   "span_text": "0.02",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.23,
+   "value_text": "0.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8115,
+   "end": 8119,
+   "span_text": "0.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.02,
+   "value_text": "0.02",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8123,
+   "end": 8127,
+   "span_text": "0.02",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.23,
+   "value_text": "0.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17696,
+   "end": 17700,
+   "span_text": "0.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.02,
+   "value_text": "0.02",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17704,
+   "end": 17708,
+   "span_text": "0.02",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 17713,
+   "end": 17717,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18110,
+   "end": 18114,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.27,
+   "value_text": "0.27",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18118,
+   "end": 18122,
+   "span_text": "0.27",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 18126,
+   "end": 18130,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  }
+ ]
+}

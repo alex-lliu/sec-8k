@@ -1,0 +1,186 @@
+{
+ "accession": "0000004977-20-000054",
+ "company": "AFLAC INC",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.78,
+ "primary_candidates": [
+  0.78
+ ],
+ "n_mentions": 14,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 11873,
+  "output_tokens": 2723
+ },
+ "mentions": [
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "context": "Net earnings were $566 million, or $0.78 per diluted share, compared with $928 million, or $1.23 per diluted share a year ago.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1315,
+   "end": 1319,
+   "resolve": "exact",
+   "span_text": "0.78"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "context": "Net earnings were $566 million, or $0.78 per diluted share, compared with $928 million, or $1.23 per diluted share a year ago.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1371,
+   "end": 1375,
+   "resolve": "exact",
+   "span_text": "1.23"
+  },
+  {
+   "value": 1.21,
+   "value_text": "1.21",
+   "context": "Adjusted earnings per diluted share* increased 8.0% to $1.21 in the quarter. The stronger yen/dollar exchange rate impacted adjusted earnings per diluted share by $0.01.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3688,
+   "end": 3692,
+   "resolve": "exact",
+   "span_text": "1.21"
+  },
+  {
+   "value": 1.2,
+   "value_text": "1.20",
+   "context": "Adjusted earnings per diluted share excluding the impact of foreign currency* increased 7.1% to $1.20.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 excluding foreign currency impact",
+   "period_kind": "current_quarter",
+   "start": 3899,
+   "end": 3903,
+   "resolve": "exact",
+   "span_text": "1.20"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "context": "Net earnings per share – basic | $0.78 | $1.23 | (36.6)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11690,
+   "end": 11694,
+   "resolve": "exact",
+   "span_text": "0.78"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "context": "Net earnings per share – basic | $0.78 | $1.23 | (36.6)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11698,
+   "end": 11702,
+   "resolve": "exact",
+   "span_text": "1.23"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "context": "Net earnings per share – diluted | 0.78 | 1.23 | (36.6)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11748,
+   "end": 11752,
+   "resolve": "exact",
+   "span_text": "0.78"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "context": "Net earnings per share – diluted | 0.78 | 1.23 | (36.6)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11755,
+   "end": 11759,
+   "resolve": "exact",
+   "span_text": "1.23"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "context": "Net earnings per diluted share | $0.78 | $1.23 | (36.6)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19061,
+   "end": 19065,
+   "resolve": "exact",
+   "span_text": "0.78"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "context": "Net earnings per diluted share | $0.78 | $1.23 | (36.6)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19069,
+   "end": 19073,
+   "resolve": "exact",
+   "span_text": "1.23"
+  },
+  {
+   "value": 1.21,
+   "value_text": "1.21",
+   "context": "Adjusted earnings per diluted share | 1.21 | 1.12 | 8.0%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19333,
+   "end": 19337,
+   "resolve": "exact",
+   "span_text": "1.21"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "context": "Adjusted earnings per diluted share | 1.21 | 1.12 | 8.0%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19340,
+   "end": 19344,
+   "resolve": "exact",
+   "span_text": "1.12"
+  },
+  {
+   "value": 1.2,
+   "value_text": "1.20",
+   "context": "Adjusted earnings per diluted share excluding current period foreign currency impact 3 | $1.20 | $1.12 | 7.1%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 excluding foreign currency impact",
+   "period_kind": "current_quarter",
+   "start": 19498,
+   "end": 19502,
+   "resolve": "exact",
+   "span_text": "1.20"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "context": "Adjusted earnings per diluted share excluding current period foreign currency impact 3 | $1.20 | $1.12 | 7.1%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 excluding foreign currency impact",
+   "period_kind": "prior_year_quarter",
+   "start": 19506,
+   "end": 19510,
+   "resolve": "exact",
+   "span_text": "1.12"
+  }
+ ]
+}

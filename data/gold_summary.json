@@ -1,0 +1,443 @@
+[
+ {
+  "accession": "0000004977-20-000054",
+  "company": "AFLAC INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.78,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0000008947-20-000044",
+  "company": "AZZ INC",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": false,
+  "gold_primary_eps": -0.41,
+  "n_mentions": 25
+ },
+ {
+  "accession": "0000046080-20-000050",
+  "company": "HASBRO, INC.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.51,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0000066570-20-000013",
+  "company": "MSA Safety Inc",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 1.11,
+  "n_mentions": 10
+ },
+ {
+  "accession": "0000314808-20-000062",
+  "company": "Valaris plc",
+  "included": false,
+  "reason": "step4=unanchored, not in spot-check batch"
+ },
+ {
+  "accession": "0000706129-20-000012",
+  "company": "HORIZON BANCORP INC /IN/",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.26,
+  "n_mentions": 59
+ },
+ {
+  "accession": "0000846617-20-000024",
+  "company": "BRIDGE BANCORP, INC.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.47,
+  "n_mentions": 9
+ },
+ {
+  "accession": "0000874766-20-000033",
+  "company": "HARTFORD FINANCIAL SERVICES GROUP, INC.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.74,
+  "n_mentions": 12
+ },
+ {
+  "accession": "0000875320-20-000014",
+  "company": "VERTEX PHARMACEUTICALS INC / MA",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 2.29,
+  "n_mentions": 12
+ },
+ {
+  "accession": "0000892537-20-000010",
+  "company": "MANTECH INTERNATIONAL CORP",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.71,
+  "n_mentions": 22
+ },
+ {
+  "accession": "0000895419-20-000042",
+  "company": "CREE, INC.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.57,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0000939057-20-000186",
+  "company": "TIMBERLAND BANCORP INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.6,
+  "n_mentions": 21
+ },
+ {
+  "accession": "0000950103-20-008424",
+  "company": "Ultra Clean Holdings, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.23,
+  "n_mentions": 19
+ },
+ {
+  "accession": "0001008654-20-000048",
+  "company": "TUPPERWARE BRANDS CORP",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.16,
+  "n_mentions": 16
+ },
+ {
+  "accession": "0001104659-20-052683",
+  "company": "SiteOne Landscape Supply, Inc.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": -0.42,
+  "n_mentions": 4
+ },
+ {
+  "accession": "0001104659-20-052792",
+  "company": "MDC PARTNERS INC",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": false,
+  "gold_primary_eps": -0.03,
+  "n_mentions": 6
+ },
+ {
+  "accession": "0001104659-20-053353",
+  "company": "Innoviva, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.59,
+  "n_mentions": 4
+ },
+ {
+  "accession": "0001104659-20-053534",
+  "company": "TETRA TECH INC",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.66,
+  "n_mentions": 22
+ },
+ {
+  "accession": "0001104659-20-053563",
+  "company": "ANTERO RESOURCES Corp",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -1.19,
+  "n_mentions": 12
+ },
+ {
+  "accession": "0001140361-20-010070",
+  "company": "STANDARD MOTOR PRODUCTS, INC.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.38,
+  "n_mentions": 8
+ },
+ {
+  "accession": "0001141391-20-000089",
+  "company": "Mastercard Inc",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 1.68,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0001157523-20-000597",
+  "company": "ST JOE CO",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.03,
+  "n_mentions": 4
+ },
+ {
+  "accession": "0001157523-20-000599",
+  "company": "PC CONNECTION INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.56,
+  "n_mentions": 12
+ },
+ {
+  "accession": "0001157523-20-000600",
+  "company": "SURMODICS INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.11,
+  "n_mentions": 22
+ },
+ {
+  "accession": "0001165002-20-000083",
+  "company": "WESTWOOD HOLDINGS GROUP INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.13,
+  "n_mentions": 20
+ },
+ {
+  "accession": "0001171843-20-003035",
+  "company": "OIL STATES INTERNATIONAL, INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -6.79,
+  "n_mentions": 7
+ },
+ {
+  "accession": "0001193125-20-124288",
+  "company": "MARKETAXESS HOLDINGS INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 1.96,
+  "n_mentions": 9
+ },
+ {
+  "accession": "0001193125-20-124568",
+  "company": "FARMERS NATIONAL BANC CORP /OH/",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.3,
+  "n_mentions": 16
+ },
+ {
+  "accession": "0001193125-20-126089",
+  "company": "MICROSOFT CORP",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 1.4,
+  "n_mentions": 11
+ },
+ {
+  "accession": "0001193125-20-126683",
+  "company": "PS BUSINESS PARKS INC/CA",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 1.51,
+  "n_mentions": 10
+ },
+ {
+  "accession": "0001289945-20-000036",
+  "company": "Spok Holdings, Inc",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.24,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0001299709-20-000078",
+  "company": "Axos Financial, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.91,
+  "n_mentions": 28
+ },
+ {
+  "accession": "0001323885-20-000027",
+  "company": "AtriCure, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.42,
+  "n_mentions": 8
+ },
+ {
+  "accession": "0001373715-20-000098",
+  "company": "ServiceNow, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.24,
+  "n_mentions": 16
+ },
+ {
+  "accession": "0001423689-20-000040",
+  "company": "AGNC Investment Corp.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": -4.46,
+  "n_mentions": 44
+ },
+ {
+  "accession": "0001436425-20-000011",
+  "company": "HOME BANCORP, INC.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.21,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0001538263-20-000014",
+  "company": "HomeTrust Bancshares, Inc.",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 0.07,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0001564590-20-019396",
+  "company": "Cadence Bancorporation",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -3.15,
+  "n_mentions": 21
+ },
+ {
+  "accession": "0001564590-20-019421",
+  "company": "Alkermes plc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.24,
+  "n_mentions": 10
+ },
+ {
+  "accession": "0001564590-20-019431",
+  "company": "SAIA INC",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 1.06,
+  "n_mentions": 6
+ },
+ {
+  "accession": "0001564590-20-019442",
+  "company": "OSHKOSH CORP",
+  "included": false,
+  "reason": "step4=unanchored, not in spot-check batch"
+ },
+ {
+  "accession": "0001564590-20-019726",
+  "company": "EQUITY BANCSHARES INC",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.08,
+  "n_mentions": 23
+ },
+ {
+  "accession": "0001564590-20-019755",
+  "company": "FAIR ISAAC CORP",
+  "included": true,
+  "source": "spot-checked",
+  "anchored": true,
+  "gold_primary_eps": 1.94,
+  "n_mentions": 21
+ },
+ {
+  "accession": "0001564590-20-019760",
+  "company": "CAPSTEAD MORTGAGE CORP",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -2.21,
+  "n_mentions": 29
+ },
+ {
+  "accession": "0001576427-20-000032",
+  "company": "Criteo S.A.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.25,
+  "n_mentions": 14
+ },
+ {
+  "accession": "0001620459-20-000067",
+  "company": "James River Group Holdings, Ltd.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -1.21,
+  "n_mentions": 18
+ },
+ {
+  "accession": "0001678463-20-000062",
+  "company": "Forterra, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": -0.22,
+  "n_mentions": 2
+ },
+ {
+  "accession": "0001691303-20-000019",
+  "company": "WARRIOR MET COAL, INC.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.42,
+  "n_mentions": 12
+ },
+ {
+  "accession": "0001720635-20-000018",
+  "company": "nVent Electric plc",
+  "included": false,
+  "reason": "step4=unanchored, not in spot-check batch"
+ },
+ {
+  "accession": "0001722482-20-000089",
+  "company": "Avantor, Inc.",
+  "included": true,
+  "source": "anchor-matched",
+  "anchored": true,
+  "gold_primary_eps": 0.05,
+  "n_mentions": 15
+ }
+]

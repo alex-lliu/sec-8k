@@ -1,0 +1,171 @@
+{
+ "accession": "0001576427-20-000032",
+ "company": "Criteo S.A.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.25,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.25,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 5,
+  "NON_GAAP": 7,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2319,
+   "end": 2323,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2368,
+   "end": 2372,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6516,
+   "end": 6520,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.29,
+   "value_text": "0.29",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6577,
+   "end": 6581,
+   "span_text": "0.29",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6945,
+   "end": 6949,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 7006,
+   "end": 7010,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28113,
+   "end": 28117,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28121,
+   "end": 28125,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.29,
+   "value_text": "0.29",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28145,
+   "end": 28149,
+   "span_text": "0.29",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28153,
+   "end": 28157,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.62,
+   "value_text": "0.62",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (adjusted basic)",
+   "period_kind": "prior_year_quarter",
+   "start": 44772,
+   "end": 44776,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (adjusted basic)",
+   "period_kind": "current_quarter",
+   "start": 44780,
+   "end": 44784,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (adjusted diluted)",
+   "period_kind": "prior_year_quarter",
+   "start": 44806,
+   "end": 44810,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (adjusted diluted)",
+   "period_kind": "current_quarter",
+   "start": 44814,
+   "end": 44818,
+   "span_text": "0.52",
+   "source": "anchor-matched"
+  }
+ ]
+}

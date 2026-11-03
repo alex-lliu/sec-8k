@@ -1,0 +1,192 @@
+{
+ "accession": "0001193125-20-124568",
+ "company": "FARMERS NATIONAL BANC CORP /OH/",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.3,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.3,
+ "n_mentions": 16,
+ "n_by_type": {
+  "GAAP_DILUTED": 8,
+  "NON_GAAP": 8
+ },
+ "mentions": [
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2132,
+   "end": 2136,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2192,
+   "end": 2196,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019 (linked quarter)",
+   "period_kind": "prior_quarter",
+   "start": 2279,
+   "end": 2283,
+   "span_text": "0.35",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2434,
+   "end": 2438,
+   "span_text": "0.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2479,
+   "end": 2483,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "type": "NON_GAAP",
+   "period": "Q4 2019 (most recent quarter)",
+   "period_kind": "prior_quarter",
+   "start": 2544,
+   "end": 2548,
+   "span_text": "0.35",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 18609,
+   "end": 18613,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 18616,
+   "end": 18620,
+   "span_text": "0.35",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 18623,
+   "end": 18627,
+   "span_text": "0.33",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 18630,
+   "end": 18634,
+   "span_text": "0.31",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 18637,
+   "end": 18641,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 24501,
+   "end": 24505,
+   "span_text": "0.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.35,
+   "value_text": "0.35",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 24509,
+   "end": 24513,
+   "span_text": "0.35",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "type": "NON_GAAP",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 24517,
+   "end": 24521,
+   "span_text": "0.33",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "type": "NON_GAAP",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 24525,
+   "end": 24529,
+   "span_text": "0.31",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.3,
+   "value_text": "0.30",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 24533,
+   "end": 24537,
+   "span_text": "0.30",
+   "source": "anchor-matched"
+  }
+ ]
+}

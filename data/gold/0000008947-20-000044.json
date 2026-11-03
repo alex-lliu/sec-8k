@@ -1,0 +1,293 @@
+{
+ "accession": "0000008947-20-000044",
+ "company": "AZZ INC",
+ "source": "spot-checked",
+ "anchored": false,
+ "gold_primary_eps": -0.41,
+ "gold_primary_source": "adjudicated label",
+ "label_primary_eps": -0.41,
+ "n_mentions": 25,
+ "n_by_type": {
+  "NON_GAAP": 7,
+  "GAAP_DILUTED": 12,
+  "GUIDANCE": 2,
+  "GAAP_BASIC": 4
+ },
+ "mentions": [
+  {
+   "value": 2.71,
+   "value_text": "2.71",
+   "type": "NON_GAAP",
+   "period": "FY2020 (year ended February 29, 2020)",
+   "period_kind": "full_year",
+   "start": 1058,
+   "end": 1062,
+   "span_text": "2.71",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_DILUTED",
+   "period": "FY2020 (year ended February 29, 2020)",
+   "period_kind": "full_year",
+   "start": 1110,
+   "end": 1114,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.65,
+   "value_text": "2.65",
+   "type": "GUIDANCE",
+   "period": "FY2021 guidance",
+   "period_kind": "guidance_period",
+   "start": 1332,
+   "end": 1336,
+   "span_text": "2.65",
+   "source": "spot-checked"
+  },
+  {
+   "value": 3.15,
+   "value_text": "3.15",
+   "type": "GUIDANCE",
+   "period": "FY2021 guidance",
+   "period_kind": "guidance_period",
+   "start": 1341,
+   "end": 1345,
+   "span_text": "3.15",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_DILUTED",
+   "period": "FY2020",
+   "period_kind": "full_year",
+   "start": 2821,
+   "end": 2825,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.71,
+   "value_text": "2.71",
+   "type": "NON_GAAP",
+   "period": "FY2020",
+   "period_kind": "full_year",
+   "start": 3177,
+   "end": 3181,
+   "span_text": "2.71",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "NON_GAAP",
+   "period": "FY2019",
+   "period_kind": "full_year",
+   "start": 3205,
+   "end": 3209,
+   "span_text": "1.96",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_DILUTED",
+   "period": "FY2020",
+   "period_kind": "full_year",
+   "start": 7853,
+   "end": 7857,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "FY2019",
+   "period_kind": "full_year",
+   "start": 7928,
+   "end": 7932,
+   "span_text": "1.96",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.71,
+   "value_text": "2.71",
+   "type": "NON_GAAP",
+   "period": "FY2020",
+   "period_kind": "full_year",
+   "start": 8364,
+   "end": 8368,
+   "span_text": "2.71",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.41,
+   "value_text": "(.41)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 FY2020",
+   "period_kind": "current_quarter",
+   "start": 9588,
+   "end": 9591,
+   "span_text": ".41",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 FY2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9656,
+   "end": 9660,
+   "span_text": "0.34",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "NON_GAAP",
+   "period": "Q4 FY2020",
+   "period_kind": "current_quarter",
+   "start": 10075,
+   "end": 10079,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.41,
+   "value_text": "(0.41)",
+   "type": "GAAP_BASIC",
+   "period": "Q4 FY2020 (three months ended February 29, 2020)",
+   "period_kind": "current_quarter",
+   "start": 20170,
+   "end": 20174,
+   "span_text": "0.41",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "GAAP_BASIC",
+   "period": "Q4 FY2019 (three months ended February 28, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 20179,
+   "end": 20183,
+   "span_text": "0.34",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_BASIC",
+   "period": "twelve months ended February 29, 2020",
+   "period_kind": "full_year",
+   "start": 20187,
+   "end": 20191,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.97,
+   "value_text": "1.97",
+   "type": "GAAP_BASIC",
+   "period": "twelve months ended February 28, 2019",
+   "period_kind": "full_year",
+   "start": 20195,
+   "end": 20199,
+   "span_text": "1.97",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.41,
+   "value_text": "(0.41)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 FY2020 (three months ended February 29, 2020)",
+   "period_kind": "current_quarter",
+   "start": 20212,
+   "end": 20216,
+   "span_text": "0.41",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 FY2019 (three months ended February 28, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 20221,
+   "end": 20225,
+   "span_text": "0.34",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_DILUTED",
+   "period": "twelve months ended February 29, 2020",
+   "period_kind": "full_year",
+   "start": 20229,
+   "end": 20233,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "twelve months ended February 28, 2019",
+   "period_kind": "full_year",
+   "start": 20237,
+   "end": 20241,
+   "span_text": "1.96",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.41,
+   "value_text": "(0.41)",
+   "type": "GAAP_DILUTED",
+   "period": "three months ended February 29, 2020",
+   "period_kind": "current_quarter",
+   "start": 23825,
+   "end": 23829,
+   "span_text": "0.41",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.84,
+   "value_text": "1.84",
+   "type": "GAAP_DILUTED",
+   "period": "twelve months ended February 29, 2020",
+   "period_kind": "full_year",
+   "start": 23844,
+   "end": 23848,
+   "span_text": "1.84",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "type": "NON_GAAP",
+   "period": "three months ended February 29, 2020",
+   "period_kind": "current_quarter",
+   "start": 24281,
+   "end": 24285,
+   "span_text": "0.47",
+   "source": "spot-checked"
+  },
+  {
+   "value": 2.71,
+   "value_text": "2.71",
+   "type": "NON_GAAP",
+   "period": "twelve months ended February 29, 2020",
+   "period_kind": "full_year",
+   "start": 24299,
+   "end": 24303,
+   "span_text": "2.71",
+   "source": "spot-checked"
+  }
+ ]
+}

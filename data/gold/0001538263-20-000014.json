@@ -1,0 +1,170 @@
+{
+ "accession": "0001538263-20-000014",
+ "company": "HomeTrust Bancshares, Inc.",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 0.07,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.07,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 9,
+  "GAAP_BASIC": 5
+ },
+ "mentions": [
+  {
+   "value": 0.07,
+   "value_text": "0.07",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 1134,
+   "end": 1138,
+   "span_text": "0.07",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.18,
+   "value_text": "0.18",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 fiscal 2019 (quarter ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 1153,
+   "end": 1157,
+   "span_text": "0.18",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.08,
+   "value_text": "1.08",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 2042,
+   "end": 2046,
+   "span_text": "1.08",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.02,
+   "value_text": "1.02",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 2061,
+   "end": 2065,
+   "span_text": "1.02",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.07,
+   "value_text": "0.07",
+   "type": "GAAP_BASIC",
+   "period": "three months ended March 31, 2020",
+   "period_kind": "current_quarter",
+   "start": 36757,
+   "end": 36761,
+   "span_text": "0.07",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.54,
+   "value_text": "0.54",
+   "type": "GAAP_BASIC",
+   "period": "three months ended December 31, 2019",
+   "period_kind": "prior_quarter",
+   "start": 36765,
+   "end": 36769,
+   "span_text": "0.54",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.19,
+   "value_text": "0.19",
+   "type": "GAAP_BASIC",
+   "period": "three months ended March 31, 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 36773,
+   "end": 36777,
+   "span_text": "0.19",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 36781,
+   "end": 36785,
+   "span_text": "1.12",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.07,
+   "value_text": "1.07",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 36789,
+   "end": 36793,
+   "span_text": "1.07",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.07,
+   "value_text": "0.07",
+   "type": "GAAP_DILUTED",
+   "period": "three months ended March 31, 2020",
+   "period_kind": "current_quarter",
+   "start": 36805,
+   "end": 36809,
+   "span_text": "0.07",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.52,
+   "value_text": "0.52",
+   "type": "GAAP_DILUTED",
+   "period": "three months ended December 31, 2019",
+   "period_kind": "prior_quarter",
+   "start": 36813,
+   "end": 36817,
+   "span_text": "0.52",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.18,
+   "value_text": "0.18",
+   "type": "GAAP_DILUTED",
+   "period": "three months ended March 31, 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 36821,
+   "end": 36825,
+   "span_text": "0.18",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.08,
+   "value_text": "1.08",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 36829,
+   "end": 36833,
+   "span_text": "1.08",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.02,
+   "value_text": "1.02",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 36837,
+   "end": 36841,
+   "span_text": "1.02",
+   "source": "spot-checked"
+  }
+ ]
+}

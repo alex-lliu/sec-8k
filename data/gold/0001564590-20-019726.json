@@ -1,0 +1,270 @@
+{
+ "accession": "0001564590-20-019726",
+ "company": "EQUITY BANCSHARES INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.08,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.08,
+ "n_mentions": 23,
+ "n_by_type": {
+  "GAAP_DILUTED": 13,
+  "NON_GAAP": 3,
+  "GAAP_BASIC": 7
+ },
+ "mentions": [
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1001,
+   "end": 1005,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1585,
+   "end": 1589,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.11,
+   "value_text": "0.11",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (pre-tax income per diluted share)",
+   "period_kind": "current_quarter",
+   "start": 3737,
+   "end": 3741,
+   "span_text": "0.11",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.33,
+   "value_text": "0.33",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (pre-tax loss per diluted share)",
+   "period_kind": "prior_year_quarter",
+   "start": 3818,
+   "end": 3822,
+   "span_text": "0.33",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.29,
+   "value_text": "0.29",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (pre-tax loss excluding merger expense)",
+   "period_kind": "prior_year_quarter",
+   "start": 4016,
+   "end": 4020,
+   "span_text": "0.29",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4141,
+   "end": 4145,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4164,
+   "end": 4168,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6648,
+   "end": 6652,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "0.26",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6732,
+   "end": 6736,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20745,
+   "end": 20749,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 20752,
+   "end": 20756,
+   "span_text": "0.65",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.67,
+   "value_text": "0.67",
+   "type": "GAAP_BASIC",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 20759,
+   "end": 20763,
+   "span_text": "0.67",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.59,
+   "value_text": "0.59",
+   "type": "GAAP_BASIC",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 20766,
+   "end": 20770,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20774,
+   "end": 20778,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20816,
+   "end": 20820,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.64,
+   "value_text": "0.64",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 20823,
+   "end": 20827,
+   "span_text": "0.64",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.66,
+   "value_text": "0.66",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 20830,
+   "end": 20834,
+   "span_text": "0.66",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.58,
+   "value_text": "0.58",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 20837,
+   "end": 20841,
+   "span_text": "0.58",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20845,
+   "end": 20849,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 31503,
+   "end": 31507,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 31512,
+   "end": 31516,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.08,
+   "value_text": "0.08",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 31555,
+   "end": 31559,
+   "span_text": "0.08",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.26,
+   "value_text": "(0.26)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 31564,
+   "end": 31568,
+   "span_text": "0.26",
+   "source": "anchor-matched"
+  }
+ ]
+}

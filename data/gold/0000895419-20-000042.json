@@ -1,0 +1,171 @@
+{
+ "accession": "0000895419-20-000042",
+ "company": "CREE, INC.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.57,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.57,
+ "n_mentions": 14,
+ "n_by_type": {
+  "NON_GAAP": 6,
+  "GUIDANCE": 4,
+  "GAAP_DILUTED": 4
+ },
+ "mentions": [
+  {
+   "value": -0.14,
+   "value_text": "0.14",
+   "type": "NON_GAAP",
+   "period": "Q3 FY2020",
+   "period_kind": "current_quarter",
+   "start": 1614,
+   "end": 1618,
+   "span_text": "0.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.2,
+   "value_text": "0.20",
+   "type": "NON_GAAP",
+   "period": "Q3 FY2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1793,
+   "end": 1797,
+   "span_text": "0.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.56,
+   "value_text": "0.56",
+   "type": "GUIDANCE",
+   "period": "Q4 FY2020 guidance (GAAP)",
+   "period_kind": "guidance_period",
+   "start": 2519,
+   "end": 2523,
+   "span_text": "0.56",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.65,
+   "value_text": "0.65",
+   "type": "GUIDANCE",
+   "period": "Q4 FY2020 guidance (GAAP)",
+   "period_kind": "guidance_period",
+   "start": 2528,
+   "end": 2532,
+   "span_text": "0.65",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.15,
+   "value_text": "0.15",
+   "type": "GUIDANCE",
+   "period": "Q4 FY2020 guidance (non-GAAP)",
+   "period_kind": "guidance_period",
+   "start": 2634,
+   "end": 2638,
+   "span_text": "0.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.23,
+   "value_text": "0.23",
+   "type": "GUIDANCE",
+   "period": "Q4 FY2020 guidance (non-GAAP)",
+   "period_kind": "guidance_period",
+   "start": 2643,
+   "end": 2647,
+   "span_text": "0.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.57,
+   "value_text": "($0.57)",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (total net loss attributable to controlling interest)",
+   "period_kind": "current_quarter",
+   "start": 13457,
+   "end": 13461,
+   "span_text": "0.57",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -2.2,
+   "value_text": "($2.20)",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2019 (total net loss attributable to controlling interest)",
+   "period_kind": "prior_year_quarter",
+   "start": 13467,
+   "end": 13471,
+   "span_text": "2.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.41,
+   "value_text": "($1.41)",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 29, 2020 (total)",
+   "period_kind": "current_ytd",
+   "start": 13477,
+   "end": 13481,
+   "span_text": "1.41",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -2.35,
+   "value_text": "($2.35)",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2019 (total)",
+   "period_kind": "prior_ytd",
+   "start": 13487,
+   "end": 13491,
+   "span_text": "2.35",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.14,
+   "value_text": "($0.14)",
+   "type": "NON_GAAP",
+   "period": "Q3 FY2020",
+   "period_kind": "current_quarter",
+   "start": 35484,
+   "end": 35488,
+   "span_text": "0.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.2,
+   "value_text": "0.20",
+   "type": "NON_GAAP",
+   "period": "Q3 FY2019",
+   "period_kind": "prior_year_quarter",
+   "start": 35493,
+   "end": 35497,
+   "span_text": "0.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.27,
+   "value_text": "($0.27)",
+   "type": "NON_GAAP",
+   "period": "nine months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 35502,
+   "end": 35506,
+   "span_text": "0.27",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.63,
+   "value_text": "0.63",
+   "type": "NON_GAAP",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 35511,
+   "end": 35515,
+   "span_text": "0.63",
+   "source": "anchor-matched"
+  }
+ ]
+}

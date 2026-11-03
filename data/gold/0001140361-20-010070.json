@@ -1,0 +1,105 @@
+{
+ "accession": "0001140361-20-010070",
+ "company": "STANDARD MOTOR PRODUCTS, INC.",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 0.38,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.38,
+ "n_mentions": 8,
+ "n_by_type": {
+  "NON_GAAP": 4,
+  "GAAP_BASIC": 2,
+  "GAAP_DILUTED": 2
+ },
+ "mentions": [
+  {
+   "value": 0.43,
+   "value_text": "43",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (continuing operations, non-GAAP)",
+   "period_kind": "current_quarter",
+   "start": 1857,
+   "end": 1859,
+   "span_text": "43",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.57,
+   "value_text": "57",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (continuing operations, non-GAAP)",
+   "period_kind": "prior_year_quarter",
+   "start": 1914,
+   "end": 1916,
+   "span_text": "57",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.38,
+   "value_text": "0.38",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8906,
+   "end": 8910,
+   "span_text": "0.38",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.54,
+   "value_text": "0.54",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8914,
+   "end": 8918,
+   "span_text": "0.54",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.38,
+   "value_text": "0.38",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9063,
+   "end": 9067,
+   "span_text": "0.38",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9071,
+   "end": 9075,
+   "span_text": "0.53",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.43,
+   "value_text": "0.43",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (continuing operations, non-GAAP)",
+   "period_kind": "current_quarter",
+   "start": 11219,
+   "end": 11223,
+   "span_text": "0.43",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (continuing operations, non-GAAP)",
+   "period_kind": "prior_year_quarter",
+   "start": 11227,
+   "end": 11231,
+   "span_text": "0.57",
+   "source": "spot-checked"
+  }
+ ]
+}

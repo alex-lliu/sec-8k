@@ -1,0 +1,126 @@
+{
+ "accession": "0001193125-20-124288",
+ "company": "MARKETAXESS HOLDINGS INC",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 1.96,
+ "primary_candidates": [
+  1.96
+ ],
+ "n_mentions": 9,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 8143,
+  "output_tokens": 1788
+ },
+ "mentions": [
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "context": "OF $169.0 MILLION, RECORD OPERATING INCOME OF $91.1 MILLION AND\nRECORD DILUTED EPS OF $1.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1303,
+   "end": 1307,
+   "resolve": "exact",
+   "span_text": "1.96"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "context": " | Record diluted EPS of $1.96, up 41% from $1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1515,
+   "end": 1519,
+   "resolve": "exact",
+   "span_text": "1.96"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "context": " | Record diluted EPS of $1.96, up 41% from $1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1534,
+   "end": 1538,
+   "resolve": "exact",
+   "span_text": "1.39"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "context": "Net income totaled $74.8 million, or $1.96 per share on a diluted basis, compared to $52.5 million, or $1.39 per share, for the first quarter of",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3548,
+   "end": 3552,
+   "resolve": "exact",
+   "span_text": "1.96"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "context": "Net income totaled $74.8 million, or $1.96 per share on a diluted basis, compared to $52.5 million, or $1.39 per share, for the first quarter of",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3614,
+   "end": 3618,
+   "resolve": "exact",
+   "span_text": "1.39"
+  },
+  {
+   "value": 2.01,
+   "value_text": "2.01",
+   "context": "Net income per common share\nBasic | $2.01 | $1.42",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13454,
+   "end": 13458,
+   "resolve": "exact",
+   "span_text": "2.01"
+  },
+  {
+   "value": 1.42,
+   "value_text": "1.42",
+   "context": "Net income per common share\nBasic | $2.01 | $1.42",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13462,
+   "end": 13466,
+   "resolve": "exact",
+   "span_text": "1.42"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "context": "Basic | $2.01 | $1.42\nDiluted | $1.96 | $1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13478,
+   "end": 13482,
+   "resolve": "exact",
+   "span_text": "1.96"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "context": "Basic | $2.01 | $1.42\nDiluted | $1.96 | $1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13486,
+   "end": 13490,
+   "resolve": "exact",
+   "span_text": "1.39"
+  }
+ ]
+}

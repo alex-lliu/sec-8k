@@ -1,0 +1,90 @@
+{
+ "accession": "0001104659-20-052792",
+ "company": "MDC PARTNERS INC",
+ "variant": "B",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.03,
+ "primary_candidates": [
+  -0.03
+ ],
+ "n_mentions": 6,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 14273,
+  "output_tokens": 1334
+ },
+ "mentions": [
+  {
+   "value": -0.03,
+   "value_text": "0.03",
+   "context": "shareholders for the first quarter of 2020 was $0.03 versus diluted loss",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6081,
+   "end": 6085,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": -0.04,
+   "value_text": "0.04",
+   "context": "per share of $0.04 for the first quarter of",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6120,
+   "end": 6124,
+   "resolve": "exact",
+   "span_text": "0.04"
+  },
+  {
+   "value": -0.03,
+   "value_text": "(0.03)",
+   "context": "Basic\nNet loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(0.04)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16398,
+   "end": 16402,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": -0.04,
+   "value_text": "(0.04)",
+   "context": "Basic\nNet loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(0.04)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16408,
+   "end": 16412,
+   "resolve": "exact",
+   "span_text": "0.04"
+  },
+  {
+   "value": -0.03,
+   "value_text": "(0.03)",
+   "context": "Diluted\nNet loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(0.04)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16489,
+   "end": 16493,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": -0.04,
+   "value_text": "(0.04)",
+   "context": "Diluted\nNet loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(0.04)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16499,
+   "end": 16503,
+   "resolve": "exact",
+   "span_text": "0.04"
+  }
+ ]
+}

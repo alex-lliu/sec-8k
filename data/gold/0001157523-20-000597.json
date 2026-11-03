@@ -1,0 +1,59 @@
+{
+ "accession": "0001157523-20-000597",
+ "company": "ST JOE CO",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.03,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.03,
+ "n_mentions": 4,
+ "n_by_type": {
+  "GAAP_DILUTED": 4
+ },
+ "mentions": [
+  {
+   "value": -0.03,
+   "value_text": "($0.03)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 678,
+   "end": 682,
+   "span_text": "0.03",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.03,
+   "value_text": "0.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 741,
+   "end": 745,
+   "span_text": "0.03",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.03,
+   "value_text": "($0.03)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9684,
+   "end": 9688,
+   "span_text": "0.03",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.03,
+   "value_text": "0.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9693,
+   "end": 9697,
+   "span_text": "0.03",
+   "source": "anchor-matched"
+  }
+ ]
+}

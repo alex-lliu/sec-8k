@@ -1,0 +1,150 @@
+{
+ "accession": "0001193125-20-126089",
+ "company": "MICROSOFT CORP",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 1.4,
+ "primary_candidates": [
+  1.4
+ ],
+ "n_mentions": 11,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 9666,
+  "output_tokens": 2330
+ },
+ "mentions": [
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "context": " | Diluted earnings per share was $1.40 and increased 23%",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 1310,
+   "end": 1314,
+   "resolve": "exact",
+   "span_text": "1.40"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "context": "2019 As Reported | $30,571 | $10,341 | $8,809 | $1.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 8491,
+   "end": 8495,
+   "resolve": "exact",
+   "span_text": "1.14"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "context": "2020 As Reported | $35,021 | $12,975 | $10,752 | $1.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 8546,
+   "end": 8550,
+   "resolve": "exact",
+   "span_text": "1.40"
+  },
+  {
+   "value": 1.41,
+   "value_text": "1.41",
+   "context": "Earnings per share:\nBasic | $1.41 | $1.15 | $4.34 | $3.39",
+   "type": "GAAP_BASIC",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 15744,
+   "end": 15748,
+   "resolve": "exact",
+   "span_text": "1.41"
+  },
+  {
+   "value": 1.15,
+   "value_text": "1.15",
+   "context": "Earnings per share:\nBasic | $1.41 | $1.15 | $4.34 | $3.39",
+   "type": "GAAP_BASIC",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 15752,
+   "end": 15756,
+   "resolve": "exact",
+   "span_text": "1.15"
+  },
+  {
+   "value": 4.34,
+   "value_text": "4.34",
+   "context": "Earnings per share:\nBasic | $1.41 | $1.15 | $4.34 | $3.39",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 15760,
+   "end": 15764,
+   "resolve": "exact",
+   "span_text": "4.34"
+  },
+  {
+   "value": 3.39,
+   "value_text": "3.39",
+   "context": "Earnings per share:\nBasic | $1.41 | $1.15 | $4.34 | $3.39",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 15768,
+   "end": 15772,
+   "resolve": "exact",
+   "span_text": "3.39"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "context": "Diluted | $1.40 | $1.14 | $4.30 | $3.36\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 15784,
+   "end": 15788,
+   "resolve": "exact",
+   "span_text": "1.40"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "context": "Diluted | $1.40 | $1.14 | $4.30 | $3.36\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 15792,
+   "end": 15796,
+   "resolve": "exact",
+   "span_text": "1.14"
+  },
+  {
+   "value": 4.3,
+   "value_text": "4.30",
+   "context": "Diluted | $1.40 | $1.14 | $4.30 | $3.36\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 15800,
+   "end": 15804,
+   "resolve": "exact",
+   "span_text": "4.30"
+  },
+  {
+   "value": 3.36,
+   "value_text": "3.36",
+   "context": "Diluted | $1.40 | $1.14 | $4.30 | $3.36\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 15808,
+   "end": 15812,
+   "resolve": "exact",
+   "span_text": "3.36"
+  }
+ ]
+}

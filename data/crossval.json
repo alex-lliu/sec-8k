@@ -1,0 +1,655 @@
+[
+ {
+  "accession": "0000004977-20-000054",
+  "company": "AFLAC INC",
+  "anchor_eps": 0.78,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.78,
+  "llm_candidates": [
+   0.78
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000008947-20-000044",
+  "company": "AZZ INC",
+  "anchor_eps": null,
+  "anchor_tag": null,
+  "llm_primary": -0.41,
+  "llm_candidates": [
+   -0.41
+  ],
+  "n_mentions": 25,
+  "n_unresolved": 0,
+  "status": "unanchored"
+ },
+ {
+  "accession": "0000046080-20-000050",
+  "company": "HASBRO, INC.",
+  "anchor_eps": -0.51,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -0.51,
+  "llm_candidates": [
+   -0.51
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000066570-20-000013",
+  "company": "MSA Safety Inc",
+  "anchor_eps": 1.11,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.11,
+  "llm_candidates": [
+   1.11
+  ],
+  "n_mentions": 10,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000314808-20-000062",
+  "company": "Valaris plc",
+  "anchor_eps": null,
+  "anchor_tag": null,
+  "llm_primary": -15.19,
+  "llm_candidates": [
+   -15.19
+  ],
+  "n_mentions": 10,
+  "n_unresolved": 0,
+  "status": "unanchored"
+ },
+ {
+  "accession": "0000706129-20-000012",
+  "company": "HORIZON BANCORP INC /IN/",
+  "anchor_eps": 0.26,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.26,
+  "llm_candidates": [
+   0.26
+  ],
+  "n_mentions": 59,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000846617-20-000024",
+  "company": "BRIDGE BANCORP, INC.",
+  "anchor_eps": 0.47,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.47,
+  "llm_candidates": [
+   0.47
+  ],
+  "n_mentions": 9,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000874766-20-000033",
+  "company": "HARTFORD FINANCIAL SERVICES GROUP, INC.",
+  "anchor_eps": 0.74,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.74,
+  "llm_candidates": [
+   0.74
+  ],
+  "n_mentions": 12,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000875320-20-000014",
+  "company": "VERTEX PHARMACEUTICALS INC / MA",
+  "anchor_eps": 2.29,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 2.29,
+  "llm_candidates": [
+   2.29
+  ],
+  "n_mentions": 12,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000892537-20-000010",
+  "company": "MANTECH INTERNATIONAL CORP",
+  "anchor_eps": 0.71,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.71,
+  "llm_candidates": [
+   0.71
+  ],
+  "n_mentions": 22,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000895419-20-000042",
+  "company": "CREE, INC.",
+  "anchor_eps": -0.57,
+  "anchor_tag": "us-gaap:EarningsPerShareBasicAndDiluted",
+  "llm_primary": -0.57,
+  "llm_candidates": [
+   -0.57
+  ],
+  "n_mentions": 20,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000939057-20-000186",
+  "company": "TIMBERLAND BANCORP INC",
+  "anchor_eps": 0.6,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.6,
+  "llm_candidates": [
+   0.6
+  ],
+  "n_mentions": 21,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0000950103-20-008424",
+  "company": "Ultra Clean Holdings, Inc.",
+  "anchor_eps": 0.23,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.23,
+  "llm_candidates": [
+   0.23
+  ],
+  "n_mentions": 19,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001008654-20-000048",
+  "company": "TUPPERWARE BRANDS CORP",
+  "anchor_eps": -0.16,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -0.16,
+  "llm_candidates": [
+   -0.16
+  ],
+  "n_mentions": 16,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001104659-20-052683",
+  "company": "SiteOne Landscape Supply, Inc.",
+  "anchor_eps": -0.42,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -0.42,
+  "llm_candidates": [
+   -0.42
+  ],
+  "n_mentions": 4,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001104659-20-052792",
+  "company": "MDC PARTNERS INC",
+  "anchor_eps": null,
+  "anchor_tag": null,
+  "llm_primary": -0.03,
+  "llm_candidates": [
+   -0.03
+  ],
+  "n_mentions": 6,
+  "n_unresolved": 0,
+  "status": "unanchored"
+ },
+ {
+  "accession": "0001104659-20-053353",
+  "company": "Innoviva, Inc.",
+  "anchor_eps": 0.59,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.59,
+  "llm_candidates": [
+   0.59
+  ],
+  "n_mentions": 4,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001104659-20-053534",
+  "company": "TETRA TECH INC",
+  "anchor_eps": 0.66,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.66,
+  "llm_candidates": [
+   0.66
+  ],
+  "n_mentions": 22,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001104659-20-053563",
+  "company": "ANTERO RESOURCES Corp",
+  "anchor_eps": -1.19,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -1.19,
+  "llm_candidates": [
+   -1.19
+  ],
+  "n_mentions": 12,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001140361-20-010070",
+  "company": "STANDARD MOTOR PRODUCTS, INC.",
+  "anchor_eps": 0.38,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.42,
+  "llm_candidates": [
+   -0.04,
+   0.38,
+   0.42
+  ],
+  "n_mentions": 20,
+  "n_unresolved": 0,
+  "status": "mismatch"
+ },
+ {
+  "accession": "0001141391-20-000089",
+  "company": "Mastercard Inc",
+  "anchor_eps": 1.68,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.68,
+  "llm_candidates": [
+   1.68
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001157523-20-000597",
+  "company": "ST JOE CO",
+  "anchor_eps": -0.03,
+  "anchor_tag": "us-gaap:EarningsPerShareBasicAndDiluted",
+  "llm_primary": -0.03,
+  "llm_candidates": [
+   -0.03
+  ],
+  "n_mentions": 4,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001157523-20-000599",
+  "company": "PC CONNECTION INC",
+  "anchor_eps": 0.56,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.56,
+  "llm_candidates": [
+   0.56
+  ],
+  "n_mentions": 12,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001157523-20-000600",
+  "company": "SURMODICS INC",
+  "anchor_eps": 0.11,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.11,
+  "llm_candidates": [
+   0.11
+  ],
+  "n_mentions": 22,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001165002-20-000083",
+  "company": "WESTWOOD HOLDINGS GROUP INC",
+  "anchor_eps": 0.13,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.13,
+  "llm_candidates": [
+   0.13
+  ],
+  "n_mentions": 20,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001171843-20-003035",
+  "company": "OIL STATES INTERNATIONAL, INC",
+  "anchor_eps": -6.79,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -6.79,
+  "llm_candidates": [
+   -6.79
+  ],
+  "n_mentions": 7,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001193125-20-124288",
+  "company": "MARKETAXESS HOLDINGS INC",
+  "anchor_eps": 1.96,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.96,
+  "llm_candidates": [
+   1.96
+  ],
+  "n_mentions": 9,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001193125-20-124568",
+  "company": "FARMERS NATIONAL BANC CORP /OH/",
+  "anchor_eps": 0.3,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.3,
+  "llm_candidates": [
+   0.3
+  ],
+  "n_mentions": 16,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001193125-20-126089",
+  "company": "MICROSOFT CORP",
+  "anchor_eps": 1.4,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.4,
+  "llm_candidates": [
+   1.4
+  ],
+  "n_mentions": 11,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001193125-20-126683",
+  "company": "PS BUSINESS PARKS INC/CA",
+  "anchor_eps": 1.51,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.51,
+  "llm_candidates": [
+   1.51
+  ],
+  "n_mentions": 10,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001289945-20-000036",
+  "company": "Spok Holdings, Inc",
+  "anchor_eps": -0.24,
+  "anchor_tag": "us-gaap:EarningsPerShareBasicAndDiluted",
+  "llm_primary": -0.24,
+  "llm_candidates": [
+   -0.24
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001299709-20-000078",
+  "company": "Axos Financial, Inc.",
+  "anchor_eps": 0.91,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.91,
+  "llm_candidates": [
+   0.91
+  ],
+  "n_mentions": 28,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001323885-20-000027",
+  "company": "AtriCure, Inc.",
+  "anchor_eps": -0.42,
+  "anchor_tag": "us-gaap:EarningsPerShareBasicAndDiluted",
+  "llm_primary": -0.42,
+  "llm_candidates": [
+   -0.42
+  ],
+  "n_mentions": 8,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001373715-20-000098",
+  "company": "ServiceNow, Inc.",
+  "anchor_eps": 0.24,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.24,
+  "llm_candidates": [
+   0.24
+  ],
+  "n_mentions": 16,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001423689-20-000040",
+  "company": "AGNC Investment Corp.",
+  "anchor_eps": -4.46,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -4.46,
+  "llm_candidates": [
+   -4.46,
+   -3.61
+  ],
+  "n_mentions": 55,
+  "n_unresolved": 0,
+  "status": "match_but_multiple_candidates"
+ },
+ {
+  "accession": "0001436425-20-000011",
+  "company": "HOME BANCORP, INC.",
+  "anchor_eps": 0.21,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.21,
+  "llm_candidates": [
+   0.21
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001538263-20-000014",
+  "company": "HomeTrust Bancshares, Inc.",
+  "anchor_eps": 0.07,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.07,
+  "llm_candidates": [
+   0.07
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019396",
+  "company": "Cadence Bancorporation",
+  "anchor_eps": -3.15,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -3.15,
+  "llm_candidates": [
+   -3.15
+  ],
+  "n_mentions": 21,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019421",
+  "company": "Alkermes plc.",
+  "anchor_eps": -0.24,
+  "anchor_tag": "us-gaap:EarningsPerShareBasicAndDiluted",
+  "llm_primary": -0.24,
+  "llm_candidates": [
+   -0.24
+  ],
+  "n_mentions": 10,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019431",
+  "company": "SAIA INC",
+  "anchor_eps": 1.06,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.06,
+  "llm_candidates": [
+   1.06
+  ],
+  "n_mentions": 6,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019442",
+  "company": "OSHKOSH CORP",
+  "anchor_eps": null,
+  "anchor_tag": null,
+  "llm_primary": 0.99,
+  "llm_candidates": [
+   0.99
+  ],
+  "n_mentions": 24,
+  "n_unresolved": 0,
+  "status": "unanchored"
+ },
+ {
+  "accession": "0001564590-20-019726",
+  "company": "EQUITY BANCSHARES INC",
+  "anchor_eps": 0.08,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.08,
+  "llm_candidates": [
+   0.08
+  ],
+  "n_mentions": 23,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019755",
+  "company": "FAIR ISAAC CORP",
+  "anchor_eps": 1.94,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 1.94,
+  "llm_candidates": [
+   1.94
+  ],
+  "n_mentions": 21,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001564590-20-019760",
+  "company": "CAPSTEAD MORTGAGE CORP",
+  "anchor_eps": -2.21,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -2.21,
+  "llm_candidates": [
+   -2.21
+  ],
+  "n_mentions": 29,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001576427-20-000032",
+  "company": "Criteo S.A.",
+  "anchor_eps": 0.25,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.25,
+  "llm_candidates": [
+   0.25
+  ],
+  "n_mentions": 14,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001620459-20-000067",
+  "company": "James River Group Holdings, Ltd.",
+  "anchor_eps": -1.21,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -1.21,
+  "llm_candidates": [
+   -1.21
+  ],
+  "n_mentions": 18,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001678463-20-000062",
+  "company": "Forterra, Inc.",
+  "anchor_eps": -0.22,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": -0.22,
+  "llm_candidates": [
+   -0.22
+  ],
+  "n_mentions": 2,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001691303-20-000019",
+  "company": "WARRIOR MET COAL, INC.",
+  "anchor_eps": 0.42,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.42,
+  "llm_candidates": [
+   0.42
+  ],
+  "n_mentions": 12,
+  "n_unresolved": 0,
+  "status": "match"
+ },
+ {
+  "accession": "0001720635-20-000018",
+  "company": "nVent Electric plc",
+  "anchor_eps": null,
+  "anchor_tag": null,
+  "llm_primary": 0.11,
+  "llm_candidates": [
+   0.11
+  ],
+  "n_mentions": 20,
+  "n_unresolved": 0,
+  "status": "unanchored"
+ },
+ {
+  "accession": "0001722482-20-000089",
+  "company": "Avantor, Inc.",
+  "anchor_eps": 0.05,
+  "anchor_tag": "us-gaap:EarningsPerShareDiluted",
+  "llm_primary": 0.05,
+  "llm_candidates": [
+   0.05
+  ],
+  "n_mentions": 15,
+  "n_unresolved": 0,
+  "status": "match"
+ }
+]

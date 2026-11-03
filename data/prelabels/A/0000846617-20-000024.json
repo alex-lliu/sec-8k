@@ -1,0 +1,126 @@
+{
+ "accession": "0000846617-20-000024",
+ "company": "BRIDGE BANCORP, INC.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.47,
+ "primary_candidates": [
+  0.47
+ ],
+ "n_mentions": 9,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 14944,
+  "output_tokens": 1447
+ },
+ "mentions": [
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "context": "Net income for the 2020 first quarter of $9.3 million, or $0.47 per diluted share.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1528,
+   "end": 1532,
+   "resolve": "exact",
+   "span_text": "0.47"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "context": "Net income in the 2020 first quarter was $9.3 million, or $0.47 per diluted share, a decrease of $3.6 million compared to the 2019 first quarter",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3588,
+   "end": 3592,
+   "resolve": "exact",
+   "span_text": "0.47"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "context": "“Our reported net income of $0.47 per diluted share was impacted by a higher provision for credit losses primarily related to the COVID-19 pandemic",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4011,
+   "end": 4015,
+   "resolve": "exact",
+   "span_text": "0.47"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "context": "Basic earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22286,
+   "end": 22290,
+   "resolve": "exact",
+   "span_text": "0.47"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "context": "Basic earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 22294,
+   "end": 22298,
+   "resolve": "exact",
+   "span_text": "0.71"
+  },
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "context": "Basic earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22302,
+   "end": 22306,
+   "resolve": "exact",
+   "span_text": "0.65"
+  },
+  {
+   "value": 0.47,
+   "value_text": "0.47",
+   "context": "Diluted earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22596,
+   "end": 22600,
+   "resolve": "exact",
+   "span_text": "0.47"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "context": "Diluted earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 22604,
+   "end": 22608,
+   "resolve": "exact",
+   "span_text": "0.71"
+  },
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "context": "Diluted earnings per common share | $0.47 | $0.71 | $0.65",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22612,
+   "end": 22616,
+   "resolve": "exact",
+   "span_text": "0.65"
+  }
+ ]
+}

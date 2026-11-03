@@ -1,0 +1,171 @@
+{
+ "accession": "0000004977-20-000054",
+ "company": "AFLAC INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.78,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.78,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 6,
+  "NON_GAAP": 6,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1315,
+   "end": 1319,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1371,
+   "end": 1375,
+   "span_text": "1.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.21,
+   "value_text": "1.21",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3688,
+   "end": 3692,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.2,
+   "value_text": "1.20",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 excluding foreign currency impact",
+   "period_kind": "current_quarter",
+   "start": 3899,
+   "end": 3903,
+   "span_text": "1.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11690,
+   "end": 11694,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11698,
+   "end": 11702,
+   "span_text": "1.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11748,
+   "end": 11752,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11755,
+   "end": 11759,
+   "span_text": "1.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19061,
+   "end": 19065,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.23,
+   "value_text": "1.23",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19069,
+   "end": 19073,
+   "span_text": "1.23",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.21,
+   "value_text": "1.21",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19333,
+   "end": 19337,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19340,
+   "end": 19344,
+   "span_text": "1.12",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.2,
+   "value_text": "1.20",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 excluding foreign currency impact",
+   "period_kind": "current_quarter",
+   "start": 19498,
+   "end": 19502,
+   "span_text": "1.20",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.12,
+   "value_text": "1.12",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 excluding foreign currency impact",
+   "period_kind": "prior_year_quarter",
+   "start": 19506,
+   "end": 19510,
+   "span_text": "1.12",
+   "source": "anchor-matched"
+  }
+ ]
+}

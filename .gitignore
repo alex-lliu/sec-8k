@@ -1,0 +1,12 @@
+# Cached EDGAR downloads (re-created by step 1 and step 2)
+data/cache/
+
+# Model checkpoints are too large for GitHub (702 MB). Metrics and config under runs/ are kept.
+runs/*/best/
+
+# Logs and local noise
+*.log
+__pycache__/
+*.pyc
+.venv/
+.env

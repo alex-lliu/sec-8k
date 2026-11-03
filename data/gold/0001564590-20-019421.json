@@ -1,0 +1,126 @@
+{
+ "accession": "0001564590-20-019421",
+ "company": "Alkermes plc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.24,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.24,
+ "n_mentions": 10,
+ "n_by_type": {
+  "GAAP_DILUTED": 5,
+  "NON_GAAP": 5
+ },
+ "mentions": [
+  {
+   "value": -0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1486,
+   "end": 1490,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1535,
+   "end": 1539,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4419,
+   "end": 4423,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.62,
+   "value_text": "0.62",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4525,
+   "end": 4529,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4683,
+   "end": 4687,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.17,
+   "value_text": "0.17",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4797,
+   "end": 4801,
+   "span_text": "0.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.24,
+   "value_text": "(0.24)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 21442,
+   "end": 21446,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.62,
+   "value_text": "(0.62)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21452,
+   "end": 21456,
+   "span_text": "0.62",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 21516,
+   "end": 21520,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.17,
+   "value_text": "(0.17)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21525,
+   "end": 21529,
+   "span_text": "0.17",
+   "source": "anchor-matched"
+  }
+ ]
+}

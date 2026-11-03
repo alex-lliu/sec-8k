@@ -1,0 +1,931 @@
+<html><head><meta charset='utf-8'><style>body{font-family:Segoe UI,Arial;font-size:13px;margin:24px} table{border-collapse:collapse;margin:8px 0 20px} td,th{border:1px solid #ccc;padding:4px 6px;vertical-align:top} th{background:#eee} mark{background:#ffe066;font-weight:bold} .flag{color:#b00;font-weight:bold} .ctx{font-family:Consolas,monospace;font-size:12px;white-space:pre-wrap;max-width:720px}</style></head><body>
+<h1>EPS spot-check batch</h1><p>Yellow = the labeled span. Edit verdicts in <code>spotcheck.md</code>.</p>
+<h2>1. STANDARD MOTOR PRODUCTS, INC. <small>(0001140361-20-010070)</small></h2><p class='flag'>Anchor (10-Q): 0.38 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.42 | mentions: 20 | Reason in batch: Step 4 mismatch: anchor=0.38 llm=0.42 cands=[-0.04, 0.38, 0.42] / Step 5 A/B disagree: GAAP_BASIC current-quarter values differ: A=[-0.05, 0.38, 0.43] B=[0.38, 0.43]; GAAP_DILUTED current-quarter values differ: A=[-0.04, 0.38, 0.42] B=[0.38, 0.42]</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>1.1</td><td><b>42</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (continuing operations)</td><td>0.42</td><td class='ctx'>9.
+Earnings from continuing operations for the first quarter of 2020 were $9.6 million or <mark>42</mark> cents per diluted share, compared to $13.1 million or 57 ce</td></tr>
+<tr><td>1.2</td><td><b>57</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations)</td><td>0.57</td><td class='ctx'>ter of 2020 were $9.6 million or 42 cents per diluted share, compared to $13.1 million or <mark>57</mark> cents per diluted share in the first quarter of 2019. Exclu</td></tr>
+<tr><td>1.3</td><td><b>43</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020 (continuing operations, non-GAAP)</td><td>0.43</td><td class='ctx'>s, earnings from continuing operations for the first quarter of 2020 were $9.8 million or <mark>43</mark> cents per diluted share, compared to $13.1 million or 57 ce</td></tr>
+<tr><td>1.4</td><td><b>57</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations, non-GAAP)</td><td>0.57</td><td class='ctx'>ter of 2020 were $9.8 million or 43 cents per diluted share, compared to $13.1 million or <mark>57</mark> cents per diluted share in
+the first quarter of 2019.
+37-18</td></tr>
+<tr><td>1.5</td><td><b>0.43</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020 (continuing operations)</td><td>0.43</td><td class='ctx'>627 | $12,216
+NET EARNINGS PER COMMON SHARE:
+BASIC EARNINGS FROM CONTINUING OPERATIONS | $<mark>0.43</mark> | $0.58
+DISCONTINUED OPERATION | (0.05) | (0.04)
+NET EARNIN</td></tr>
+<tr><td>1.6</td><td><b>0.58</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations)</td><td>0.58</td><td class='ctx'>2,216
+NET EARNINGS PER COMMON SHARE:
+BASIC EARNINGS FROM CONTINUING OPERATIONS | $0.43 | $<mark>0.58</mark>
+DISCONTINUED OPERATION | (0.05) | (0.04)
+NET EARNINGS PER C</td></tr>
+<tr><td>1.7</td><td><b>0.05</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020 (discontinued operation, basic)</td><td>-0.05</td><td class='ctx'>HARE:
+BASIC EARNINGS FROM CONTINUING OPERATIONS | $0.43 | $0.58
+DISCONTINUED OPERATION | (<mark>0.05</mark>) | (0.04)
+NET EARNINGS PER COMMON SHARE - BASIC | $0.38 | $</td></tr>
+<tr><td>1.8</td><td><b>0.04</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019 (discontinued operation, basic)</td><td>-0.04</td><td class='ctx'>IC EARNINGS FROM CONTINUING OPERATIONS | $0.43 | $0.58
+DISCONTINUED OPERATION | (0.05) | (<mark>0.04</mark>)
+NET EARNINGS PER COMMON SHARE - BASIC | $0.38 | $0.54
+DILU</td></tr>
+<tr><td>1.9</td><td><b>0.38</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>0.38</td><td class='ctx'>| $0.58
+DISCONTINUED OPERATION | (0.05) | (0.04)
+NET EARNINGS PER COMMON SHARE - BASIC | $<mark>0.38</mark> | $0.54
+DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42</td></tr>
+<tr><td>1.10</td><td><b>0.54</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.54</td><td class='ctx'>DISCONTINUED OPERATION | (0.05) | (0.04)
+NET EARNINGS PER COMMON SHARE - BASIC | $0.38 | $<mark>0.54</mark>
+DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $0.57</td></tr>
+<tr><td>1.11</td><td><b>0.42</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (continuing operations)</td><td>0.42</td><td class='ctx'>S PER COMMON SHARE - BASIC | $0.38 | $0.54
+DILUTED EARNINGS FROM CONTINUING OPERATIONS | $<mark>0.42</mark> | $0.57
+DISCONTINUED OPERATION | (0.04) | (0.04)
+NET EARNIN</td></tr>
+<tr><td>1.12</td><td><b>0.57</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations)</td><td>0.57</td><td class='ctx'>MMON SHARE - BASIC | $0.38 | $0.54
+DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $<mark>0.57</mark>
+DISCONTINUED OPERATION | (0.04) | (0.04)
+NET EARNINGS PER C</td></tr>
+<tr><td>1.13</td><td><b>0.04</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (discontinued operation, diluted)</td><td>-0.04</td><td class='ctx'>.54
+DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $0.57
+DISCONTINUED OPERATION | (<mark>0.04</mark>) | (0.04)
+NET EARNINGS PER COMMON SHARE - DILUTED | $0.38 |</td></tr>
+<tr><td>1.14</td><td><b>0.04</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019 (discontinued operation, diluted)</td><td>-0.04</td><td class='ctx'>ED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $0.57
+DISCONTINUED OPERATION | (0.04) | (<mark>0.04</mark>)
+NET EARNINGS PER COMMON SHARE - DILUTED | $0.38 | $0.53
+WE</td></tr>
+<tr><td>1.15</td><td><b>0.38</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.38</td><td class='ctx'>$0.57
+DISCONTINUED OPERATION | (0.04) | (0.04)
+NET EARNINGS PER COMMON SHARE - DILUTED | $<mark>0.38</mark> | $0.53
+WEIGHTED AVERAGE NUMBER OF COMMON SHARES | 22,438,0</td></tr>
+<tr><td>1.16</td><td><b>0.53</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.53</td><td class='ctx'>SCONTINUED OPERATION | (0.04) | (0.04)
+NET EARNINGS PER COMMON SHARE - DILUTED | $0.38 | $<mark>0.53</mark>
+WEIGHTED AVERAGE NUMBER OF COMMON SHARES | 22,438,087 | 22,</td></tr>
+<tr><td>1.17</td><td><b>0.42</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (continuing operations)</td><td>0.42</td><td class='ctx'> FROM CONTINUING OPERATIONS
+GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $<mark>0.42</mark> | $0.57
+RESTRUCTURING AND INTEGRATION EXPENSES | 0.01 | -
+I</td></tr>
+<tr><td>1.18</td><td><b>0.57</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations)</td><td>0.57</td><td class='ctx'>NTINUING OPERATIONS
+GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.42 | $<mark>0.57</mark>
+RESTRUCTURING AND INTEGRATION EXPENSES | 0.01 | -
+INCOME TA</td></tr>
+<tr><td>1.19</td><td><b>0.43</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020 (continuing operations, non-GAAP)</td><td>0.43</td><td class='ctx'>CONCILING ITEMS | - | -
+NON-GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $<mark>0.43</mark> | $0.57
+OPERATING INCOME
+GAAP OPERATING INCOME | $14,323 | </td></tr>
+<tr><td>1.20</td><td><b>0.57</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019 (continuing operations, non-GAAP)</td><td>0.57</td><td class='ctx'>G ITEMS | - | -
+NON-GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.43 | $<mark>0.57</mark>
+OPERATING INCOME
+GAAP OPERATING INCOME | $14,323 | $17,957
+</td></tr>
+</table>
+<p><i>Pass B current-quarter mentions:</i> GAAP_DILUTED current_quarter 0.42 `42`; NON_GAAP current_quarter 0.43 `43`; GAAP_BASIC current_quarter 0.43 `0.43`; GAAP_BASIC current_quarter 0.38 `0.38`; GAAP_DILUTED current_quarter 0.42 `0.42`; GAAP_DILUTED current_quarter 0.38 `0.38`; GAAP_DILUTED current_quarter 0.42 `0.42`; NON_GAAP current_quarter 0.43 `0.43`</p>
+<h2>2. AGNC Investment Corp. <small>(0001423689-20-000040)</small></h2><p class='flag'>Anchor (10-Q): -4.46 (us-gaap:EarningsPerShareDiluted) | Model primary: -4.46 | mentions: 55 | Reason in batch: Step 4 match_but_multiple_candidates: anchor=-4.46 llm=-4.46 cands=[-4.46, -3.61]</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>2.1</td><td><b>3.61</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (comprehensive loss per common share)</td><td>-3.61</td><td class='ctx'>sults for the quarter ended March 31, 2020.
+FIRST QUARTER 2020 FINANCIAL HIGHLIGHTS
+• | $(<mark>3.61</mark>) comprehensive loss per common share, comprised of:
+◦ | $(4</td></tr>
+<tr><td>2.2</td><td><b>4.46</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>-4.46</td><td class='ctx'>FINANCIAL HIGHLIGHTS
+• | $(3.61) comprehensive loss per common share, comprised of:
+◦ | $(<mark>4.46</mark>) net loss per common share
+◦ | $0.85 other comprehensive in</td></tr>
+<tr><td>2.3</td><td><b>0.57</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.57</td><td class='ctx'>ehensive income (&quot;OCI&quot;) per common share on investments marked-to-market through OCI
+• | $<mark>0.57</mark> net spread and dollar roll income per common share, excludi</td></tr>
+<tr><td>2.4</td><td><b>0.57</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.57</td><td class='ctx'>et spread and dollar roll income (a non-GAAP financial measure) for the first quarter of $<mark>0.57</mark> per common share, excluding $(0.44) per common share of &quot;ca</td></tr>
+<tr><td>2.5</td><td><b>0.57</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.57</td><td class='ctx'> excluding $(0.44) per common share of &quot;catch-up&quot; premium amortization cost, compared to $<mark>0.57</mark> per common share for the prior quarter, excluding $0.09 per</td></tr>
+<tr><td>2.6</td><td><b>4.46</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>-4.46</td><td class='ctx'>ed | 548.0 | 542.6 | 546.4 | 537.8 | 537.2
+Net income (loss) per common share - basic | $(<mark>4.46</mark>) | $1.56 | $(0.03) | $(0.85) | $0.48
+Net income (loss) per </td></tr>
+<tr><td>2.7</td><td><b>1.56</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>Q4 2019</td><td>1.56</td><td class='ctx'>0 | 542.6 | 546.4 | 537.8 | 537.2
+Net income (loss) per common share - basic | $(4.46) | $<mark>1.56</mark> | $(0.03) | $(0.85) | $0.48
+Net income (loss) per common sh</td></tr>
+<tr><td>2.8</td><td><b>0.03</b></td><td>GAAP_BASIC</td><td>other</td><td>Q3 2019</td><td>-0.03</td><td class='ctx'> | 546.4 | 537.8 | 537.2
+Net income (loss) per common share - basic | $(4.46) | $1.56 | $(<mark>0.03</mark>) | $(0.85) | $0.48
+Net income (loss) per common share - dil</td></tr>
+<tr><td>2.9</td><td><b>0.85</b></td><td>GAAP_BASIC</td><td>other</td><td>Q2 2019</td><td>-0.85</td><td class='ctx'> 537.8 | 537.2
+Net income (loss) per common share - basic | $(4.46) | $1.56 | $(0.03) | $(<mark>0.85</mark>) | $0.48
+Net income (loss) per common share - diluted | $(4</td></tr>
+<tr><td>2.10</td><td><b>0.48</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.48</td><td class='ctx'>537.2
+Net income (loss) per common share - basic | $(4.46) | $1.56 | $(0.03) | $(0.85) | $<mark>0.48</mark>
+Net income (loss) per common share - diluted | $(4.46) | $1</td></tr>
+<tr><td>2.11</td><td><b>4.46</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>-4.46</td><td class='ctx'>.46) | $1.56 | $(0.03) | $(0.85) | $0.48
+Net income (loss) per common share - diluted | $(<mark>4.46</mark>) | $1.56 | $(0.03) | $(0.85) | $0.47
+Comprehensive income (</td></tr>
+<tr><td>2.12</td><td><b>1.56</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>1.56</td><td class='ctx'>.56 | $(0.03) | $(0.85) | $0.48
+Net income (loss) per common share - diluted | $(4.46) | $<mark>1.56</mark> | $(0.03) | $(0.85) | $0.47
+Comprehensive income (loss) per</td></tr>
+<tr><td>2.13</td><td><b>0.03</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q3 2019</td><td>-0.03</td><td class='ctx'>.03) | $(0.85) | $0.48
+Net income (loss) per common share - diluted | $(4.46) | $1.56 | $(<mark>0.03</mark>) | $(0.85) | $0.47
+Comprehensive income (loss) per common s</td></tr>
+<tr><td>2.14</td><td><b>0.85</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q2 2019</td><td>-0.85</td><td class='ctx'>.85) | $0.48
+Net income (loss) per common share - diluted | $(4.46) | $1.56 | $(0.03) | $(<mark>0.85</mark>) | $0.47
+Comprehensive income (loss) per common share - bas</td></tr>
+<tr><td>2.15</td><td><b>0.47</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.47</td><td class='ctx'>.48
+Net income (loss) per common share - diluted | $(4.46) | $1.56 | $(0.03) | $(0.85) | $<mark>0.47</mark>
+Comprehensive income (loss) per common share - basic | $(3.</td></tr>
+<tr><td>2.16</td><td><b>3.61</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020 (comprehensive income (loss) per share)</td><td>-3.61</td><td class='ctx'>1.56 | $(0.03) | $(0.85) | $0.47
+Comprehensive income (loss) per common share - basic | $(<mark>3.61</mark>) | $1.59 | $0.42 | $(0.15) | $1.22
+Comprehensive income (lo</td></tr>
+<tr><td>2.17</td><td><b>1.59</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>Q4 2019 (comprehensive income (loss) per share)</td><td>1.59</td><td class='ctx'>0.03) | $(0.85) | $0.47
+Comprehensive income (loss) per common share - basic | $(3.61) | $<mark>1.59</mark> | $0.42 | $(0.15) | $1.22
+Comprehensive income (loss) per c</td></tr>
+<tr><td>2.18</td><td><b>0.42</b></td><td>GAAP_BASIC</td><td>other</td><td>Q3 2019 (comprehensive income (loss) per share)</td><td>0.42</td><td class='ctx'>$(0.85) | $0.47
+Comprehensive income (loss) per common share - basic | $(3.61) | $1.59 | $<mark>0.42</mark> | $(0.15) | $1.22
+Comprehensive income (loss) per common sh</td></tr>
+<tr><td>2.19</td><td><b>0.15</b></td><td>GAAP_BASIC</td><td>other</td><td>Q2 2019 (comprehensive income (loss) per share)</td><td>-0.15</td><td class='ctx'> $0.47
+Comprehensive income (loss) per common share - basic | $(3.61) | $1.59 | $0.42 | $(<mark>0.15</mark>) | $1.22
+Comprehensive income (loss) per common share - dil</td></tr>
+<tr><td>2.20</td><td><b>1.22</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019 (comprehensive income (loss) per share)</td><td>1.22</td><td class='ctx'>mprehensive income (loss) per common share - basic | $(3.61) | $1.59 | $0.42 | $(0.15) | $<mark>1.22</mark>
+Comprehensive income (loss) per common share - diluted | $(</td></tr>
+<tr><td>2.21</td><td><b>3.61</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020 (comprehensive income (loss) per share)</td><td>-3.61</td><td class='ctx'>1.59 | $0.42 | $(0.15) | $1.22
+Comprehensive income (loss) per common share - diluted | $(<mark>3.61</mark>) | $1.59 | $0.42 | $(0.15) | $1.22
+Dividends declared per c</td></tr>
+<tr><td>2.22</td><td><b>1.59</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019 (comprehensive income (loss) per share)</td><td>1.59</td><td class='ctx'>.42 | $(0.15) | $1.22
+Comprehensive income (loss) per common share - diluted | $(3.61) | $<mark>1.59</mark> | $0.42 | $(0.15) | $1.22
+Dividends declared per common sha</td></tr>
+<tr><td>2.23</td><td><b>0.42</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q3 2019 (comprehensive income (loss) per share)</td><td>0.42</td><td class='ctx'>0.15) | $1.22
+Comprehensive income (loss) per common share - diluted | $(3.61) | $1.59 | $<mark>0.42</mark> | $(0.15) | $1.22
+Dividends declared per common share | $0.</td></tr>
+<tr><td>2.24</td><td><b>0.15</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q2 2019 (comprehensive income (loss) per share)</td><td>-0.15</td><td class='ctx'>1.22
+Comprehensive income (loss) per common share - diluted | $(3.61) | $1.59 | $0.42 | $(<mark>0.15</mark>) | $1.22
+Dividends declared per common share | $0.48 | $0.4</td></tr>
+<tr><td>2.25</td><td><b>1.22</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019 (comprehensive income (loss) per share)</td><td>1.22</td><td class='ctx'>rehensive income (loss) per common share - diluted | $(3.61) | $1.59 | $0.42 | $(0.15) | $<mark>1.22</mark>
+Dividends declared per common share | $0.48 | $0.48 | $0.48</td></tr>
+<tr><td>2.26</td><td><b>0.13</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.13</td><td class='ctx'>2.6 | 547.1 | 538.4 | 537.2
+Net spread and dollar roll income per common share - basic | $<mark>0.13</mark> | $0.66 | $0.49 | $0.38 | $0.45
+Net spread and dollar roll </td></tr>
+<tr><td>2.27</td><td><b>0.66</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.66</td><td class='ctx'>7.1 | 538.4 | 537.2
+Net spread and dollar roll income per common share - basic | $0.13 | $<mark>0.66</mark> | $0.49 | $0.38 | $0.45
+Net spread and dollar roll income p</td></tr>
+<tr><td>2.28</td><td><b>0.49</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.49</td><td class='ctx'>8.4 | 537.2
+Net spread and dollar roll income per common share - basic | $0.13 | $0.66 | $<mark>0.49</mark> | $0.38 | $0.45
+Net spread and dollar roll income per commo</td></tr>
+<tr><td>2.29</td><td><b>0.38</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.38</td><td class='ctx'>7.2
+Net spread and dollar roll income per common share - basic | $0.13 | $0.66 | $0.49 | $<mark>0.38</mark> | $0.45
+Net spread and dollar roll income per common share </td></tr>
+<tr><td>2.30</td><td><b>0.45</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.45</td><td class='ctx'>spread and dollar roll income per common share - basic | $0.13 | $0.66 | $0.49 | $0.38 | $<mark>0.45</mark>
+Net spread and dollar roll income per common share - dilute</td></tr>
+<tr><td>2.31</td><td><b>0.13</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.13</td><td class='ctx'>6 | $0.49 | $0.38 | $0.45
+Net spread and dollar roll income per common share - diluted | $<mark>0.13</mark> | $0.66 | $0.49 | $0.38 | $0.45
+Net spread and dollar roll </td></tr>
+<tr><td>2.32</td><td><b>0.66</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.66</td><td class='ctx'>9 | $0.38 | $0.45
+Net spread and dollar roll income per common share - diluted | $0.13 | $<mark>0.66</mark> | $0.49 | $0.38 | $0.45
+Net spread and dollar roll income, </td></tr>
+<tr><td>2.33</td><td><b>0.49</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.49</td><td class='ctx'>8 | $0.45
+Net spread and dollar roll income per common share - diluted | $0.13 | $0.66 | $<mark>0.49</mark> | $0.38 | $0.45
+Net spread and dollar roll income, excludin</td></tr>
+<tr><td>2.34</td><td><b>0.38</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.38</td><td class='ctx'>5
+Net spread and dollar roll income per common share - diluted | $0.13 | $0.66 | $0.49 | $<mark>0.38</mark> | $0.45
+Net spread and dollar roll income, excluding &quot;catch</td></tr>
+<tr><td>2.35</td><td><b>0.45</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.45</td><td class='ctx'>read and dollar roll income per common share - diluted | $0.13 | $0.66 | $0.49 | $0.38 | $<mark>0.45</mark>
+Net spread and dollar roll income, excluding &quot;catch-up&quot; pre</td></tr>
+<tr><td>2.36</td><td><b>0.57</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.57</td><td class='ctx'>ollar roll income, excluding &quot;catch-up&quot; premium amortization, per common share - basic | $<mark>0.57</mark> | $0.57 | $0.59 | $0.49 | $0.52
+Net spread and dollar roll </td></tr>
+<tr><td>2.37</td><td><b>0.57</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.57</td><td class='ctx'>ll income, excluding &quot;catch-up&quot; premium amortization, per common share - basic | $0.57 | $<mark>0.57</mark> | $0.59 | $0.49 | $0.52
+Net spread and dollar roll income, </td></tr>
+<tr><td>2.38</td><td><b>0.59</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.59</td><td class='ctx'>e, excluding &quot;catch-up&quot; premium amortization, per common share - basic | $0.57 | $0.57 | $<mark>0.59</mark> | $0.49 | $0.52
+Net spread and dollar roll income, excludin</td></tr>
+<tr><td>2.39</td><td><b>0.49</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.49</td><td class='ctx'>ding &quot;catch-up&quot; premium amortization, per common share - basic | $0.57 | $0.57 | $0.59 | $<mark>0.49</mark> | $0.52
+Net spread and dollar roll income, excluding &quot;catch</td></tr>
+<tr><td>2.40</td><td><b>0.52</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.52</td><td class='ctx'>tch-up&quot; premium amortization, per common share - basic | $0.57 | $0.57 | $0.59 | $0.49 | $<mark>0.52</mark>
+Net spread and dollar roll income, excluding &quot;catch-up&quot; pre</td></tr>
+<tr><td>2.41</td><td><b>0.57</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.57</td><td class='ctx'>lar roll income, excluding &quot;catch-up&quot; premium amortization, per common share - diluted | $<mark>0.57</mark> | $0.57 | $0.59 | $0.49 | $0.52
+AGNC Investment Corp.
+April</td></tr>
+<tr><td>2.42</td><td><b>0.57</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.57</td><td class='ctx'> income, excluding &quot;catch-up&quot; premium amortization, per common share - diluted | $0.57 | $<mark>0.57</mark> | $0.59 | $0.49 | $0.52
+AGNC Investment Corp.
+April 29, 202</td></tr>
+<tr><td>2.43</td><td><b>0.59</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.59</td><td class='ctx'> excluding &quot;catch-up&quot; premium amortization, per common share - diluted | $0.57 | $0.57 | $<mark>0.59</mark> | $0.49 | $0.52
+AGNC Investment Corp.
+April 29, 2020
+Page 1</td></tr>
+<tr><td>2.44</td><td><b>0.49</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.49</td><td class='ctx'>ng &quot;catch-up&quot; premium amortization, per common share - diluted | $0.57 | $0.57 | $0.59 | $<mark>0.49</mark> | $0.52
+AGNC Investment Corp.
+April 29, 2020
+Page 10
+AGNC I</td></tr>
+<tr><td>2.45</td><td><b>0.52</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.52</td><td class='ctx'>h-up&quot; premium amortization, per common share - diluted | $0.57 | $0.57 | $0.59 | $0.49 | $<mark>0.52</mark>
+AGNC Investment Corp.
+April 29, 2020
+Page 10
+AGNC INVESTMEN</td></tr>
+<tr><td>2.46</td><td><b>0.20</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020 (estimated REIT taxable income per share)</td><td>0.2</td><td class='ctx'>| 542.6 | 547.1 | 538.4 | 537.2
+Estimated REIT taxable income per common share - basic | $<mark>0.20</mark> | $0.18 | $0.29 | $0.32 | $0.37
+Estimated REIT taxable inco</td></tr>
+<tr><td>2.47</td><td><b>0.18</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019 (estimated REIT taxable income per share)</td><td>0.18</td><td class='ctx'>| 547.1 | 538.4 | 537.2
+Estimated REIT taxable income per common share - basic | $0.20 | $<mark>0.18</mark> | $0.29 | $0.32 | $0.37
+Estimated REIT taxable income per c</td></tr>
+<tr><td>2.48</td><td><b>0.29</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019 (estimated REIT taxable income per share)</td><td>0.29</td><td class='ctx'>| 538.4 | 537.2
+Estimated REIT taxable income per common share - basic | $0.20 | $0.18 | $<mark>0.29</mark> | $0.32 | $0.37
+Estimated REIT taxable income per common sh</td></tr>
+<tr><td>2.49</td><td><b>0.32</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019 (estimated REIT taxable income per share)</td><td>0.32</td><td class='ctx'>| 537.2
+Estimated REIT taxable income per common share - basic | $0.20 | $0.18 | $0.29 | $<mark>0.32</mark> | $0.37
+Estimated REIT taxable income per common share - di</td></tr>
+<tr><td>2.50</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019 (estimated REIT taxable income per share)</td><td>0.37</td><td class='ctx'>Estimated REIT taxable income per common share - basic | $0.20 | $0.18 | $0.29 | $0.32 | $<mark>0.37</mark>
+Estimated REIT taxable income per common share - diluted | </td></tr>
+<tr><td>2.51</td><td><b>0.20</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020 (estimated REIT taxable income per share)</td><td>0.2</td><td class='ctx'>$0.18 | $0.29 | $0.32 | $0.37
+Estimated REIT taxable income per common share - diluted | $<mark>0.20</mark> | $0.18 | $0.29 | $0.32 | $0.36
+Beginning cumulative non-de</td></tr>
+<tr><td>2.52</td><td><b>0.18</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019 (estimated REIT taxable income per share)</td><td>0.18</td><td class='ctx'>$0.29 | $0.32 | $0.37
+Estimated REIT taxable income per common share - diluted | $0.20 | $<mark>0.18</mark> | $0.29 | $0.32 | $0.36
+Beginning cumulative non-deductible</td></tr>
+<tr><td>2.53</td><td><b>0.29</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019 (estimated REIT taxable income per share)</td><td>0.29</td><td class='ctx'>$0.32 | $0.37
+Estimated REIT taxable income per common share - diluted | $0.20 | $0.18 | $<mark>0.29</mark> | $0.32 | $0.36
+Beginning cumulative non-deductible net cap</td></tr>
+<tr><td>2.54</td><td><b>0.32</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019 (estimated REIT taxable income per share)</td><td>0.32</td><td class='ctx'>$0.37
+Estimated REIT taxable income per common share - diluted | $0.20 | $0.18 | $0.29 | $<mark>0.32</mark> | $0.36
+Beginning cumulative non-deductible net capital los</td></tr>
+<tr><td>2.55</td><td><b>0.36</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019 (estimated REIT taxable income per share)</td><td>0.36</td><td class='ctx'>timated REIT taxable income per common share - diluted | $0.20 | $0.18 | $0.29 | $0.32 | $<mark>0.36</mark>
+Beginning cumulative non-deductible net capital loss | $394</td></tr>
+</table>
+<h2>3. AZZ INC <small>(0000008947-20-000044)</small></h2><p class=''>Anchor (10-Q): None (unanchored) | Model primary: -0.41 | mentions: 25 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>3.1</td><td><b>2.71</b></td><td>NON_GAAP</td><td>full_year</td><td>FY2020 (year ended February 29, 2020)</td><td>2.71</td><td class='ctx'>nc. Reports Financial Results for Fiscal Year 2020
+Full Year Fiscal 2020 Adjusted EPS of $<mark>2.71</mark>, up 38% over prior year, with reported EPS of $1.84
+Annual </td></tr>
+<tr><td>3.2</td><td><b>1.84</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>FY2020 (year ended February 29, 2020)</td><td>1.84</td><td class='ctx'>ull Year Fiscal 2020 Adjusted EPS of $2.71, up 38% over prior year, with reported EPS of $<mark>1.84</mark>
+Annual Revenues of $1.06 billion, up 14.5% over prior year
+</td></tr>
+<tr><td>3.3</td><td><b>2.65</b></td><td>GUIDANCE</td><td>guidance_period</td><td>FY2021 guidance</td><td>2.65</td><td class='ctx'>prior year
+Company discontinues previously issued Fiscal Year 2021 EPS guidance range of $<mark>2.65</mark> to $3.15 and sales guidance range of $970 million to $1.06 </td></tr>
+<tr><td>3.4</td><td><b>3.15</b></td><td>GUIDANCE</td><td>guidance_period</td><td>FY2021 guidance</td><td>3.15</td><td class='ctx'>r
+Company discontinues previously issued Fiscal Year 2021 EPS guidance range of $2.65 to $<mark>3.15</mark> and sales guidance range of $970 million to $1.06 billion d</td></tr>
+<tr><td>3.5</td><td><b>1.84</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>FY2020</td><td>1.84</td><td class='ctx'>ctivities of 144.8 million, an increase of 29.9% compared to prior year. Reported EPS of $<mark>1.84</mark> includes pre-tax adjusted items of $18.6 million for the lo</td></tr>
+<tr><td>3.6</td><td><b>2.71</b></td><td>NON_GAAP</td><td>full_year</td><td>FY2020</td><td>2.71</td><td class='ctx'>ems, adjusted net income was $71.3 million, up 39.3% compared to prior year, and EPS was $<mark>2.71</mark>, up 38.3% compared to $1.96 for the prior year, on a dilute</td></tr>
+<tr><td>3.7</td><td><b>1.96</b></td><td>NON_GAAP</td><td>full_year</td><td>FY2019</td><td>1.96</td><td class='ctx'> $71.3 million, up 39.3% compared to prior year, and EPS was $2.71, up 38.3% compared to $<mark>1.96</mark> for the prior year, on a diluted basis.”
+“During the year, </td></tr>
+<tr><td>3.8</td><td><b>1.84</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>FY2020</td><td>1.84</td><td class='ctx'>ared to prior year. Net income for the twelve months decreased 5.8% to $48.2 million, or $<mark>1.84</mark> per diluted share on a reported basis, compared to $51.2 mi</td></tr>
+<tr><td>3.9</td><td><b>1.96</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>FY2019</td><td>1.96</td><td class='ctx'>2 million, or $1.84 per diluted share on a reported basis, compared to $51.2 million, or $<mark>1.96</mark> per diluted share compared to the prior fiscal year. The re</td></tr>
+<tr><td>3.10</td><td><b>2.71</b></td><td>NON_GAAP</td><td>full_year</td><td>FY2020</td><td>2.71</td><td class='ctx'>d net income was $71.3 million, up 39.1% compared to prior year, and EPS would have been $<mark>2.71</mark>, up 38.3% compared to prior year.
+Bookings for fiscal 2020 </td></tr>
+<tr><td>3.11</td><td><b>.41</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q4 FY2020</td><td>-0.41</td><td class='ctx'>e quarter last year. Reported net income for the fourth quarter was $(10.6) million, or $(<mark>.41</mark>) per diluted share, compared to net income of $8.8 million,</td></tr>
+<tr><td>3.12</td><td><b>0.34</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q4 FY2019</td><td>0.34</td><td class='ctx'>$(10.6) million, or $(.41) per diluted share, compared to net income of $8.8 million, or $<mark>0.34</mark> per diluted share, for last year’s fourth fiscal quarter. T</td></tr>
+<tr><td>3.13</td><td><b>0.47</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q4 FY2020</td><td>0.47</td><td class='ctx'>I. The adjusted non-GAAP net income without these items would have been $12.4 million or $<mark>0.47</mark> per share, as disclosed in the accompanying tables to our p</td></tr>
+<tr><td>3.14</td><td><b>0.41</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q4 FY2020 (three months ended February 29, 2020)</td><td>-0.41</td><td class='ctx'>loss) | $(10,643) | $8,851 | $48,234 | $51,208
+Earnings (loss) per common share
+Basic | $(<mark>0.41</mark>) | $0.34 | $1.84 | $1.97
+Diluted | $(0.41) | $0.34 | $1.84 </td></tr>
+<tr><td>3.15</td><td><b>0.34</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q4 FY2019 (three months ended February 28, 2019)</td><td>0.34</td><td class='ctx'>(10,643) | $8,851 | $48,234 | $51,208
+Earnings (loss) per common share
+Basic | $(0.41) | $<mark>0.34</mark> | $1.84 | $1.97
+Diluted | $(0.41) | $0.34 | $1.84 | $1.96
+D</td></tr>
+<tr><td>3.16</td><td><b>1.84</b></td><td>GAAP_BASIC</td><td>full_year</td><td>twelve months ended February 29, 2020</td><td>1.84</td><td class='ctx'> | $8,851 | $48,234 | $51,208
+Earnings (loss) per common share
+Basic | $(0.41) | $0.34 | $<mark>1.84</mark> | $1.97
+Diluted | $(0.41) | $0.34 | $1.84 | $1.96
+Diluted a</td></tr>
+<tr><td>3.17</td><td><b>1.97</b></td><td>GAAP_BASIC</td><td>full_year</td><td>twelve months ended February 28, 2019</td><td>1.97</td><td class='ctx'>1 | $48,234 | $51,208
+Earnings (loss) per common share
+Basic | $(0.41) | $0.34 | $1.84 | $<mark>1.97</mark>
+Diluted | $(0.41) | $0.34 | $1.84 | $1.96
+Diluted average s</td></tr>
+<tr><td>3.18</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q4 FY2020 (three months ended February 29, 2020)</td><td>-0.41</td><td class='ctx'>,208
+Earnings (loss) per common share
+Basic | $(0.41) | $0.34 | $1.84 | $1.97
+Diluted | $(<mark>0.41</mark>) | $0.34 | $1.84 | $1.96
+Diluted average shares outstanding</td></tr>
+<tr><td>3.19</td><td><b>0.34</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q4 FY2019 (three months ended February 28, 2019)</td><td>0.34</td><td class='ctx'>ings (loss) per common share
+Basic | $(0.41) | $0.34 | $1.84 | $1.97
+Diluted | $(0.41) | $<mark>0.34</mark> | $1.84 | $1.96
+Diluted average shares outstanding | 26,209</td></tr>
+<tr><td>3.20</td><td><b>1.84</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>twelve months ended February 29, 2020</td><td>1.84</td><td class='ctx'>ss) per common share
+Basic | $(0.41) | $0.34 | $1.84 | $1.97
+Diluted | $(0.41) | $0.34 | $<mark>1.84</mark> | $1.96
+Diluted average shares outstanding | 26,209 | 26,15</td></tr>
+<tr><td>3.21</td><td><b>1.96</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>twelve months ended February 28, 2019</td><td>1.96</td><td class='ctx'>common share
+Basic | $(0.41) | $0.34 | $1.84 | $1.97
+Diluted | $(0.41) | $0.34 | $1.84 | $<mark>1.96</mark>
+Diluted average shares outstanding | 26,209 | 26,153 | 26,2</td></tr>
+<tr><td>3.22</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>three months ended February 29, 2020</td><td>-0.41</td><td class='ctx'>d Share
+GAAP net income (loss) and GAAP diluted earnings (loss) per share | $(10,643) | $(<mark>0.41</mark>) | $48,234 | $1.84
+Adjustments to reconcile GAAP to non-GAA</td></tr>
+<tr><td>3.23</td><td><b>1.84</b></td><td>GAAP_DILUTED</td><td>full_year</td><td>twelve months ended February 29, 2020</td><td>1.84</td><td class='ctx'>come (loss) and GAAP diluted earnings (loss) per share | $(10,643) | $(0.41) | $48,234 | $<mark>1.84</mark>
+Adjustments to reconcile GAAP to non-GAAP financial measure</td></tr>
+<tr><td>3.24</td><td><b>0.47</b></td><td>NON_GAAP</td><td>current_quarter</td><td>three months ended February 29, 2020</td><td>0.47</td><td class='ctx'>12 | 0.88 | 23,012 | 0.87
+Non-GAAP net income and diluted earnings per share | $12,369 | $<mark>0.47</mark> | $71,246 | $2.71
+--END--</td></tr>
+<tr><td>3.25</td><td><b>2.71</b></td><td>NON_GAAP</td><td>full_year</td><td>twelve months ended February 29, 2020</td><td>2.71</td><td class='ctx'> | 0.87
+Non-GAAP net income and diluted earnings per share | $12,369 | $0.47 | $71,246 | $<mark>2.71</mark>
+--END--</td></tr>
+</table>
+<h2>4. HORIZON BANCORP INC /IN/ <small>(0000706129-20-000012)</small></h2><p class=''>Anchor (10-Q): 0.26 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.26 | mentions: 59 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>4.1</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>s | 2.38% | 2.32% | 2.80%
+Net income for the first quarter of 2020 was $11.7 million, or $<mark>0.26</mark> diluted earnings per share, compared to $18.5 million, or $</td></tr>
+<tr><td>4.2</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>20 was $11.7 million, or $0.26 diluted earnings per share, compared to $18.5 million, or $<mark>0.41</mark> diluted earnings per share, for the fourth quarter of 2019 </td></tr>
+<tr><td>4.3</td><td><b>0.28</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'>r $0.41 diluted earnings per share, for the fourth quarter of 2019 and $10.8 million, or $<mark>0.28</mark> diluted earnings per share, for the first quarter of 2019. </td></tr>
+<tr><td>4.4</td><td><b>0.24</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.24</td><td class='ctx'>es and death benefit on bank owned life insurance‚ core net income was $11.2 million, or $<mark>0.24</mark> diluted earnings per share for the first quarter of 2020, c</td></tr>
+<tr><td>4.5</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'> diluted earnings per share for the first quarter of 2020, compared to $18.5 million, or $<mark>0.41</mark> diluted earnings per share, for the fourth quarter of 2019 </td></tr>
+<tr><td>4.6</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'>r $0.41 diluted earnings per share, for the fourth quarter of 2019 and $14.2 million, or $<mark>0.37</mark> diluted earnings per share, for the first quarter of 2019. </td></tr>
+<tr><td>4.7</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>come Statement Highlights
+Net income for the first quarter of 2020 was $11.7 million, or $<mark>0.26</mark> diluted earnings per share, compared to $18.5 million, or $</td></tr>
+<tr><td>4.8</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>20 was $11.7 million, or $0.26 diluted earnings per share, compared to $18.5 million, or $<mark>0.41</mark> diluted earnings per share, for the fourth quarter of 2019.</td></tr>
+<tr><td>4.9</td><td><b>0.24</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.24</td><td class='ctx'>rth quarter of 2019. Core net income for the first quarter of 2020 was $11.2 million, or $<mark>0.24</mark> diluted earnings per share, compared to $18.5 million, or $</td></tr>
+<tr><td>4.10</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>20 was $11.2 million, or $0.24 diluted earnings per share, compared to $18.5 million, or $<mark>0.41</mark> diluted earnings per share, for the fourth quarter of 2019.</td></tr>
+<tr><td>4.11</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>erest income of $129,000.
+Net income for the first quarter of 2020 was $11.7 million, or $<mark>0.26</mark> diluted earnings per share, compared to $10.8 million, or $</td></tr>
+<tr><td>4.12</td><td><b>0.28</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'>20 was $11.7 million, or $0.26 diluted earnings per share, compared to $10.8 million, or $<mark>0.28</mark> diluted earnings per share for the first quarter of 2019. C</td></tr>
+<tr><td>4.13</td><td><b>0.24</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.24</td><td class='ctx'>rst quarter of 2019. Core net income for the first quarter of 2020 was $11.2 million, or $<mark>0.24</mark> diluted earnings per share, compared to $14.2 million, or $</td></tr>
+<tr><td>4.14</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'>20 was $11.2 million, or $0.24 diluted earnings per share, compared to $14.2 million, or $<mark>0.37</mark> diluted earnings per share for the first quarter of 2019. T</td></tr>
+<tr><td>4.15</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>ch 31,
+2020 | 2019 | 2019 | 2019 | 2019
+Diluted earnings per share (“EPS”) as reported | $<mark>0.26</mark> | $0.41 | $0.46 | $0.37 | $0.28
+Merger expenses | — | — | —</td></tr>
+<tr><td>4.16</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>020 | 2019 | 2019 | 2019 | 2019
+Diluted earnings per share (“EPS”) as reported | $0.26 | $<mark>0.41</mark> | $0.46 | $0.37 | $0.28
+Merger expenses | — | — | — | 0.03 </td></tr>
+<tr><td>4.17</td><td><b>0.46</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'>19 | 2019 | 2019 | 2019
+Diluted earnings per share (“EPS”) as reported | $0.26 | $0.41 | $<mark>0.46</mark> | $0.37 | $0.28
+Merger expenses | — | — | — | 0.03 | 0.11
+T</td></tr>
+<tr><td>4.18</td><td><b>0.37</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q2 2019</td><td>0.37</td><td class='ctx'>9 | 2019 | 2019
+Diluted earnings per share (“EPS”) as reported | $0.26 | $0.41 | $0.46 | $<mark>0.37</mark> | $0.28
+Merger expenses | — | — | — | 0.03 | 0.11
+Tax effec</td></tr>
+<tr><td>4.19</td><td><b>0.28</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'> | 2019
+Diluted earnings per share (“EPS”) as reported | $0.26 | $0.41 | $0.46 | $0.37 | $<mark>0.28</mark>
+Merger expenses | — | — | — | 0.03 | 0.11
+Tax effect | — | </td></tr>
+<tr><td>4.20</td><td><b>0.26</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>| 0.03 | 0.11
+Tax effect | — | — | — | — | (0.02)
+Diluted EPS excluding merger expenses | <mark>0.26</mark> | 0.41 | 0.46 | 0.40 | 0.37
+(Gain)/loss on sale of investme</td></tr>
+<tr><td>4.21</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>| 0.11
+Tax effect | — | — | — | — | (0.02)
+Diluted EPS excluding merger expenses | 0.26 | <mark>0.41</mark> | 0.46 | 0.40 | 0.37
+(Gain)/loss on sale of investment secu</td></tr>
+<tr><td>4.22</td><td><b>0.46</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'>Tax effect | — | — | — | — | (0.02)
+Diluted EPS excluding merger expenses | 0.26 | 0.41 | <mark>0.46</mark> | 0.40 | 0.37
+(Gain)/loss on sale of investment securities </td></tr>
+<tr><td>4.23</td><td><b>0.40</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.4</td><td class='ctx'>ect | — | — | — | — | (0.02)
+Diluted EPS excluding merger expenses | 0.26 | 0.41 | 0.46 | <mark>0.40</mark> | 0.37
+(Gain)/loss on sale of investment securities | (0.01</td></tr>
+<tr><td>4.24</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'> | — | — | — | (0.02)
+Diluted EPS excluding merger expenses | 0.26 | 0.41 | 0.46 | 0.40 | <mark>0.37</mark>
+(Gain)/loss on sale of investment securities | (0.01) | — |</td></tr>
+<tr><td>4.25</td><td><b>0.25</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.25</td><td class='ctx'>x effect | — | — | — | — | —
+Diluted EPS excluding (gain)/loss on investment securities | <mark>0.25</mark> | 0.41 | 0.46 | 0.40 | 0.37
+Death benefit on BOLI | (0.01) </td></tr>
+<tr><td>4.26</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>t | — | — | — | — | —
+Diluted EPS excluding (gain)/loss on investment securities | 0.25 | <mark>0.41</mark> | 0.46 | 0.40 | 0.37
+Death benefit on BOLI | (0.01) | — | (</td></tr>
+<tr><td>4.27</td><td><b>0.46</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'> — | — | — | —
+Diluted EPS excluding (gain)/loss on investment securities | 0.25 | 0.41 | <mark>0.46</mark> | 0.40 | 0.37
+Death benefit on BOLI | (0.01) | — | (0.01) |</td></tr>
+<tr><td>4.28</td><td><b>0.40</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.4</td><td class='ctx'>| — | —
+Diluted EPS excluding (gain)/loss on investment securities | 0.25 | 0.41 | 0.46 | <mark>0.40</mark> | 0.37
+Death benefit on BOLI | (0.01) | — | (0.01) | (0.01)</td></tr>
+<tr><td>4.29</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'>
+Diluted EPS excluding (gain)/loss on investment securities | 0.25 | 0.41 | 0.46 | 0.40 | <mark>0.37</mark>
+Death benefit on BOLI | (0.01) | — | (0.01) | (0.01) | —
+Di</td></tr>
+<tr><td>4.30</td><td><b>0.24</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.24</td><td class='ctx'> on BOLI | (0.01) | — | (0.01) | (0.01) | —
+Diluted EPS excluding death benefit on BOLI | <mark>0.24</mark> | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.4</td></tr>
+<tr><td>4.31</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>I | (0.01) | — | (0.01) | (0.01) | —
+Diluted EPS excluding death benefit on BOLI | 0.24 | <mark>0.41</mark> | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $0.</td></tr>
+<tr><td>4.32</td><td><b>0.45</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.45</td><td class='ctx'>01) | — | (0.01) | (0.01) | —
+Diluted EPS excluding death benefit on BOLI | 0.24 | 0.41 | <mark>0.45</mark> | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $0.45 | $0</td></tr>
+<tr><td>4.33</td><td><b>0.39</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.39</td><td class='ctx'> | (0.01) | (0.01) | —
+Diluted EPS excluding death benefit on BOLI | 0.24 | 0.41 | 0.45 | <mark>0.39</mark> | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $0.45 | $0.39 | $</td></tr>
+<tr><td>4.34</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'>1) | (0.01) | —
+Diluted EPS excluding death benefit on BOLI | 0.24 | 0.41 | 0.45 | 0.39 | <mark>0.37</mark>
+Core Diluted EPS | $0.24 | $0.41 | $0.45 | $0.39 | $0.37
+5
+</td></tr>
+<tr><td>4.35</td><td><b>0.24</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>0.24</td><td class='ctx'>PS excluding death benefit on BOLI | 0.24 | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $<mark>0.24</mark> | $0.41 | $0.45 | $0.39 | $0.37
+5
+Horizon Bancorp, Inc. Ann</td></tr>
+<tr><td>4.36</td><td><b>0.41</b></td><td>NON_GAAP</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>ding death benefit on BOLI | 0.24 | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $<mark>0.41</mark> | $0.45 | $0.39 | $0.37
+5
+Horizon Bancorp, Inc. Announces F</td></tr>
+<tr><td>4.37</td><td><b>0.45</b></td><td>NON_GAAP</td><td>other</td><td>Q3 2019</td><td>0.45</td><td class='ctx'>th benefit on BOLI | 0.24 | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $<mark>0.45</mark> | $0.39 | $0.37
+5
+Horizon Bancorp, Inc. Announces First Qua</td></tr>
+<tr><td>4.38</td><td><b>0.39</b></td><td>NON_GAAP</td><td>other</td><td>Q2 2019</td><td>0.39</td><td class='ctx'>it on BOLI | 0.24 | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $0.45 | $<mark>0.39</mark> | $0.37
+5
+Horizon Bancorp, Inc. Announces First Quarter 202</td></tr>
+<tr><td>4.39</td><td><b>0.37</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.37</td><td class='ctx'>LI | 0.24 | 0.41 | 0.45 | 0.39 | 0.37
+Core Diluted EPS | $0.24 | $0.41 | $0.45 | $0.39 | $<mark>0.37</mark>
+5
+Horizon Bancorp, Inc. Announces First Quarter 2020 Financ</td></tr>
+<tr><td>4.40</td><td><b>0.26</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>1,655 | $18,543 | $20,537 | $16,642 | $10,816
+Per share data:
+Basic earnings per share | $<mark>0.26</mark> | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share </td></tr>
+<tr><td>4.41</td><td><b>0.41</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>$18,543 | $20,537 | $16,642 | $10,816
+Per share data:
+Basic earnings per share | $0.26 | $<mark>0.41</mark> | $0.46 | $0.37 | $0.28
+Diluted earnings per share | 0.26 |</td></tr>
+<tr><td>4.42</td><td><b>0.46</b></td><td>GAAP_BASIC</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'>| $20,537 | $16,642 | $10,816
+Per share data:
+Basic earnings per share | $0.26 | $0.41 | $<mark>0.46</mark> | $0.37 | $0.28
+Diluted earnings per share | 0.26 | 0.41 | </td></tr>
+<tr><td>4.43</td><td><b>0.37</b></td><td>GAAP_BASIC</td><td>other</td><td>Q2 2019</td><td>0.37</td><td class='ctx'>7 | $16,642 | $10,816
+Per share data:
+Basic earnings per share | $0.26 | $0.41 | $0.46 | $<mark>0.37</mark> | $0.28
+Diluted earnings per share | 0.26 | 0.41 | 0.46 | 0</td></tr>
+<tr><td>4.44</td><td><b>0.28</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'>642 | $10,816
+Per share data:
+Basic earnings per share | $0.26 | $0.41 | $0.46 | $0.37 | $<mark>0.28</mark>
+Diluted earnings per share | 0.26 | 0.41 | 0.46 | 0.37 | 0.</td></tr>
+<tr><td>4.45</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>c earnings per share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share | <mark>0.26</mark> | 0.41 | 0.46 | 0.37 | 0.28
+Cash dividends declared per com</td></tr>
+<tr><td>4.46</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>ngs per share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share | 0.26 | <mark>0.41</mark> | 0.46 | 0.37 | 0.28
+Cash dividends declared per common sha</td></tr>
+<tr><td>4.47</td><td><b>0.46</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'> share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share | 0.26 | 0.41 | <mark>0.46</mark> | 0.37 | 0.28
+Cash dividends declared per common share | 0.</td></tr>
+<tr><td>4.48</td><td><b>0.37</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q2 2019</td><td>0.37</td><td class='ctx'>| $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share | 0.26 | 0.41 | 0.46 | <mark>0.37</mark> | 0.28
+Cash dividends declared per common share | 0.12 | 0.</td></tr>
+<tr><td>4.49</td><td><b>0.28</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'> | $0.41 | $0.46 | $0.37 | $0.28
+Diluted earnings per share | 0.26 | 0.41 | 0.46 | 0.37 | <mark>0.28</mark>
+Cash dividends declared per common share | 0.12 | 0.12 | 0.</td></tr>
+<tr><td>4.50</td><td><b>0.26</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>
+Net Income | $11,655 | $18,543 | $20,537 | $16,642 | $10,816
+Basic Earnings Per Share | $<mark>0.26</mark> | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share </td></tr>
+<tr><td>4.51</td><td><b>0.41</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>ome | $11,655 | $18,543 | $20,537 | $16,642 | $10,816
+Basic Earnings Per Share | $0.26 | $<mark>0.41</mark> | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 |</td></tr>
+<tr><td>4.52</td><td><b>0.46</b></td><td>GAAP_BASIC</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'>1,655 | $18,543 | $20,537 | $16,642 | $10,816
+Basic Earnings Per Share | $0.26 | $0.41 | $<mark>0.46</mark> | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 | 0.41 | </td></tr>
+<tr><td>4.53</td><td><b>0.37</b></td><td>GAAP_BASIC</td><td>other</td><td>Q2 2019</td><td>0.37</td><td class='ctx'>$18,543 | $20,537 | $16,642 | $10,816
+Basic Earnings Per Share | $0.26 | $0.41 | $0.46 | $<mark>0.37</mark> | $0.28
+Diluted Earnings Per Share | 0.26 | 0.41 | 0.46 | 0</td></tr>
+<tr><td>4.54</td><td><b>0.28</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'>| $20,537 | $16,642 | $10,816
+Basic Earnings Per Share | $0.26 | $0.41 | $0.46 | $0.37 | $<mark>0.28</mark>
+Diluted Earnings Per Share | 0.26 | 0.41 | 0.46 | 0.37 | 0.</td></tr>
+<tr><td>4.55</td><td><b>0.26</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.26</td><td class='ctx'>c Earnings Per Share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | <mark>0.26</mark> | 0.41 | 0.46 | 0.37 | 0.28
+18</td></tr>
+<tr><td>4.56</td><td><b>0.41</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.41</td><td class='ctx'>ngs Per Share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 | <mark>0.41</mark> | 0.46 | 0.37 | 0.28
+18</td></tr>
+<tr><td>4.57</td><td><b>0.46</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q3 2019</td><td>0.46</td><td class='ctx'> Share | $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 | 0.41 | <mark>0.46</mark> | 0.37 | 0.28
+18</td></tr>
+<tr><td>4.58</td><td><b>0.37</b></td><td>GAAP_DILUTED</td><td>other</td><td>Q2 2019</td><td>0.37</td><td class='ctx'>| $0.26 | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 | 0.41 | 0.46 | <mark>0.37</mark> | 0.28
+18</td></tr>
+<tr><td>4.59</td><td><b>0.28</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.28</td><td class='ctx'> | $0.41 | $0.46 | $0.37 | $0.28
+Diluted Earnings Per Share | 0.26 | 0.41 | 0.46 | 0.37 | <mark>0.28</mark>
+18</td></tr>
+</table>
+<h2>5. BRIDGE BANCORP, INC. <small>(0000846617-20-000024)</small></h2><p class=''>Anchor (10-Q): 0.47 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.47 | mentions: 9 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>5.1</td><td><b>0.47</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.47</td><td class='ctx'>inancial results included:
+· | Net income for the 2020 first quarter of $9.3 million, or $<mark>0.47</mark> per diluted share.
+· | Net interest income for the 2020 fir</td></tr>
+<tr><td>5.2</td><td><b>0.47</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.47</td><td class='ctx'>ses.”
+Net Earnings and Returns
+Net income in the 2020 first quarter was $9.3 million, or $<mark>0.47</mark> per diluted share, a decrease of $3.6 million compared to t</td></tr>
+<tr><td>5.3</td><td><b>0.47</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.47</td><td class='ctx'>tangible common equity was 9.59% for the 2020 first quarter.
+“Our reported net income of $<mark>0.47</mark> per diluted share was impacted by a higher provision for cr</td></tr>
+<tr><td>5.4</td><td><b>0.47</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>0.47</td><td class='ctx'>e common shares outstanding | 19,532 | 19,538 | 19,500
+Basic earnings per common share | $<mark>0.47</mark> | $0.71 | $0.65
+Weighted average common shares outstanding </td></tr>
+<tr><td>5.5</td><td><b>0.71</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>Q4 2019</td><td>0.71</td><td class='ctx'> shares outstanding | 19,532 | 19,538 | 19,500
+Basic earnings per common share | $0.47 | $<mark>0.71</mark> | $0.65
+Weighted average common shares outstanding | 19,532</td></tr>
+<tr><td>5.6</td><td><b>0.65</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.65</td><td class='ctx'>outstanding | 19,532 | 19,538 | 19,500
+Basic earnings per common share | $0.47 | $0.71 | $<mark>0.65</mark>
+Weighted average common shares outstanding | 19,532 | 19,53</td></tr>
+<tr><td>5.7</td><td><b>0.47</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.47</td><td class='ctx'>valent shares outstanding | 19,566 | 19,578 | 19,526
+Diluted earnings per common share | $<mark>0.47</mark> | $0.71 | $0.65
+BRIDGE BANCORP, INC. AND SUBSIDIARIES
+Conso</td></tr>
+<tr><td>5.8</td><td><b>0.71</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>Q4 2019</td><td>0.71</td><td class='ctx'>hares outstanding | 19,566 | 19,578 | 19,526
+Diluted earnings per common share | $0.47 | $<mark>0.71</mark> | $0.65
+BRIDGE BANCORP, INC. AND SUBSIDIARIES
+Consolidated </td></tr>
+<tr><td>5.9</td><td><b>0.65</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.65</td><td class='ctx'>tstanding | 19,566 | 19,578 | 19,526
+Diluted earnings per common share | $0.47 | $0.71 | $<mark>0.65</mark>
+BRIDGE BANCORP, INC. AND SUBSIDIARIES
+Consolidated Financia</td></tr>
+</table>
+<h2>6. HARTFORD FINANCIAL SERVICES GROUP, INC. <small>(0000874766-20-000033)</small></h2><p class=''>Anchor (10-Q): 0.74 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.74 | mentions: 12 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>6.1</td><td><b>0.74</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.74</td><td class='ctx'>D-19
+• | First quarter 2020 net income available to common stockholders of $268 million ($<mark>0.74</mark> per diluted share) decreased 57% from first quarter 2019, a</td></tr>
+<tr><td>6.2</td><td><b>1.34</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>1.34</td><td class='ctx'>st quarter 2019, and core earnings* of $485 million (core earnings per diluted share* of $<mark>1.34</mark>) declined 4% from first quarter 2019
+• | Net income ROE for</td></tr>
+<tr><td>6.3</td><td><b>0.74</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.74</td><td class='ctx'>s | $268 | $625 | (57)%
+Net income available to common stockholders per diluted share2 | $<mark>0.74</mark> | $1.71 | (57)%
+Core earnings | $485 | $507 | (4)%
+Core ear</td></tr>
+<tr><td>6.4</td><td><b>1.71</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.71</td><td class='ctx'> | $625 | (57)%
+Net income available to common stockholders per diluted share2 | $0.74 | $<mark>1.71</mark> | (57)%
+Core earnings | $485 | $507 | (4)%
+Core earnings pe</td></tr>
+<tr><td>6.5</td><td><b>1.34</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>1.34</td><td class='ctx'>.74 | $1.71 | (57)%
+Core earnings | $485 | $507 | (4)%
+Core earnings per diluted share | $<mark>1.34</mark> | $1.39 | (4)%
+Book value per diluted share | $41.42 | $38.</td></tr>
+<tr><td>6.6</td><td><b>1.39</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.39</td><td class='ctx'>.71 | (57)%
+Core earnings | $485 | $507 | (4)%
+Core earnings per diluted share | $1.34 | $<mark>1.39</mark> | (4)%
+Book value per diluted share | $41.42 | $38.36 | 8%
+</td></tr>
+<tr><td>6.7</td><td><b>0.74</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.74</td><td class='ctx'>AOCI
+First quarter 2020 net income available to common stockholders was $268 million, or $<mark>0.74</mark> per diluted share, down 57% from first quarter 2019. The de</td></tr>
+<tr><td>6.8</td><td><b>1.34</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>1.34</td><td class='ctx'>ognized as a deferred gain on retroactive reinsurance.
+Core earnings of $485 million, or $<mark>1.34</mark> per diluted share, declined 4% from first quarter 2019, pri</td></tr>
+<tr><td>6.9</td><td><b>0.74</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>0.74</td><td class='ctx'>uted earnings per common share:
+Net income available to common stockholders per share1 | $<mark>0.74</mark> | $1.71 | (57)%
+Adjustment made to reconcile net income ava</td></tr>
+<tr><td>6.10</td><td><b>1.71</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.71</td><td class='ctx'>nings per common share:
+Net income available to common stockholders per share1 | $0.74 | $<mark>1.71</mark> | (57)%
+Adjustment made to reconcile net income available t</td></tr>
+<tr><td>6.11</td><td><b>1.34</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>1.34</td><td class='ctx'>fit) on items excluded from core earnings | (0.16) | 0.09 | NM
+Core earnings per share | $<mark>1.34</mark> | $1.39 | (4)%
+[1] Net income (loss) available to common st</td></tr>
+<tr><td>6.12</td><td><b>1.39</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.39</td><td class='ctx'>items excluded from core earnings | (0.16) | 0.09 | NM
+Core earnings per share | $1.34 | $<mark>1.39</mark> | (4)%
+[1] Net income (loss) available to common stockholde</td></tr>
+</table>
+<h2>7. VERTEX PHARMACEUTICALS INC / MA <small>(0000875320-20-000014)</small></h2><p class=''>Anchor (10-Q): 2.29 (us-gaap:EarningsPerShareDiluted) | Model primary: 2.29 | mentions: 12 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>7.1</td><td><b>2.29</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>2.29</td><td class='ctx'>69 | 124%
+Non-GAAP Net income | $674 | $296 | 128%
+GAAP Net income per share - diluted | $<mark>2.29</mark> | $1.03 | 122%
+Non-GAAP Net income per share - diluted | $2</td></tr>
+<tr><td>7.2</td><td><b>1.03</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.03</td><td class='ctx'>%
+Non-GAAP Net income | $674 | $296 | 128%
+GAAP Net income per share - diluted | $2.29 | $<mark>1.03</mark> | 122%
+Non-GAAP Net income per share - diluted | $2.56 | $1</td></tr>
+<tr><td>7.3</td><td><b>2.56</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>2.56</td><td class='ctx'>ome per share - diluted | $2.29 | $1.03 | 122%
+Non-GAAP Net income per share - diluted | $<mark>2.56</mark> | $1.14 | 125%
+1
+Total product revenues increased 77% compa</td></tr>
+<tr><td>7.4</td><td><b>1.14</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.14</td><td class='ctx'>share - diluted | $2.29 | $1.03 | 122%
+Non-GAAP Net income per share - diluted | $2.56 | $<mark>1.14</mark> | 125%
+1
+Total product revenues increased 77% compared to t</td></tr>
+<tr><td>7.5</td><td><b>2.32</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>2.32</td><td class='ctx'> | 54,781 | 51,534
+Net income | $602,753 | $268,631
+Net income per common share:
+Basic | $<mark>2.32</mark> | $1.05
+Diluted | $2.29 | $1.03
+Shares used in per share ca</td></tr>
+<tr><td>7.6</td><td><b>1.05</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.05</td><td class='ctx'>1 | 51,534
+Net income | $602,753 | $268,631
+Net income per common share:
+Basic | $2.32 | $<mark>1.05</mark>
+Diluted | $2.29 | $1.03
+Shares used in per share calculatio</td></tr>
+<tr><td>7.7</td><td><b>2.29</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>2.29</td><td class='ctx'>ncome | $602,753 | $268,631
+Net income per common share:
+Basic | $2.32 | $1.05
+Diluted | $<mark>2.29</mark> | $1.03
+Shares used in per share calculations:
+Basic | 259,</td></tr>
+<tr><td>7.8</td><td><b>1.03</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.03</td><td class='ctx'>$602,753 | $268,631
+Net income per common share:
+Basic | $2.32 | $1.05
+Diluted | $2.29 | $<mark>1.03</mark>
+Shares used in per share calculations:
+Basic | 259,815 | 25</td></tr>
+<tr><td>7.9</td><td><b>2.29</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>2.29</td><td class='ctx'>2)
+Non-GAAP net income | $674,454 | $295,830
+Net income per diluted common share:
+GAAP | $<mark>2.29</mark> | $1.03
+Non-GAAP | $2.56 | $1.14
+Shares used in diluted per</td></tr>
+<tr><td>7.10</td><td><b>1.03</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.03</td><td class='ctx'>AAP net income | $674,454 | $295,830
+Net income per diluted common share:
+GAAP | $2.29 | $<mark>1.03</mark>
+Non-GAAP | $2.56 | $1.14
+Shares used in diluted per share c</td></tr>
+<tr><td>7.11</td><td><b>2.56</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q1 2020</td><td>2.56</td><td class='ctx'>$674,454 | $295,830
+Net income per diluted common share:
+GAAP | $2.29 | $1.03
+Non-GAAP | $<mark>2.56</mark> | $1.14
+Shares used in diluted per share calculations:
+GAAP</td></tr>
+<tr><td>7.12</td><td><b>1.14</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q1 2019</td><td>1.14</td><td class='ctx'> | $295,830
+Net income per diluted common share:
+GAAP | $2.29 | $1.03
+Non-GAAP | $2.56 | $<mark>1.14</mark>
+Shares used in diluted per share calculations:
+GAAP and Non</td></tr>
+</table>
+<h2>8. SiteOne Landscape Supply, Inc. <small>(0001104659-20-052683)</small></h2><p class=''>Anchor (10-Q): -0.42 (us-gaap:EarningsPerShareDiluted) | Model primary: -0.42 | mentions: 4 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>8.1</td><td><b>0.42</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>-0.42</td><td class='ctx'>enefit | (13.5) | (9.6)
+Net loss | $(17.5) | $(24.1)
+Net loss per common share:
+Basic | $(<mark>0.42</mark>) | $(0.59)
+Diluted | $(0.42) | $(0.59)
+Weighted average num</td></tr>
+<tr><td>8.2</td><td><b>0.59</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>-0.59</td><td class='ctx'>13.5) | (9.6)
+Net loss | $(17.5) | $(24.1)
+Net loss per common share:
+Basic | $(0.42) | $(<mark>0.59</mark>)
+Diluted | $(0.42) | $(0.59)
+Weighted average number of com</td></tr>
+<tr><td>8.3</td><td><b>0.42</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>-0.42</td><td class='ctx'>loss | $(17.5) | $(24.1)
+Net loss per common share:
+Basic | $(0.42) | $(0.59)
+Diluted | $(<mark>0.42</mark>) | $(0.59)
+Weighted average number of common shares outstan</td></tr>
+<tr><td>8.4</td><td><b>0.59</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>-0.59</td><td class='ctx'>7.5) | $(24.1)
+Net loss per common share:
+Basic | $(0.42) | $(0.59)
+Diluted | $(0.42) | $(<mark>0.59</mark>)
+Weighted average number of common shares outstanding:
+Basi</td></tr>
+</table>
+<h2>9. MDC PARTNERS INC <small>(0001104659-20-052792)</small></h2><p class=''>Anchor (10-Q): None (unanchored) | Model primary: -0.03 | mentions: 6 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>9.1</td><td><b>0.03</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>-0.03</td><td class='ctx'>share attributable to MDC Partners common shareholders for the first quarter of 2020 was $<mark>0.03</mark> versus diluted loss
+per share of $0.04 for the first quarte</td></tr>
+<tr><td>9.2</td><td><b>0.04</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>-0.04</td><td class='ctx'>on shareholders for the first quarter of 2020 was $0.03 versus diluted loss
+per share of $<mark>0.04</mark> for the first quarter of
+2019.
+Adjusted EBITDA for the firs</td></tr>
+<tr><td>9.3</td><td><b>0.03</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>-0.03</td><td class='ctx'>er Common Share:
+Basic
+Net loss attributable to MDC Partners Inc. common shareholders | $(<mark>0.03</mark>) | $(0.04)
+Diluted
+Net loss attributable to MDC Partners In</td></tr>
+<tr><td>9.4</td><td><b>0.04</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>-0.04</td><td class='ctx'>Share:
+Basic
+Net loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(<mark>0.04</mark>)
+Diluted
+Net loss attributable to MDC Partners Inc. common </td></tr>
+<tr><td>9.5</td><td><b>0.03</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>-0.03</td><td class='ctx'>.03) | $(0.04)
+Diluted
+Net loss attributable to MDC Partners Inc. common shareholders | $(<mark>0.03</mark>) | $(0.04)
+Weighted Average Number of Common Shares Outstan</td></tr>
+<tr><td>9.6</td><td><b>0.04</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>-0.04</td><td class='ctx'>.04)
+Diluted
+Net loss attributable to MDC Partners Inc. common shareholders | $(0.03) | $(<mark>0.04</mark>)
+Weighted Average Number of Common Shares Outstanding:
+Basi</td></tr>
+</table>
+<h2>10. TETRA TECH INC <small>(0001104659-20-053534)</small></h2><p class=''>Anchor (10-Q): 0.66 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.66 | mentions: 22 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>10.1</td><td><b>0.66</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.66</td><td class='ctx'>Quarter 2020
+Results
+· | Revenue of $734 million and Net Revenue of $584 million
+· | EPS $<mark>0.66</mark>; Adjusted EPS $0.73
+· | Increased quarterly dividend by 13%</td></tr>
+<tr><td>10.2</td><td><b>0.73</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.73</td><td class='ctx'>
+· | Revenue of $734 million and Net Revenue of $584 million
+· | EPS $0.66; Adjusted EPS $<mark>0.73</mark>
+· | Increased quarterly dividend by 13% to $0.17
+Pasadena, </td></tr>
+<tr><td>10.3</td><td><b>0.66</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.66</td><td class='ctx'>ed
+revenue1 totaled $740 million and adjusted net revenue1 totaled $590 million. EPS was $<mark>0.66</mark> on a GAAP
+basis, down 34% year-over-year primarily due to a</td></tr>
+<tr><td>10.4</td><td><b>0.73</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.73</td><td class='ctx'>non-recurring tax benefit amounting to $0.39 of EPS in the prior year.
+Adjusted EPS1 was $<mark>0.73</mark>, up 4% year-over-year. Backlog at the end of the quarter in</td></tr>
+<tr><td>10.5</td><td><b>1.51</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.51</td><td class='ctx'>scal 2019. Operating income
+for the six-month period was $111 million, up 7% and EPS was $<mark>1.51</mark>, down 13% compared to the same period in fiscal 2019, prima</td></tr>
+<tr><td>10.6</td><td><b>1.57</b></td><td>NON_GAAP</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.57</td><td class='ctx'>recurring tax benefits amounting to $0.43 of EPS in the prior year. Adjusted EPS totaled $<mark>1.57</mark>, up 12% year-over-year.
+Liquidity and Capital Allocation
+As</td></tr>
+<tr><td>10.7</td><td><b>0.66</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.66</td><td class='ctx'>165
+Adjusted Net Revenue | $590,145 | $590,125 | 0% | $1,204,167 | $1,142,912 | 5%
+EPS | $<mark>0.66</mark> | $1.00 | (34%) | $1.51 | $1.74 | (13%)
+Non-core Equipment </td></tr>
+<tr><td>10.8</td><td><b>1.00</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.0</td><td class='ctx'>sted Net Revenue | $590,145 | $590,125 | 0% | $1,204,167 | $1,142,912 | 5%
+EPS | $0.66 | $<mark>1.00</mark> | (34%) | $1.51 | $1.74 | (13%)
+Non-core Equipment Disposit</td></tr>
+<tr><td>10.9</td><td><b>1.51</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.51</td><td class='ctx'> | $590,145 | $590,125 | 0% | $1,204,167 | $1,142,912 | 5%
+EPS | $0.66 | $1.00 | (34%) | $<mark>1.51</mark> | $1.74 | (13%)
+Non-core Equipment Disposition | (0.03) | -</td></tr>
+<tr><td>10.10</td><td><b>1.74</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>1.74</td><td class='ctx'>145 | $590,125 | 0% | $1,204,167 | $1,142,912 | 5%
+EPS | $0.66 | $1.00 | (34%) | $1.51 | $<mark>1.74</mark> | (13%)
+Non-core Equipment Disposition | (0.03) | - | (0.04</td></tr>
+<tr><td>10.11</td><td><b>0.73</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.73</td><td class='ctx'> - | 0.08 | - | 0.08
+Non-recurring Tax Benefits | - | (0.39) | - | (0.43)
+Adjusted EPS | $<mark>0.73</mark> | $0.70 | 4% | $1.57 | $1.40 | 12%
+March 29, 2020
+Current P</td></tr>
+<tr><td>10.12</td><td><b>0.70</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>0.7</td><td class='ctx'>8 | - | 0.08
+Non-recurring Tax Benefits | - | (0.39) | - | (0.43)
+Adjusted EPS | $0.73 | $<mark>0.70</mark> | 4% | $1.57 | $1.40 | 12%
+March 29, 2020
+Current Portion o</td></tr>
+<tr><td>10.13</td><td><b>1.57</b></td><td>NON_GAAP</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.57</td><td class='ctx'>Non-recurring Tax Benefits | - | (0.39) | - | (0.43)
+Adjusted EPS | $0.73 | $0.70 | 4% | $<mark>1.57</mark> | $1.40 | 12%
+March 29, 2020
+Current Portion of Long-term D</td></tr>
+<tr><td>10.14</td><td><b>1.40</b></td><td>NON_GAAP</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>1.4</td><td class='ctx'>rring Tax Benefits | - | (0.39) | - | (0.43)
+Adjusted EPS | $0.73 | $0.70 | 4% | $1.57 | $<mark>1.40</mark> | 12%
+March 29, 2020
+Current Portion of Long-term Debt | $1</td></tr>
+<tr><td>10.15</td><td><b>0.67</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.67</td><td class='ctx'>397 | $55,911 | $83,707 | $97,907
+Earnings per share attributable to Tetra Tech:
+Basic | $<mark>0.67</mark> | $1.01 | $1.53 | $1.77
+Diluted | $0.66 | $1.00 | $1.51 | $</td></tr>
+<tr><td>10.16</td><td><b>1.01</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.01</td><td class='ctx'>5,911 | $83,707 | $97,907
+Earnings per share attributable to Tetra Tech:
+Basic | $0.67 | $<mark>1.01</mark> | $1.53 | $1.77
+Diluted | $0.66 | $1.00 | $1.51 | $1.74
+Wei</td></tr>
+<tr><td>10.17</td><td><b>1.53</b></td><td>GAAP_BASIC</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.53</td><td class='ctx'>$83,707 | $97,907
+Earnings per share attributable to Tetra Tech:
+Basic | $0.67 | $1.01 | $<mark>1.53</mark> | $1.77
+Diluted | $0.66 | $1.00 | $1.51 | $1.74
+Weighted-av</td></tr>
+<tr><td>10.18</td><td><b>1.77</b></td><td>GAAP_BASIC</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>1.77</td><td class='ctx'>| $97,907
+Earnings per share attributable to Tetra Tech:
+Basic | $0.67 | $1.01 | $1.53 | $<mark>1.77</mark>
+Diluted | $0.66 | $1.00 | $1.51 | $1.74
+Weighted-average co</td></tr>
+<tr><td>10.19</td><td><b>0.66</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>0.66</td><td class='ctx'>gs per share attributable to Tetra Tech:
+Basic | $0.67 | $1.01 | $1.53 | $1.77
+Diluted | $<mark>0.66</mark> | $1.00 | $1.51 | $1.74
+Weighted-average common shares outs</td></tr>
+<tr><td>10.20</td><td><b>1.00</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.0</td><td class='ctx'>hare attributable to Tetra Tech:
+Basic | $0.67 | $1.01 | $1.53 | $1.77
+Diluted | $0.66 | $<mark>1.00</mark> | $1.51 | $1.74
+Weighted-average common shares outstanding:</td></tr>
+<tr><td>10.21</td><td><b>1.51</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>six months ended March 29, 2020</td><td>1.51</td><td class='ctx'>ributable to Tetra Tech:
+Basic | $0.67 | $1.01 | $1.53 | $1.77
+Diluted | $0.66 | $1.00 | $<mark>1.51</mark> | $1.74
+Weighted-average common shares outstanding:
+Basic |</td></tr>
+<tr><td>10.22</td><td><b>1.74</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>1.74</td><td class='ctx'>e to Tetra Tech:
+Basic | $0.67 | $1.01 | $1.53 | $1.77
+Diluted | $0.66 | $1.00 | $1.51 | $<mark>1.74</mark>
+Weighted-average common shares outstanding:
+Basic | 54,699 </td></tr>
+</table>
+<h2>11. HomeTrust Bancshares, Inc. <small>(0001538263-20-000014)</small></h2><p class=''>Anchor (10-Q): 0.07 (us-gaap:EarningsPerShareDiluted) | Model primary: 0.07 | mentions: 14 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>11.1</td><td><b>0.07</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q3 fiscal 2020 (quarter ended March 31, 2020)</td><td>0.07</td><td class='ctx'>come was $1.2 million, compared to $3.3 million;
+•diluted earnings per share (&quot;EPS&quot;) was $<mark>0.07</mark>, compared to $0.18;
+•return on assets (&quot;ROA&quot;) was 0.14%, co</td></tr>
+<tr><td>11.2</td><td><b>0.18</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q3 fiscal 2019 (quarter ended March 31, 2019)</td><td>0.18</td><td class='ctx'>on, compared to $3.3 million;
+•diluted earnings per share (&quot;EPS&quot;) was $0.07, compared to $<mark>0.18</mark>;
+•return on assets (&quot;ROA&quot;) was 0.14%, compared to 0.39%;
+•r</td></tr>
+<tr><td>11.3</td><td><b>1.08</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>nine months ended March 31, 2020</td><td>1.08</td><td class='ctx'>in the previous year:
+•net income was $19.2 million, compared to $19.1 million;
+•EPS was $<mark>1.08</mark>, compared to $1.02;
+•ROA was 0.72%, compared to 0.76%;
+•ROE</td></tr>
+<tr><td>11.4</td><td><b>1.02</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>nine months ended March 31, 2019</td><td>1.02</td><td class='ctx'>r:
+•net income was $19.2 million, compared to $19.1 million;
+•EPS was $1.08, compared to $<mark>1.02</mark>;
+•ROA was 0.72%, compared to 0.76%;
+•ROE was 6.19%, compare</td></tr>
+<tr><td>11.5</td><td><b>0.07</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>three months ended March 31, 2020</td><td>0.07</td><td class='ctx'>31, | March 31,
+2020 | 2019 | 2019 | 2020 | 2019
+Net income per common share:(1)
+Basic | $<mark>0.07</mark> | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $</td></tr>
+<tr><td>11.6</td><td><b>0.54</b></td><td>GAAP_BASIC</td><td>prior_quarter</td><td>three months ended December 31, 2019</td><td>0.54</td><td class='ctx'>rch 31,
+2020 | 2019 | 2019 | 2020 | 2019
+Net income per common share:(1)
+Basic | $0.07 | $<mark>0.54</mark> | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $0.18 | $</td></tr>
+<tr><td>11.7</td><td><b>0.19</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>three months ended March 31, 2019</td><td>0.19</td><td class='ctx'>2020 | 2019 | 2019 | 2020 | 2019
+Net income per common share:(1)
+Basic | $0.07 | $0.54 | $<mark>0.19</mark> | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $0.18 | $1.08 | $</td></tr>
+<tr><td>11.8</td><td><b>1.12</b></td><td>GAAP_BASIC</td><td>current_ytd</td><td>nine months ended March 31, 2020</td><td>1.12</td><td class='ctx'>019 | 2019 | 2020 | 2019
+Net income per common share:(1)
+Basic | $0.07 | $0.54 | $0.19 | $<mark>1.12</mark> | $1.07
+Diluted | $0.07 | $0.52 | $0.18 | $1.08 | $1.02
+Ave</td></tr>
+<tr><td>11.9</td><td><b>1.07</b></td><td>GAAP_BASIC</td><td>prior_ytd</td><td>nine months ended March 31, 2019</td><td>1.07</td><td class='ctx'>19 | 2020 | 2019
+Net income per common share:(1)
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $<mark>1.07</mark>
+Diluted | $0.07 | $0.52 | $0.18 | $1.08 | $1.02
+Average sha</td></tr>
+<tr><td>11.10</td><td><b>0.07</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>three months ended March 31, 2020</td><td>0.07</td><td class='ctx'>
+Net income per common share:(1)
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $<mark>0.07</mark> | $0.52 | $0.18 | $1.08 | $1.02
+Average shares outstanding:</td></tr>
+<tr><td>11.11</td><td><b>0.52</b></td><td>GAAP_DILUTED</td><td>prior_quarter</td><td>three months ended December 31, 2019</td><td>0.52</td><td class='ctx'>ome per common share:(1)
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $<mark>0.52</mark> | $0.18 | $1.08 | $1.02
+Average shares outstanding:
+Basic |</td></tr>
+<tr><td>11.12</td><td><b>0.18</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>three months ended March 31, 2019</td><td>0.18</td><td class='ctx'>common share:(1)
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $<mark>0.18</mark> | $1.08 | $1.02
+Average shares outstanding:
+Basic | 16,688,</td></tr>
+<tr><td>11.13</td><td><b>1.08</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>nine months ended March 31, 2020</td><td>1.08</td><td class='ctx'>hare:(1)
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $0.18 | $<mark>1.08</mark> | $1.02
+Average shares outstanding:
+Basic | 16,688,646 | 16</td></tr>
+<tr><td>11.14</td><td><b>1.02</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>nine months ended March 31, 2019</td><td>1.02</td><td class='ctx'>
+Basic | $0.07 | $0.54 | $0.19 | $1.12 | $1.07
+Diluted | $0.07 | $0.52 | $0.18 | $1.08 | $<mark>1.02</mark>
+Average shares outstanding:
+Basic | 16,688,646 | 16,906,457</td></tr>
+</table>
+<h2>12. SAIA INC <small>(0001564590-20-019431)</small></h2><p class=''>Anchor (10-Q): 1.06 (us-gaap:EarningsPerShareDiluted) | Model primary: 1.06 | mentions: 6 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>12.1</td><td><b>1.06</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>1.06</td><td class='ctx'>ted first quarter 2020 financial results. Diluted earnings per share in the quarter were $<mark>1.06</mark> compared to $0.85 in the first quarter of 2019.
+Highlights </td></tr>
+<tr><td>12.2</td><td><b>0.85</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.85</td><td class='ctx'>2020 financial results. Diluted earnings per share in the quarter were $1.06 compared to $<mark>0.85</mark> in the first quarter of 2019.
+Highlights from the first qua</td></tr>
+<tr><td>12.3</td><td><b>1.08</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q1 2020</td><td>1.08</td><td class='ctx'>Average common shares outstanding - diluted | 26,492 | 26,322
+Basic earnings per share | $<mark>1.08</mark> | $0.86
+Diluted earnings per share | $1.06 | $0.85
+Saia, In</td></tr>
+<tr><td>12.4</td><td><b>0.86</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.86</td><td class='ctx'>common shares outstanding - diluted | 26,492 | 26,322
+Basic earnings per share | $1.08 | $<mark>0.86</mark>
+Diluted earnings per share | $1.06 | $0.85
+Saia, Inc. and S</td></tr>
+<tr><td>12.5</td><td><b>1.06</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q1 2020</td><td>1.06</td><td class='ctx'> | 26,492 | 26,322
+Basic earnings per share | $1.08 | $0.86
+Diluted earnings per share | $<mark>1.06</mark> | $0.85
+Saia, Inc. and Subsidiaries
+Condensed Consolidated </td></tr>
+<tr><td>12.6</td><td><b>0.85</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q1 2019</td><td>0.85</td><td class='ctx'>2 | 26,322
+Basic earnings per share | $1.08 | $0.86
+Diluted earnings per share | $1.06 | $<mark>0.85</mark>
+Saia, Inc. and Subsidiaries
+Condensed Consolidated Statemen</td></tr>
+</table>
+<h2>13. FAIR ISAAC CORP <small>(0001564590-20-019755)</small></h2><p class=''>Anchor (10-Q): 1.94 (us-gaap:EarningsPerShareDiluted) | Model primary: 1.94 | mentions: 21 | Reason in batch: random sample (unflagged)</p>
+<table><tr><th>ID</th><th>Span</th><th>Type</th><th>Period kind</th><th>Period</th><th>Value</th><th>Context</th></tr>
+<tr><td>13.1</td><td><b>1.94</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>1.94</td><td class='ctx'> by reference in this Item 2.02.
+
+[EXHIBIT 99.1]
+Exhibit 99.1
+FICO Announces Earnings of $<mark>1.94</mark> per Share for
+Second Quarter Fiscal 2020
+Revenue of $308 mi</td></tr>
+<tr><td>13.2</td><td><b>1.94</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>1.94</td><td class='ctx'>nd Quarter Fiscal 2020 GAAP Results
+Net income for the quarter totaled $58.3 million, or $<mark>1.94</mark> per share, versus $33.4 million, or $1.10 per share, in the</td></tr>
+<tr><td>13.3</td><td><b>1.10</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.1</td><td class='ctx'>come for the quarter totaled $58.3 million, or $1.94 per share, versus $33.4 million, or $<mark>1.10</mark> per share, in the prior year period.
+Net cash provided by o</td></tr>
+<tr><td>13.4</td><td><b>2.14</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>2.14</td><td class='ctx'> million versus $47.3 million in the prior year period. Non-GAAP EPS for the quarter was $<mark>2.14</mark> versus $1.56 in the prior year period. Free cash flow for t</td></tr>
+<tr><td>13.5</td><td><b>1.56</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.56</td><td class='ctx'>us $47.3 million in the prior year period. Non-GAAP EPS for the quarter was $2.14 versus $<mark>1.56</mark> in the prior year period. Free cash flow for the quarter wa</td></tr>
+<tr><td>13.6</td><td><b>2.00</b></td><td>GAAP_BASIC</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>2.0</td><td class='ctx'>742
+Net income | $ 58,288 | $ 33,381 | $ 113,209 | $ 73,388
+Basic earnings per share: | $ <mark>2.00</mark> | $ 1.15 | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ </td></tr>
+<tr><td>13.7</td><td><b>1.15</b></td><td>GAAP_BASIC</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.15</td><td class='ctx'>ncome | $ 58,288 | $ 33,381 | $ 113,209 | $ 73,388
+Basic earnings per share: | $ 2.00 | $ <mark>1.15</mark> | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ 1.94 | $ </td></tr>
+<tr><td>13.8</td><td><b>3.89</b></td><td>GAAP_BASIC</td><td>current_ytd</td><td>six months ended March 31, 2020</td><td>3.89</td><td class='ctx'> 58,288 | $ 33,381 | $ 113,209 | $ 73,388
+Basic earnings per share: | $ 2.00 | $ 1.15 | $ <mark>3.89</mark> | $ 2.53
+Diluted earnings per share: | $ 1.94 | $ 1.10 | $ </td></tr>
+<tr><td>13.9</td><td><b>2.53</b></td><td>GAAP_BASIC</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>2.53</td><td class='ctx'> $ 33,381 | $ 113,209 | $ 73,388
+Basic earnings per share: | $ 2.00 | $ 1.15 | $ 3.89 | $ <mark>2.53</mark>
+Diluted earnings per share: | $ 1.94 | $ 1.10 | $ 3.76 | $ </td></tr>
+<tr><td>13.10</td><td><b>1.94</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>1.94</td><td class='ctx'>c earnings per share: | $ 2.00 | $ 1.15 | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ <mark>1.94</mark> | $ 1.10 | $ 3.76 | $ 2.42
+Shares used in computing earning</td></tr>
+<tr><td>13.11</td><td><b>1.10</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.1</td><td class='ctx'>s per share: | $ 2.00 | $ 1.15 | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ 1.94 | $ <mark>1.10</mark> | $ 3.76 | $ 2.42
+Shares used in computing earnings per sha</td></tr>
+<tr><td>13.12</td><td><b>3.76</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>six months ended March 31, 2020</td><td>3.76</td><td class='ctx'>re: | $ 2.00 | $ 1.15 | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ 1.94 | $ 1.10 | $ <mark>3.76</mark> | $ 2.42
+Shares used in computing earnings per share:
+Basic</td></tr>
+<tr><td>13.13</td><td><b>2.42</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>2.42</td><td class='ctx'>.00 | $ 1.15 | $ 3.89 | $ 2.53
+Diluted earnings per share: | $ 1.94 | $ 1.10 | $ 3.76 | $ <mark>2.42</mark>
+Shares used in computing earnings per share:
+Basic | 29,194</td></tr>
+<tr><td>13.14</td><td><b>1.94</b></td><td>GAAP_DILUTED</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>1.94</td><td class='ctx'>t income | $ 64,308 | $ 47,271 | $ 118,494 | $ 91,182
+GAAP diluted earnings per share | $ <mark>1.94</mark> | $ 1.10 | $ 3.76 | $ 2.42
+Amortization of intangible asset</td></tr>
+<tr><td>13.15</td><td><b>1.10</b></td><td>GAAP_DILUTED</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.1</td><td class='ctx'>| $ 64,308 | $ 47,271 | $ 118,494 | $ 91,182
+GAAP diluted earnings per share | $ 1.94 | $ <mark>1.10</mark> | $ 3.76 | $ 2.42
+Amortization of intangible assets | 0.04 </td></tr>
+<tr><td>13.16</td><td><b>3.76</b></td><td>GAAP_DILUTED</td><td>current_ytd</td><td>six months ended March 31, 2020</td><td>3.76</td><td class='ctx'>8 | $ 47,271 | $ 118,494 | $ 91,182
+GAAP diluted earnings per share | $ 1.94 | $ 1.10 | $ <mark>3.76</mark> | $ 2.42
+Amortization of intangible assets | 0.04 | 0.05 | </td></tr>
+<tr><td>13.17</td><td><b>2.42</b></td><td>GAAP_DILUTED</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>2.42</td><td class='ctx'>271 | $ 118,494 | $ 91,182
+GAAP diluted earnings per share | $ 1.94 | $ 1.10 | $ 3.76 | $ <mark>2.42</mark>
+Amortization of intangible assets | 0.04 | 0.05 | 0.10 | 0.</td></tr>
+<tr><td>13.18</td><td><b>2.14</b></td><td>NON_GAAP</td><td>current_quarter</td><td>Q2 fiscal 2020</td><td>2.14</td><td class='ctx'>s tax benefit | (0.40) | (0.08) | (1.13) | (0.52)
+Non-GAAP diluted earnings per share | $ <mark>2.14</mark> | $ 1.56 | $ 3.94 | $ 3.01
+Free cash flow
+Net cash provided</td></tr>
+<tr><td>13.19</td><td><b>1.56</b></td><td>NON_GAAP</td><td>prior_year_quarter</td><td>Q2 fiscal 2019</td><td>1.56</td><td class='ctx'>efit | (0.40) | (0.08) | (1.13) | (0.52)
+Non-GAAP diluted earnings per share | $ 2.14 | $ <mark>1.56</mark> | $ 3.94 | $ 3.01
+Free cash flow
+Net cash provided by opera</td></tr>
+<tr><td>13.20</td><td><b>3.94</b></td><td>NON_GAAP</td><td>current_ytd</td><td>six months ended March 31, 2020</td><td>3.94</td><td class='ctx'>.40) | (0.08) | (1.13) | (0.52)
+Non-GAAP diluted earnings per share | $ 2.14 | $ 1.56 | $ <mark>3.94</mark> | $ 3.01
+Free cash flow
+Net cash provided by operating acti</td></tr>
+<tr><td>13.21</td><td><b>3.01</b></td><td>NON_GAAP</td><td>prior_ytd</td><td>six months ended March 31, 2019</td><td>3.01</td><td class='ctx'>.08) | (1.13) | (0.52)
+Non-GAAP diluted earnings per share | $ 2.14 | $ 1.56 | $ 3.94 | $ <mark>3.01</mark>
+Free cash flow
+Net cash provided by operating activities | </td></tr>
+</table></body></html>

@@ -1,0 +1,182 @@
+{
+ "accession": "0001722482-20-000089",
+ "company": "Avantor, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.05,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.05,
+ "n_mentions": 15,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "NON_GAAP": 6,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 884,
+   "end": 888,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 904,
+   "end": 908,
+   "span_text": "0.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2921,
+   "end": 2925,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.59,
+   "value_text": "0.59",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2972,
+   "end": 2976,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3047,
+   "end": 3051,
+   "span_text": "0.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12619,
+   "end": 12623,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12628,
+   "end": 12632,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12645,
+   "end": 12649,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12654,
+   "end": 12658,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16580,
+   "end": 16584,
+   "span_text": "0.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16589,
+   "end": 16593,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.07,
+   "value_text": "0.07",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16731,
+   "end": 16735,
+   "span_text": "0.07",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16739,
+   "end": 16743,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17058,
+   "end": 17062,
+   "span_text": "0.17",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.11,
+   "value_text": "0.11",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17066,
+   "end": 17070,
+   "span_text": "0.11",
+   "source": "anchor-matched"
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "accession": "0001193125-20-126683",
+ "company": "PS BUSINESS PARKS INC/CA",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 1.51,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.51,
+ "n_mentions": 10,
+ "n_by_type": {
+  "GAAP_DILUTED": 5,
+  "NON_GAAP": 3,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1488,
+   "end": 1492,
+   "span_text": "1.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.72,
+   "value_text": "1.72",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (FFO per share)",
+   "period_kind": "current_quarter",
+   "start": 2424,
+   "end": 2428,
+   "span_text": "1.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.52,
+   "value_text": "1.52",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17779,
+   "end": 17783,
+   "span_text": "1.52",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17787,
+   "end": 17791,
+   "span_text": "0.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17803,
+   "end": 17807,
+   "span_text": "1.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17811,
+   "end": 17815,
+   "span_text": "0.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19449,
+   "end": 19453,
+   "span_text": "1.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19457,
+   "end": 19461,
+   "span_text": "0.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.72,
+   "value_text": "1.72",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (FFO per share)",
+   "period_kind": "current_quarter",
+   "start": 19585,
+   "end": 19589,
+   "span_text": "1.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.67,
+   "value_text": "1.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (FFO per share)",
+   "period_kind": "prior_year_quarter",
+   "start": 19593,
+   "end": 19597,
+   "span_text": "1.67",
+   "source": "anchor-matched"
+  }
+ ]
+}

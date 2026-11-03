@@ -1,0 +1,138 @@
+{
+ "accession": "0001193125-20-126683",
+ "company": "PS BUSINESS PARKS INC/CA",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 1.51,
+ "primary_candidates": [
+  1.51
+ ],
+ "n_mentions": 10,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 10106,
+  "output_tokens": 2123
+ },
+ "mentions": [
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "context": "for the three months ended March 31, 2020 was $41.6 million, or $1.51 per diluted common share.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1488,
+   "end": 1492,
+   "resolve": "exact",
+   "span_text": "1.51"
+  },
+  {
+   "value": 1.72,
+   "value_text": "1.72",
+   "context": "FFO for the three months ended March 31, 2020 was $1.72 per share, an increase of 2.5% from the same period in 2019.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (FFO per share)",
+   "period_kind": "current_quarter",
+   "start": 2424,
+   "end": 2428,
+   "resolve": "exact",
+   "span_text": "1.72"
+  },
+  {
+   "value": 1.52,
+   "value_text": "1.52",
+   "context": "Net income per common share\nBasic | $1.52 | $0.96",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17779,
+   "end": 17783,
+   "resolve": "exact",
+   "span_text": "1.52"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "context": "Net income per common share\nBasic | $1.52 | $0.96",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17787,
+   "end": 17791,
+   "resolve": "exact",
+   "span_text": "0.96"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "context": "Diluted | $1.51 | $0.96\nWeighted average common shares outstanding",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17803,
+   "end": 17807,
+   "resolve": "exact",
+   "span_text": "1.51"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "context": "Diluted | $1.51 | $0.96\nWeighted average common shares outstanding",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17811,
+   "end": 17815,
+   "resolve": "exact",
+   "span_text": "0.96"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "context": "Net income per common sharediluted | $1.51 | $0.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 19449,
+   "end": 19453,
+   "resolve": "line-fuzzy",
+   "span_text": "1.51"
+  },
+  {
+   "value": 0.96,
+   "value_text": "0.96",
+   "context": "Net income per common sharediluted | $1.51 | $0.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 19457,
+   "end": 19461,
+   "resolve": "line-fuzzy",
+   "span_text": "0.96"
+  },
+  {
+   "value": 1.72,
+   "value_text": "1.72",
+   "context": "Depreciation and amortization expense | 0.77 | 0.71\nFFO per share (1) | $1.72 | $1.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (FFO per share)",
+   "period_kind": "current_quarter",
+   "start": 19585,
+   "end": 19589,
+   "resolve": "exact",
+   "span_text": "1.72"
+  },
+  {
+   "value": 1.67,
+   "value_text": "1.67",
+   "context": "Depreciation and amortization expense | 0.77 | 0.71\nFFO per share (1) | $1.72 | $1.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (FFO per share)",
+   "period_kind": "prior_year_quarter",
+   "start": 19593,
+   "end": 19597,
+   "resolve": "exact",
+   "span_text": "1.67"
+  }
+ ]
+}

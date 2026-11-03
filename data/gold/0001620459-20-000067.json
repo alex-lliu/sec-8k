@@ -1,0 +1,215 @@
+{
+ "accession": "0001620459-20-000067",
+ "company": "James River Group Holdings, Ltd.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -1.21,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -1.21,
+ "n_mentions": 18,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "NON_GAAP": 9,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": -1.21,
+   "value_text": "1.21",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 947,
+   "end": 951,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1025,
+   "end": 1029,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.21,
+   "value_text": "1.21",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2132,
+   "end": 2136,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.75,
+   "value_text": "0.75",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2199,
+   "end": 2203,
+   "span_text": "0.75",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2334,
+   "end": 2338,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2420,
+   "end": 2424,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.21,
+   "value_text": "(1.21)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2565,
+   "end": 2569,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.75,
+   "value_text": "0.75",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2574,
+   "end": 2578,
+   "span_text": "0.75",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2614,
+   "end": 2618,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2622,
+   "end": 2626,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.21,
+   "value_text": "(1.21)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 23565,
+   "end": 23569,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.76,
+   "value_text": "0.76",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23574,
+   "end": 23578,
+   "span_text": "0.76",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -1.21,
+   "value_text": "(1.21)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 23591,
+   "end": 23595,
+   "span_text": "1.21",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.75,
+   "value_text": "0.75",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23600,
+   "end": 23604,
+   "span_text": "0.75",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.51,
+   "value_text": "0.51",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 23654,
+   "end": 23658,
+   "span_text": "0.51",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.72,
+   "value_text": "0.72",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23662,
+   "end": 23666,
+   "span_text": "0.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 23682,
+   "end": 23686,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23690,
+   "end": 23694,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  }
+ ]
+}

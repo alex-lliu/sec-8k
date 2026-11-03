@@ -1,0 +1,198 @@
+{
+ "accession": "0001722482-20-000089",
+ "company": "Avantor, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.05,
+ "primary_candidates": [
+  0.05
+ ],
+ "n_mentions": 15,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 8826,
+  "output_tokens": 2924
+ },
+ "mentions": [
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "context": "• | Diluted GAAP EPS $0.05; adjusted EPS $0.17, increase of 64%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 884,
+   "end": 888,
+   "resolve": "exact",
+   "span_text": "0.05"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "context": "• | Diluted GAAP EPS $0.05; adjusted EPS $0.17, increase of 64%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 904,
+   "end": 908,
+   "resolve": "exact",
+   "span_text": "0.17"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "context": "Diluted GAAP EPS was $0.05 compared to a diluted GAAP loss per share of $0.59 for the comparable prior period, while adjusted EPS increased 64% to $0.17.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2921,
+   "end": 2925,
+   "resolve": "exact",
+   "span_text": "0.05"
+  },
+  {
+   "value": -0.59,
+   "value_text": "0.59",
+   "context": "Diluted GAAP EPS was $0.05 compared to a diluted GAAP loss per share of $0.59 for the comparable prior period, while adjusted EPS increased 64% to $0.17.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2972,
+   "end": 2976,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "context": "Diluted GAAP EPS was $0.05 compared to a diluted GAAP loss per share of $0.59 for the comparable prior period, while adjusted EPS increased 64% to $0.17.",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3047,
+   "end": 3051,
+   "resolve": "exact",
+   "span_text": "0.17"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "context": "Earnings (loss) per share:\nBasic | $0.05 | $(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12619,
+   "end": 12623,
+   "resolve": "exact",
+   "span_text": "0.05"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "context": "Earnings (loss) per share:\nBasic | $0.05 | $(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12628,
+   "end": 12632,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "context": "Diluted | $0.05 | $(0.59)\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12645,
+   "end": 12649,
+   "resolve": "exact",
+   "span_text": "0.05"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "context": "Diluted | $0.05 | $(0.59)\nWeighted average shares outstanding:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12654,
+   "end": 12658,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": 0.05,
+   "value_text": "0.05",
+   "context": "Diluted earnings (loss) per share (GAAP) | $0.05 | $(0.59)\nDilutive impact of convertible instruments | 0.02 | 0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16580,
+   "end": 16584,
+   "resolve": "exact",
+   "span_text": "0.05"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "context": "Diluted earnings (loss) per share (GAAP) | $0.05 | $(0.59)\nDilutive impact of convertible instruments | 0.02 | 0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16589,
+   "end": 16593,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": 0.07,
+   "value_text": "0.07",
+   "context": "Fully diluted earnings (loss) per share (non-GAAP) | 0.07 | (0.01)",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16731,
+   "end": 16735,
+   "resolve": "exact",
+   "span_text": "0.07"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "context": "Fully diluted earnings (loss) per share (non-GAAP) | 0.07 | (0.01)",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16739,
+   "end": 16743,
+   "resolve": "exact",
+   "span_text": "0.01"
+  },
+  {
+   "value": 0.17,
+   "value_text": "0.17",
+   "context": "Income tax benefit applicable to pretax adjustments | (0.03) | (0.03)\nAdjusted EPS (non-GAAP) | $0.17 | $0.11",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 17058,
+   "end": 17062,
+   "resolve": "exact",
+   "span_text": "0.17"
+  },
+  {
+   "value": 0.11,
+   "value_text": "0.11",
+   "context": "Income tax benefit applicable to pretax adjustments | (0.03) | (0.03)\nAdjusted EPS (non-GAAP) | $0.17 | $0.11",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 17066,
+   "end": 17070,
+   "resolve": "exact",
+   "span_text": "0.11"
+  }
+ ]
+}

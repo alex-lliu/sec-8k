@@ -1,0 +1,186 @@
+{
+ "accession": "0001436425-20-000011",
+ "company": "HOME BANCORP, INC.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.21,
+ "primary_candidates": [
+  0.21
+ ],
+ "n_mentions": 14,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 16065,
+  "output_tokens": 2340
+ },
+ "mentions": [
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "context": "the Company reported net income of $1.9 million, or $0.21 per diluted common share (“diluted EPS”), compared to",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1008,
+   "end": 1012,
+   "resolve": "exact",
+   "span_text": "0.21"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "context": "compared to $6.6 million, or $0.73 diluted EPS, for the fourth quarter of 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 1085,
+   "end": 1089,
+   "resolve": "exact",
+   "span_text": "0.73"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "context": "Earnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28161,
+   "end": 28165,
+   "resolve": "exact",
+   "span_text": "0.21"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "Earnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 28169,
+   "end": 28173,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 0.86,
+   "value_text": "0.86",
+   "context": "Earnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28185,
+   "end": 28189,
+   "resolve": "exact",
+   "span_text": "0.86"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "context": "Earnings per share - diluted | $0.21 | $0.73 | (71) | $0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 28230,
+   "end": 28234,
+   "resolve": "exact",
+   "span_text": "0.21"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "context": "Earnings per share - diluted | $0.21 | $0.73 | (71) | $0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 28238,
+   "end": 28242,
+   "resolve": "exact",
+   "span_text": "0.73"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "context": "Earnings per share - diluted | $0.21 | $0.73 | (71) | $0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 28253,
+   "end": 28257,
+   "resolve": "exact",
+   "span_text": "0.85"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "context": "PER SHARE DATA\nEarnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020 (summary financial information)",
+   "period_kind": "current_quarter",
+   "start": 30297,
+   "end": 30301,
+   "resolve": "exact",
+   "span_text": "0.21"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "PER SHARE DATA\nEarnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019 (summary financial information)",
+   "period_kind": "prior_quarter",
+   "start": 30305,
+   "end": 30309,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 0.86,
+   "value_text": "0.86",
+   "context": "PER SHARE DATA\nEarnings per share - basic | $0.21 | $0.74 | (72)% | $0.86 | (76)%",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019 (summary financial information)",
+   "period_kind": "prior_year_quarter",
+   "start": 30321,
+   "end": 30325,
+   "resolve": "exact",
+   "span_text": "0.86"
+  },
+  {
+   "value": 0.21,
+   "value_text": "0.21",
+   "context": "Earnings per share - diluted | 0.21 | 0.73 | (71) | 0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020 (summary financial information)",
+   "period_kind": "current_quarter",
+   "start": 30365,
+   "end": 30369,
+   "resolve": "exact",
+   "span_text": "0.21"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "context": "Earnings per share - diluted | 0.21 | 0.73 | (71) | 0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019 (summary financial information)",
+   "period_kind": "prior_quarter",
+   "start": 30372,
+   "end": 30376,
+   "resolve": "exact",
+   "span_text": "0.73"
+  },
+  {
+   "value": 0.85,
+   "value_text": "0.85",
+   "context": "Earnings per share - diluted | 0.21 | 0.73 | (71) | 0.85 | (75)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019 (summary financial information)",
+   "period_kind": "prior_year_quarter",
+   "start": 30386,
+   "end": 30390,
+   "resolve": "exact",
+   "span_text": "0.85"
+  }
+ ]
+}

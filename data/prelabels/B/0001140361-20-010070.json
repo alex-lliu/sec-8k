@@ -1,0 +1,211 @@
+{
+ "accession": "0001140361-20-010070",
+ "company": "STANDARD MOTOR PRODUCTS, INC.",
+ "variant": "B",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.42,
+ "primary_candidates": [
+  0.38,
+  0.42
+ ],
+ "n_mentions": 16,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 8221,
+  "output_tokens": 3308
+ },
+ "mentions": [
+  {
+   "value": 0.42,
+   "value_text": "42",
+   "context": "Earnings from continuing operations for the first quarter of 2020 were $9.6 million or 42 cents per diluted share, compared to $13.1 million",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1540,
+   "end": 1542,
+   "resolve": "exact",
+   "span_text": "42"
+  },
+  {
+   "value": 0.57,
+   "value_text": "57",
+   "context": "compared to $13.1 million or 57 cents per diluted share in the first quarter of 2019. Excluding non-operational gains and losses",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1597,
+   "end": 1599,
+   "resolve": "exact",
+   "span_text": "57"
+  },
+  {
+   "value": 0.43,
+   "value_text": "43",
+   "context": "earnings from continuing operations for the first quarter of 2020 were $9.8 million or 43 cents per diluted share",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1857,
+   "end": 1859,
+   "resolve": "exact",
+   "span_text": "43"
+  },
+  {
+   "value": 0.57,
+   "value_text": "57",
+   "context": "were $9.8 million or 43 cents per diluted share, compared to $13.1 million or 57 cents per diluted share in",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1914,
+   "end": 1916,
+   "resolve": "exact",
+   "span_text": "57"
+  },
+  {
+   "value": 0.43,
+   "value_text": "0.43",
+   "context": "BASIC EARNINGS FROM CONTINUING OPERATIONS | $0.43 | $0.58",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8811,
+   "end": 8815,
+   "resolve": "exact",
+   "span_text": "0.43"
+  },
+  {
+   "value": 0.58,
+   "value_text": "0.58",
+   "context": "BASIC EARNINGS FROM CONTINUING OPERATIONS | $0.43 | $0.58",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8819,
+   "end": 8823,
+   "resolve": "exact",
+   "span_text": "0.58"
+  },
+  {
+   "value": 0.38,
+   "value_text": "0.38",
+   "context": "NET EARNINGS PER COMMON SHARE - BASIC | $0.38 | $0.54",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8906,
+   "end": 8910,
+   "resolve": "exact",
+   "span_text": "0.38"
+  },
+  {
+   "value": 0.54,
+   "value_text": "0.54",
+   "context": "NET EARNINGS PER COMMON SHARE - BASIC | $0.38 | $0.54",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8914,
+   "end": 8918,
+   "resolve": "exact",
+   "span_text": "0.54"
+  },
+  {
+   "value": 0.42,
+   "value_text": "0.42",
+   "context": "DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 8966,
+   "end": 8970,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "context": "DILUTED EARNINGS FROM CONTINUING OPERATIONS | $0.42 | $0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 8974,
+   "end": 8978,
+   "resolve": "exact",
+   "span_text": "0.57"
+  },
+  {
+   "value": 0.38,
+   "value_text": "0.38",
+   "context": "NET EARNINGS PER COMMON SHARE - DILUTED | $0.38 | $0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9063,
+   "end": 9067,
+   "resolve": "exact",
+   "span_text": "0.38"
+  },
+  {
+   "value": 0.53,
+   "value_text": "0.53",
+   "context": "NET EARNINGS PER COMMON SHARE - DILUTED | $0.38 | $0.53",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9071,
+   "end": 9075,
+   "resolve": "exact",
+   "span_text": "0.53"
+  },
+  {
+   "value": 0.42,
+   "value_text": "0.42",
+   "context": "GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.42 | $0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11035,
+   "end": 11039,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "context": "GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.42 | $0.57",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11043,
+   "end": 11047,
+   "resolve": "exact",
+   "span_text": "0.57"
+  },
+  {
+   "value": 0.43,
+   "value_text": "0.43",
+   "context": "NON-GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.43 | $0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11219,
+   "end": 11223,
+   "resolve": "exact",
+   "span_text": "0.43"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "context": "NON-GAAP DILUTED EARNINGS PER SHARE FROM CONTINUING OPERATIONS | $0.43 | $0.57",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11227,
+   "end": 11231,
+   "resolve": "exact",
+   "span_text": "0.57"
+  }
+ ]
+}

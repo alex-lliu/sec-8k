@@ -1,0 +1,66 @@
+{
+ "accession": "0001104659-20-052683",
+ "company": "SiteOne Landscape Supply, Inc.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.42,
+ "primary_candidates": [
+  -0.42
+ ],
+ "n_mentions": 4,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 9586,
+  "output_tokens": 848
+ },
+ "mentions": [
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "context": "Net loss per common share:\nBasic | $(0.42) | $(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15910,
+   "end": 15914,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "context": "Net loss per common share:\nBasic | $(0.42) | $(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15920,
+   "end": 15924,
+   "resolve": "exact",
+   "span_text": "0.59"
+  },
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "context": "Basic | $(0.42) | $(0.59)\nDiluted | $(0.42) | $(0.59)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15938,
+   "end": 15942,
+   "resolve": "exact",
+   "span_text": "0.42"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "context": "Basic | $(0.42) | $(0.59)\nDiluted | $(0.42) | $(0.59)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15948,
+   "end": 15952,
+   "resolve": "exact",
+   "span_text": "0.59"
+  }
+ ]
+}

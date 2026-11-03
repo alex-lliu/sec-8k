@@ -1,0 +1,169 @@
+{
+ "accession": "0001289945-20-000036",
+ "company": "Spok Holdings, Inc",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -0.24,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.24,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 14
+ },
+ "mentions": [
+  {
+   "value": -0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4690,
+   "end": 4694,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.04,
+   "value_text": "0.04",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4758,
+   "end": 4762,
+   "span_text": "0.04",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.24,
+   "value_text": "(0.24)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 5584,
+   "end": 5588,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.04,
+   "value_text": "0.04",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 5593,
+   "end": 5597,
+   "span_text": "0.04",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.24,
+   "value_text": "(0.24)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 21145,
+   "end": 21149,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.04,
+   "value_text": "0.04",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21154,
+   "end": 21158,
+   "span_text": "0.04",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.24,
+   "value_text": "(0.24)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 23595,
+   "end": 23599,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.5,
+   "value_text": "(0.50)",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 23605,
+   "end": 23609,
+   "span_text": "0.50",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.07,
+   "value_text": "(0.07)",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 23615,
+   "end": 23619,
+   "span_text": "0.07",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.03,
+   "value_text": "(0.03)",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 23625,
+   "end": 23629,
+   "span_text": "0.03",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.04,
+   "value_text": "0.04",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23634,
+   "end": 23638,
+   "span_text": "0.04",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.01,
+   "value_text": "0.01",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2018",
+   "period_kind": "other",
+   "start": 23642,
+   "end": 23646,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.04,
+   "value_text": "(0.04)",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2018",
+   "period_kind": "other",
+   "start": 23651,
+   "end": 23655,
+   "span_text": "0.04",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.06,
+   "value_text": "(0.06)",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2018",
+   "period_kind": "other",
+   "start": 23661,
+   "end": 23665,
+   "span_text": "0.06",
+   "source": "anchor-matched"
+  }
+ ]
+}

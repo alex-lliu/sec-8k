@@ -1,0 +1,82 @@
+{
+ "accession": "0001104659-20-052792",
+ "company": "MDC PARTNERS INC",
+ "source": "spot-checked",
+ "anchored": false,
+ "gold_primary_eps": -0.03,
+ "gold_primary_source": "adjudicated label",
+ "label_primary_eps": -0.03,
+ "n_mentions": 6,
+ "n_by_type": {
+  "GAAP_DILUTED": 4,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": -0.03,
+   "value_text": "0.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6081,
+   "end": 6085,
+   "span_text": "0.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.04,
+   "value_text": "0.04",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6120,
+   "end": 6124,
+   "span_text": "0.04",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.03,
+   "value_text": "(0.03)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16398,
+   "end": 16402,
+   "span_text": "0.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.04,
+   "value_text": "(0.04)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16408,
+   "end": 16412,
+   "span_text": "0.04",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.03,
+   "value_text": "(0.03)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 16489,
+   "end": 16493,
+   "span_text": "0.03",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.04,
+   "value_text": "(0.04)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16499,
+   "end": 16503,
+   "span_text": "0.04",
+   "source": "spot-checked"
+  }
+ ]
+}

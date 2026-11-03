@@ -1,0 +1,66 @@
+{
+ "accession": "0001157523-20-000597",
+ "company": "ST JOE CO",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": -0.03,
+ "primary_candidates": [
+  -0.03
+ ],
+ "n_mentions": 4,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 7718,
+  "output_tokens": 794
+ },
+ "mentions": [
+  {
+   "value": -0.03,
+   "value_text": "($0.03)",
+   "context": "Net loss and loss per share was ($1.5) million, or ($0.03) per share, compared with net income of $2.0 million, or $0.03 per share, for the same period in 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 678,
+   "end": 682,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": 0.03,
+   "value_text": "0.03",
+   "context": "compared with net income of $2.0 million, or $0.03 per share, for the same period in 2019. The first quarter earnings were impacted by COVID-19",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 741,
+   "end": 745,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": -0.03,
+   "value_text": "($0.03)",
+   "context": "Net (loss) income per share attributable to the Company | ($0.03) | $0.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 9684,
+   "end": 9688,
+   "resolve": "exact",
+   "span_text": "0.03"
+  },
+  {
+   "value": 0.03,
+   "value_text": "0.03",
+   "context": "Net (loss) income per share attributable to the Company | ($0.03) | $0.03",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 9693,
+   "end": 9697,
+   "resolve": "exact",
+   "span_text": "0.03"
+  }
+ ]
+}

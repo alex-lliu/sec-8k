@@ -1,0 +1,171 @@
+{
+ "accession": "0001141391-20-000089",
+ "company": "Mastercard Inc",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 1.68,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.68,
+ "n_mentions": 14,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "NON_GAAP": 5,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 518,
+   "end": 522,
+   "span_text": "1.68",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 606,
+   "end": 610,
+   "span_text": "1.83",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2794,
+   "end": 2798,
+   "span_text": "1.68",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2802,
+   "end": 2806,
+   "span_text": "1.80",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3265,
+   "end": 3269,
+   "span_text": "1.83",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.78,
+   "value_text": "1.78",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3273,
+   "end": 3277,
+   "span_text": "1.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13012,
+   "end": 13016,
+   "span_text": "1.68",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.81,
+   "value_text": "1.81",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13020,
+   "end": 13024,
+   "span_text": "1.81",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13113,
+   "end": 13117,
+   "span_text": "1.68",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13121,
+   "end": 13125,
+   "span_text": "1.80",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.68,
+   "value_text": "1.68",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20726,
+   "end": 20730,
+   "span_text": "1.68",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.83,
+   "value_text": "1.83",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20918,
+   "end": 20922,
+   "span_text": "1.83",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.8,
+   "value_text": "1.80",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21190,
+   "end": 21194,
+   "span_text": "1.80",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.78,
+   "value_text": "1.78",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 21370,
+   "end": 21374,
+   "span_text": "1.78",
+   "source": "anchor-matched"
+  }
+ ]
+}

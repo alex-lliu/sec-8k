@@ -1,0 +1,247 @@
+{
+ "accession": "0000939057-20-000186",
+ "company": "TIMBERLAND BANCORP INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.6,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.6,
+ "n_mentions": 21,
+ "n_by_type": {
+  "GAAP_DILUTED": 16,
+  "GAAP_BASIC": 5
+ },
+ "mentions": [
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 621,
+   "end": 625,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 1133,
+   "end": 1137,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.72,
+   "value_text": "0.72",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019 (quarter ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 1175,
+   "end": 1179,
+   "span_text": "0.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 fiscal 2020 (quarter ended December 31, 2019)",
+   "period_kind": "prior_quarter",
+   "start": 1225,
+   "end": 1229,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.38,
+   "value_text": "1.38",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 1690,
+   "end": 1694,
+   "span_text": "1.38",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 1767,
+   "end": 1771,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.38,
+   "value_text": "1.38",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 5046,
+   "end": 5050,
+   "span_text": "1.38",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 5104,
+   "end": 5108,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 5377,
+   "end": 5381,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.72,
+   "value_text": "0.72",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019 (quarter ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 5419,
+   "end": 5423,
+   "span_text": "0.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 fiscal 2020 (quarter ended December 31, 2019)",
+   "period_kind": "prior_quarter",
+   "start": 5469,
+   "end": 5473,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.61,
+   "value_text": "0.61",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 37413,
+   "end": 37417,
+   "span_text": "0.61",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.8,
+   "value_text": "0.80",
+   "type": "GAAP_BASIC",
+   "period": "Q1 fiscal 2020 (quarter ended December 31, 2019)",
+   "period_kind": "prior_quarter",
+   "start": 37421,
+   "end": 37425,
+   "span_text": "0.80",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2019 (quarter ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 37429,
+   "end": 37433,
+   "span_text": "0.74",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.6,
+   "value_text": "0.60",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020 (quarter ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 37444,
+   "end": 37448,
+   "span_text": "0.60",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.78,
+   "value_text": "0.78",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 fiscal 2020 (quarter ended December 31, 2019)",
+   "period_kind": "prior_quarter",
+   "start": 37451,
+   "end": 37455,
+   "span_text": "0.78",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.72,
+   "value_text": "0.72",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019 (quarter ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 37458,
+   "end": 37462,
+   "span_text": "0.72",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 39574,
+   "end": 39578,
+   "span_text": "1.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.41,
+   "value_text": "1.41",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 39582,
+   "end": 39586,
+   "span_text": "1.41",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.38,
+   "value_text": "1.38",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 39597,
+   "end": 39601,
+   "span_text": "1.38",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 39604,
+   "end": 39608,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  }
+ ]
+}

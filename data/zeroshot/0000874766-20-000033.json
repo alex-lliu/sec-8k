@@ -1,0 +1,162 @@
+{
+ "accession": "0000874766-20-000033",
+ "company": "HARTFORD FINANCIAL SERVICES GROUP, INC.",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.74,
+ "primary_candidates": [
+  0.74
+ ],
+ "n_mentions": 12,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 21431,
+  "output_tokens": 2085
+ },
+ "mentions": [
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "First quarter 2020 net income available to common stockholders of $268 million ($0.74 per diluted share) decreased 57% from first quarter 2019",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1134,
+   "end": 1138,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 1.34,
+   "value_text": "1.34",
+   "context": "core earnings* of $485 million (core earnings per diluted share* of $1.34) declined 4% from first quarter 2019",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1270,
+   "end": 1274,
+   "resolve": "exact",
+   "span_text": "1.34"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "Net income available to common stockholders per diluted share2 | $0.74 | $1.71 | (57)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4889,
+   "end": 4893,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 1.71,
+   "value_text": "1.71",
+   "context": "Net income available to common stockholders per diluted share2 | $0.74 | $1.71 | (57)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4897,
+   "end": 4901,
+   "resolve": "exact",
+   "span_text": "1.71"
+  },
+  {
+   "value": 1.34,
+   "value_text": "1.34",
+   "context": "Core earnings per diluted share | $1.34 | $1.39 | (4)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 4980,
+   "end": 4984,
+   "resolve": "exact",
+   "span_text": "1.34"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "context": "Core earnings per diluted share | $1.34 | $1.39 | (4)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 4988,
+   "end": 4992,
+   "resolve": "exact",
+   "span_text": "1.39"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "First quarter 2020 net income available to common stockholders was $268 million, or $0.74 per diluted share, down 57% from first quarter 2019.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6007,
+   "end": 6011,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 1.34,
+   "value_text": "1.34",
+   "context": "Core earnings of $485 million, or $1.34 per diluted share, declined 4% from first quarter 2019",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 6510,
+   "end": 6514,
+   "resolve": "exact",
+   "span_text": "1.34"
+  },
+  {
+   "value": 0.74,
+   "value_text": "0.74",
+   "context": "Net income available to common stockholders per share1 | $0.74 | $1.71 | (57)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 39472,
+   "end": 39476,
+   "resolve": "exact",
+   "span_text": "0.74"
+  },
+  {
+   "value": 1.71,
+   "value_text": "1.71",
+   "context": "Net income available to common stockholders per share1 | $0.74 | $1.71 | (57)%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 39480,
+   "end": 39484,
+   "resolve": "exact",
+   "span_text": "1.71"
+  },
+  {
+   "value": 1.34,
+   "value_text": "1.34",
+   "context": "Core earnings per share | $1.34 | $1.39 | (4)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 39997,
+   "end": 40001,
+   "resolve": "exact",
+   "span_text": "1.34"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "context": "Core earnings per share | $1.34 | $1.39 | (4)%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 40005,
+   "end": 40009,
+   "resolve": "exact",
+   "span_text": "1.39"
+  }
+ ]
+}

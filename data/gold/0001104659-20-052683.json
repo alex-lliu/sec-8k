@@ -1,0 +1,60 @@
+{
+ "accession": "0001104659-20-052683",
+ "company": "SiteOne Landscape Supply, Inc.",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": -0.42,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -0.42,
+ "n_mentions": 4,
+ "n_by_type": {
+  "GAAP_BASIC": 2,
+  "GAAP_DILUTED": 2
+ },
+ "mentions": [
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15910,
+   "end": 15914,
+   "span_text": "0.42",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15920,
+   "end": 15924,
+   "span_text": "0.59",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.42,
+   "value_text": "(0.42)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 15938,
+   "end": 15942,
+   "span_text": "0.42",
+   "source": "spot-checked"
+  },
+  {
+   "value": -0.59,
+   "value_text": "(0.59)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 15948,
+   "end": 15952,
+   "span_text": "0.59",
+   "source": "spot-checked"
+  }
+ ]
+}

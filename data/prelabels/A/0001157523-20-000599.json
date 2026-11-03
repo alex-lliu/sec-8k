@@ -1,0 +1,162 @@
+{
+ "accession": "0001157523-20-000599",
+ "company": "PC CONNECTION INC",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 0.56,
+ "primary_candidates": [
+  0.56
+ ],
+ "n_mentions": 12,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 9411,
+  "output_tokens": 2089
+ },
+ "mentions": [
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "context": "Diluted EPS: $0.56, compared to $0.48 y/y",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 986,
+   "end": 990,
+   "resolve": "exact",
+   "span_text": "0.56"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "context": "Diluted EPS: $0.56, compared to $0.48 y/y",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1005,
+   "end": 1009,
+   "resolve": "exact",
+   "span_text": "0.48"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "context": "million, or $0.56 per diluted share, compared to net income of $12.7 million, or $0.48 per diluted share, for the prior year quarter.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1503,
+   "end": 1507,
+   "resolve": "exact",
+   "span_text": "0.56"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "context": "million, or $0.56 per diluted share, compared to net income of $12.7 million, or $0.48 per diluted share, for the prior year quarter.",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1572,
+   "end": 1576,
+   "resolve": "exact",
+   "span_text": "0.48"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "context": "Diluted earnings per share | $0.56 | $0.48 | 17%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12508,
+   "end": 12512,
+   "resolve": "exact",
+   "span_text": "0.56"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "context": "Diluted earnings per share | $0.56 | $0.48 | 17%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12516,
+   "end": 12520,
+   "resolve": "exact",
+   "span_text": "0.48"
+  },
+  {
+   "value": 0.57,
+   "value_text": "0.57",
+   "context": "Earnings per common share:\nBasic | $0.57 | $0.48",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 14659,
+   "end": 14663,
+   "resolve": "exact",
+   "span_text": "0.57"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "context": "Earnings per common share:\nBasic | $0.57 | $0.48",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 14667,
+   "end": 14671,
+   "resolve": "exact",
+   "span_text": "0.48"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "context": "Basic | $0.57 | $0.48\nDiluted | $0.56 | $0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 14683,
+   "end": 14687,
+   "resolve": "exact",
+   "span_text": "0.56"
+  },
+  {
+   "value": 0.48,
+   "value_text": "0.48",
+   "context": "Basic | $0.57 | $0.48\nDiluted | $0.56 | $0.48",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 14691,
+   "end": 14695,
+   "resolve": "exact",
+   "span_text": "0.48"
+  },
+  {
+   "value": 0.56,
+   "value_text": "0.56",
+   "context": "Adjusted Diluted Earnings per Share | $0.56 | $0.50 | 13%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 20595,
+   "end": 20599,
+   "resolve": "exact",
+   "span_text": "0.56"
+  },
+  {
+   "value": 0.5,
+   "value_text": "0.50",
+   "context": "Adjusted Diluted Earnings per Share | $0.56 | $0.50 | 13%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 20603,
+   "end": 20607,
+   "resolve": "exact",
+   "span_text": "0.50"
+  }
+ ]
+}

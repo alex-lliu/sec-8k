@@ -1,0 +1,60 @@
+{
+ "accession": "0001104659-20-053353",
+ "company": "Innoviva, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.59,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.59,
+ "n_mentions": 4,
+ "n_by_type": {
+  "GAAP_BASIC": 2,
+  "GAAP_DILUTED": 2
+ },
+ "mentions": [
+  {
+   "value": 0.65,
+   "value_text": "0.65",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11194,
+   "end": 11198,
+   "span_text": "0.65",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.33,
+   "value_text": "0.33",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11202,
+   "end": 11206,
+   "span_text": "0.33",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.59,
+   "value_text": "0.59",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 11277,
+   "end": 11281,
+   "span_text": "0.59",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.31,
+   "value_text": "0.31",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 11285,
+   "end": 11289,
+   "span_text": "0.31",
+   "source": "anchor-matched"
+  }
+ ]
+}

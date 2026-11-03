@@ -1,0 +1,8 @@
+{
+  "0000895419-20-000042": {
+    "company": "CREE, INC.",
+    "drop_mention_indices": [0, 1, 8, 9, 10, 11],
+    "reason": "GAAP per-share figures from CONTINUING OPERATIONS (narrative -0.57/-0.22 and the 'Continuing operations attributable to controlling interest' table row). Dropped to apply the reviewer's Standard Motor Products rule consistently: only net EPS is labeled GAAP_DILUTED/GAAP_BASIC. Net loss per share rows (indices 12-15) and non-GAAP continuing-ops rows are kept.",
+    "decided": "2026-10-13, derived from reviewer verdicts on spot-check rows 1.1-1.18"
+  }
+}

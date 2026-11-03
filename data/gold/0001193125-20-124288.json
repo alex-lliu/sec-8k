@@ -1,0 +1,115 @@
+{
+ "accession": "0001193125-20-124288",
+ "company": "MARKETAXESS HOLDINGS INC",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 1.96,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.96,
+ "n_mentions": 9,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "GAAP_BASIC": 2
+ },
+ "mentions": [
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1303,
+   "end": 1307,
+   "span_text": "1.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1515,
+   "end": 1519,
+   "span_text": "1.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1534,
+   "end": 1538,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3548,
+   "end": 3552,
+   "span_text": "1.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3614,
+   "end": 3618,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 2.01,
+   "value_text": "2.01",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13454,
+   "end": 13458,
+   "span_text": "2.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.42,
+   "value_text": "1.42",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13462,
+   "end": 13466,
+   "span_text": "1.42",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.96,
+   "value_text": "1.96",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13478,
+   "end": 13482,
+   "span_text": "1.96",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.39,
+   "value_text": "1.39",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13486,
+   "end": 13490,
+   "span_text": "1.39",
+   "source": "anchor-matched"
+  }
+ ]
+}

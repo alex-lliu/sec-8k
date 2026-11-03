@@ -1,0 +1,162 @@
+{
+ "accession": "0000875320-20-000014",
+ "company": "VERTEX PHARMACEUTICALS INC / MA",
+ "variant": "A",
+ "model": "claude-opus-5",
+ "primary_gaap_diluted_eps": 2.29,
+ "primary_candidates": [
+  2.29
+ ],
+ "n_mentions": 12,
+ "n_unresolved": 0,
+ "usage": {
+  "input_tokens": 9959,
+  "output_tokens": 1756
+ },
+ "mentions": [
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "context": "GAAP Net income per share - diluted | $2.29 | $1.03 | 122%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 2986,
+   "end": 2990,
+   "resolve": "exact",
+   "span_text": "2.29"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "context": "GAAP Net income per share - diluted | $2.29 | $1.03 | 122%",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2994,
+   "end": 2998,
+   "resolve": "exact",
+   "span_text": "1.03"
+  },
+  {
+   "value": 2.56,
+   "value_text": "2.56",
+   "context": "Non-GAAP Net income per share - diluted | $2.56 | $1.14 | 125%",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 3049,
+   "end": 3053,
+   "resolve": "exact",
+   "span_text": "2.56"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "context": "Non-GAAP Net income per share - diluted | $2.56 | $1.14 | 125%",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 3057,
+   "end": 3061,
+   "resolve": "exact",
+   "span_text": "1.14"
+  },
+  {
+   "value": 2.32,
+   "value_text": "2.32",
+   "context": "Net income per common share:\nBasic | $2.32 | $1.05\nDiluted | $2.29 | $1.03",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12824,
+   "end": 12828,
+   "resolve": "exact",
+   "span_text": "2.32"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "context": "Net income per common share:\nBasic | $2.32 | $1.05\nDiluted | $2.29 | $1.03",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12832,
+   "end": 12836,
+   "resolve": "exact",
+   "span_text": "1.05"
+  },
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "context": "Basic | $2.32 | $1.05\nDiluted | $2.29 | $1.03\nShares used in per share calculations:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 12848,
+   "end": 12852,
+   "resolve": "exact",
+   "span_text": "2.29"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "context": "Basic | $2.32 | $1.05\nDiluted | $2.29 | $1.03\nShares used in per share calculations:",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 12856,
+   "end": 12860,
+   "resolve": "exact",
+   "span_text": "1.03"
+  },
+  {
+   "value": 2.29,
+   "value_text": "2.29",
+   "context": "Net income per diluted common share:\nGAAP | $2.29 | $1.03\nNon-GAAP | $2.56 | $1.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13651,
+   "end": 13655,
+   "resolve": "exact",
+   "span_text": "2.29"
+  },
+  {
+   "value": 1.03,
+   "value_text": "1.03",
+   "context": "Net income per diluted common share:\nGAAP | $2.29 | $1.03\nNon-GAAP | $2.56 | $1.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13659,
+   "end": 13663,
+   "resolve": "exact",
+   "span_text": "1.03"
+  },
+  {
+   "value": 2.56,
+   "value_text": "2.56",
+   "context": "GAAP | $2.29 | $1.03\nNon-GAAP | $2.56 | $1.14\nShares used in diluted per share calculations:",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 13676,
+   "end": 13680,
+   "resolve": "exact",
+   "span_text": "2.56"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "context": "GAAP | $2.29 | $1.03\nNon-GAAP | $2.56 | $1.14\nShares used in diluted per share calculations:",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 13684,
+   "end": 13688,
+   "resolve": "exact",
+   "span_text": "1.14"
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "accession": "0001104659-20-053534",
+ "company": "TETRA TECH INC",
+ "source": "spot-checked",
+ "anchored": true,
+ "gold_primary_eps": 0.66,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.66,
+ "n_mentions": 22,
+ "n_by_type": {
+  "GAAP_DILUTED": 11,
+  "NON_GAAP": 7,
+  "GAAP_BASIC": 4
+ },
+ "mentions": [
+  {
+   "value": 0.66,
+   "value_text": "0.66",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 1122,
+   "end": 1126,
+   "span_text": "0.66",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 1142,
+   "end": 1146,
+   "span_text": "0.73",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.66,
+   "value_text": "0.66",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 1748,
+   "end": 1752,
+   "span_text": "0.66",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 1903,
+   "end": 1907,
+   "span_text": "0.73",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 2346,
+   "end": 2350,
+   "span_text": "1.51",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.57,
+   "value_text": "1.57",
+   "type": "NON_GAAP",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 2516,
+   "end": 2520,
+   "span_text": "1.57",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.66,
+   "value_text": "0.66",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 6858,
+   "end": 6862,
+   "span_text": "0.66",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.0,
+   "value_text": "1.00",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 6866,
+   "end": 6870,
+   "span_text": "1.00",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 6882,
+   "end": 6886,
+   "span_text": "1.51",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.74,
+   "value_text": "1.74",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 6890,
+   "end": 6894,
+   "span_text": "1.74",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.73,
+   "value_text": "0.73",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 7150,
+   "end": 7154,
+   "span_text": "0.73",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.7,
+   "value_text": "0.70",
+   "type": "NON_GAAP",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 7158,
+   "end": 7162,
+   "span_text": "0.70",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.57,
+   "value_text": "1.57",
+   "type": "NON_GAAP",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 7171,
+   "end": 7175,
+   "span_text": "1.57",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "type": "NON_GAAP",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 7179,
+   "end": 7183,
+   "span_text": "1.40",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.67,
+   "value_text": "0.67",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 16745,
+   "end": 16749,
+   "span_text": "0.67",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.01,
+   "value_text": "1.01",
+   "type": "GAAP_BASIC",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16753,
+   "end": 16757,
+   "span_text": "1.01",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.53,
+   "value_text": "1.53",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 16761,
+   "end": 16765,
+   "span_text": "1.53",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.77,
+   "value_text": "1.77",
+   "type": "GAAP_BASIC",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 16769,
+   "end": 16773,
+   "span_text": "1.77",
+   "source": "spot-checked"
+  },
+  {
+   "value": 0.66,
+   "value_text": "0.66",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2020",
+   "period_kind": "current_quarter",
+   "start": 16785,
+   "end": 16789,
+   "span_text": "0.66",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.0,
+   "value_text": "1.00",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 fiscal 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 16793,
+   "end": 16797,
+   "span_text": "1.00",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.51,
+   "value_text": "1.51",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 29, 2020",
+   "period_kind": "current_ytd",
+   "start": 16801,
+   "end": 16805,
+   "span_text": "1.51",
+   "source": "spot-checked"
+  },
+  {
+   "value": 1.74,
+   "value_text": "1.74",
+   "type": "GAAP_DILUTED",
+   "period": "six months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 16809,
+   "end": 16813,
+   "span_text": "1.74",
+   "source": "spot-checked"
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "accession": "0001373715-20-000098",
+ "company": "ServiceNow, Inc.",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 0.24,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 0.24,
+ "n_mentions": 16,
+ "n_by_type": {
+  "GAAP_BASIC": 5,
+  "GAAP_DILUTED": 5,
+  "NON_GAAP": 6
+ },
+ "mentions": [
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 5125,
+   "end": 5129,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 5133,
+   "end": 5137,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.09,
+   "value_text": "1.09",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP basic)",
+   "period_kind": "current_quarter",
+   "start": 5148,
+   "end": 5152,
+   "span_text": "1.09",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP diluted)",
+   "period_kind": "current_quarter",
+   "start": 5156,
+   "end": 5160,
+   "span_text": "1.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22937,
+   "end": 22941,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 22946,
+   "end": 22950,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 22993,
+   "end": 22997,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 23002,
+   "end": 23006,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.25,
+   "value_text": "0.25",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 33119,
+   "end": 33123,
+   "span_text": "0.25",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 33128,
+   "end": 33132,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.24,
+   "value_text": "0.24",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 33180,
+   "end": 33184,
+   "span_text": "0.24",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -0.01,
+   "value_text": "(0.01)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 33189,
+   "end": 33193,
+   "span_text": "0.01",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.09,
+   "value_text": "1.09",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP basic)",
+   "period_kind": "current_quarter",
+   "start": 33236,
+   "end": 33240,
+   "span_text": "1.09",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.71,
+   "value_text": "0.71",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (non-GAAP basic)",
+   "period_kind": "prior_year_quarter",
+   "start": 33244,
+   "end": 33248,
+   "span_text": "0.71",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.05,
+   "value_text": "1.05",
+   "type": "NON_GAAP",
+   "period": "Q1 2020 (non-GAAP diluted)",
+   "period_kind": "current_quarter",
+   "start": 33292,
+   "end": 33296,
+   "span_text": "1.05",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.67,
+   "value_text": "0.67",
+   "type": "NON_GAAP",
+   "period": "Q1 2019 (non-GAAP diluted)",
+   "period_kind": "prior_year_quarter",
+   "start": 33300,
+   "end": 33304,
+   "span_text": "0.67",
+   "source": "anchor-matched"
+  }
+ ]
+}

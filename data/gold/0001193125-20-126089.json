@@ -1,0 +1,137 @@
+{
+ "accession": "0001193125-20-126089",
+ "company": "MICROSOFT CORP",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": 1.4,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": 1.4,
+ "n_mentions": 11,
+ "n_by_type": {
+  "GAAP_DILUTED": 7,
+  "GAAP_BASIC": 4
+ },
+ "mentions": [
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 1310,
+   "end": 1314,
+   "span_text": "1.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 8491,
+   "end": 8495,
+   "span_text": "1.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 8546,
+   "end": 8550,
+   "span_text": "1.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.41,
+   "value_text": "1.41",
+   "type": "GAAP_BASIC",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 15744,
+   "end": 15748,
+   "span_text": "1.41",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.15,
+   "value_text": "1.15",
+   "type": "GAAP_BASIC",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 15752,
+   "end": 15756,
+   "span_text": "1.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 4.34,
+   "value_text": "4.34",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 15760,
+   "end": 15764,
+   "span_text": "4.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.39,
+   "value_text": "3.39",
+   "type": "GAAP_BASIC",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 15768,
+   "end": 15772,
+   "span_text": "3.39",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.4,
+   "value_text": "1.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2020 (three months ended March 31, 2020)",
+   "period_kind": "current_quarter",
+   "start": 15784,
+   "end": 15788,
+   "span_text": "1.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 1.14,
+   "value_text": "1.14",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 FY2019 (three months ended March 31, 2019)",
+   "period_kind": "prior_year_quarter",
+   "start": 15792,
+   "end": 15796,
+   "span_text": "1.14",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 4.3,
+   "value_text": "4.30",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2020",
+   "period_kind": "current_ytd",
+   "start": 15800,
+   "end": 15804,
+   "span_text": "4.30",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 3.36,
+   "value_text": "3.36",
+   "type": "GAAP_DILUTED",
+   "period": "nine months ended March 31, 2019",
+   "period_kind": "prior_ytd",
+   "start": 15808,
+   "end": 15812,
+   "span_text": "3.36",
+   "source": "anchor-matched"
+  }
+ ]
+}

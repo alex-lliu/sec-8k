@@ -1,0 +1,248 @@
+{
+ "accession": "0001564590-20-019396",
+ "company": "Cadence Bancorporation",
+ "source": "anchor-matched",
+ "anchored": true,
+ "gold_primary_eps": -3.15,
+ "gold_primary_source": "10-Q XBRL",
+ "label_primary_eps": -3.15,
+ "n_mentions": 21,
+ "n_by_type": {
+  "GAAP_DILUTED": 8,
+  "NON_GAAP": 8,
+  "GAAP_BASIC": 5
+ },
+ "mentions": [
+  {
+   "value": -3.15,
+   "value_text": "(3.15)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1550,
+   "end": 1554,
+   "span_text": "3.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.44,
+   "value_text": "0.44",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 1611,
+   "end": 1615,
+   "span_text": "0.44",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 1686,
+   "end": 1690,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.1,
+   "value_text": "0.10",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 1983,
+   "end": 1987,
+   "span_text": "0.10",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.58,
+   "value_text": "0.58",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 2082,
+   "end": 2086,
+   "span_text": "0.58",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 2168,
+   "end": 2172,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -3.15,
+   "value_text": "$(3.15)",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 34016,
+   "end": 34020,
+   "span_text": "3.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "$0.40",
+   "type": "GAAP_BASIC",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 34025,
+   "end": 34029,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.34,
+   "value_text": "$0.34",
+   "type": "GAAP_BASIC",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 34033,
+   "end": 34037,
+   "span_text": "0.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.37,
+   "value_text": "$0.37",
+   "type": "GAAP_BASIC",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 34041,
+   "end": 34045,
+   "span_text": "0.37",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.44,
+   "value_text": "$0.44",
+   "type": "GAAP_BASIC",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 34049,
+   "end": 34053,
+   "span_text": "0.44",
+   "source": "anchor-matched"
+  },
+  {
+   "value": -3.15,
+   "value_text": "(3.15)",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 34065,
+   "end": 34069,
+   "span_text": "3.15",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "0.40",
+   "type": "GAAP_DILUTED",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 34073,
+   "end": 34077,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.34,
+   "value_text": "0.34",
+   "type": "GAAP_DILUTED",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 34080,
+   "end": 34084,
+   "span_text": "0.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.37,
+   "value_text": "0.37",
+   "type": "GAAP_DILUTED",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 34087,
+   "end": 34091,
+   "span_text": "0.37",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.44,
+   "value_text": "0.44",
+   "type": "GAAP_DILUTED",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 34094,
+   "end": 34098,
+   "span_text": "0.44",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.1,
+   "value_text": "$0.10",
+   "type": "NON_GAAP",
+   "period": "Q1 2020",
+   "period_kind": "current_quarter",
+   "start": 57953,
+   "end": 57957,
+   "span_text": "0.10",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "$0.40",
+   "type": "NON_GAAP",
+   "period": "Q4 2019",
+   "period_kind": "prior_quarter",
+   "start": 57961,
+   "end": 57965,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.34,
+   "value_text": "$0.34",
+   "type": "NON_GAAP",
+   "period": "Q3 2019",
+   "period_kind": "other",
+   "start": 57969,
+   "end": 57973,
+   "span_text": "0.34",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.4,
+   "value_text": "$0.40",
+   "type": "NON_GAAP",
+   "period": "Q2 2019",
+   "period_kind": "other",
+   "start": 57977,
+   "end": 57981,
+   "span_text": "0.40",
+   "source": "anchor-matched"
+  },
+  {
+   "value": 0.58,
+   "value_text": "$0.58",
+   "type": "NON_GAAP",
+   "period": "Q1 2019",
+   "period_kind": "prior_year_quarter",
+   "start": 57985,
+   "end": 57989,
+   "span_text": "0.58",
+   "source": "anchor-matched"
+  }
+ ]
+}
